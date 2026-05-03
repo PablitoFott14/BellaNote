@@ -19,8 +19,17 @@ function _renderContacts(contactsData) {
     return ((a.first_name||'') + (a.last_name||'')).localeCompare((b.first_name||'') + (b.last_name||''));
   });
 
-  document.getElementById('contacts-search').addEventListener('input', e => _drawContacts(e.target.value.toLowerCase()));
-  _drawContacts('');
+  // Build the search UI inside the pers-contacts sub-page
+  const container = document.getElementById('pers-contacts');
+  container.innerHTML = `
+    <div class="explorer-bar" style="margin-bottom:14px">
+      <input id="bn-pc-search" class="ex-search" type="text" placeholder="Search by name, role, or email…" />
+      <span class="ex-count" id="bn-pc-count"></span>
+    </div>
+    <div id="bn-pc-list"></div>`;
+
+  document.getElementById('bn-pc-search').addEventListener('input', e => _drawBnContacts(e.target.value.toLowerCase()));
+  _drawBnContacts('');
 }
 
 function _contactRole(c) {
@@ -39,7 +48,7 @@ function _contactRole(c) {
 const ROLE_LABELS = { you: 'You', staff: 'Restaurant Staff', family: 'Family', legal: 'Legal', medical: 'Medical', support: 'Support Network', vendor: 'Vendors & Suppliers', other: 'Other' };
 const ROLE_COLORS = { you: 'var(--amber)', staff: 'var(--sky)', family: 'var(--rose)', legal: 'var(--violet)', medical: 'var(--teal)', support: 'var(--emerald)', vendor: 'var(--orange)', other: 'var(--text3)' };
 
-function _drawContacts(search) {
+function _drawBnContacts(search) {
   const filtered = _bnAllContacts.filter(c => {
     if (!search) return true;
     const full = ((c.first_name||'') + ' ' + (c.last_name||'')).toLowerCase();
@@ -49,11 +58,11 @@ function _drawContacts(search) {
       || (c.description||'').toLowerCase().includes(search);
   });
 
-  const countEl = document.getElementById('contacts-count');
+  const countEl = document.getElementById('bn-pc-count');
   if (countEl) countEl.textContent = `${filtered.length} contact${filtered.length!==1?'s':''}`;
 
   if (!filtered.length) {
-    document.getElementById('contacts-list').innerHTML = '<div class="empty-state">No contacts match.</div>';
+    document.getElementById('bn-pc-list').innerHTML = '<div class="empty-state">No contacts match.</div>';
     return;
   }
 
@@ -97,7 +106,7 @@ function _drawContacts(search) {
     html += '</div></div>';
   });
 
-  document.getElementById('contacts-list').innerHTML = html;
+  document.getElementById('bn-pc-list').innerHTML = html;
 }
 
 function showBnContactModal(c) {

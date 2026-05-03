@@ -119,7 +119,7 @@ function _drawBnCal() {
         const col = tagColor[e.tag] || 'var(--amber)';
         const dur = e.end_datetime && e.start_datetime ? Math.round((e.end_datetime-e.start_datetime)/60) : null;
         return `<div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid var(--border);cursor:pointer"
-          onclick='showBnEventModal(${JSON.stringify(e).replace(/'/g,"&#39;")})'>
+          onclick="showBnEventModal(${e._idx})">
           <div style="width:8px;height:8px;border-radius:50%;background:${col};flex-shrink:0;margin-top:4px"></div>
           <div style="flex:1">
             <div style="font-size:13px;font-weight:500">${escHtml(e.title||'—')}</div>
@@ -159,7 +159,9 @@ function _bnFmtKey(key) {
   catch { return key; }
 }
 
-function showBnEventModal(e) {
+function showBnEventModal(idx) {
+  const e = _bnCalAll.find(x => x._idx === idx);
+  if (!e) return;
   const attendees = (e.attendees || []);
   const dur = e.end_datetime && e.start_datetime ? Math.round((e.end_datetime-e.start_datetime)/60) : null;
   const body = `<div class="mf-grid">
