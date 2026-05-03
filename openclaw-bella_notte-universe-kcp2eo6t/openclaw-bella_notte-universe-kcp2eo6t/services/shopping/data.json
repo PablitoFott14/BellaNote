@@ -1,0 +1,470 @@
+{
+  "products": [
+    {
+      "product_id": "prod_sh_001",
+      "name": "Nitrile Disposable Gloves (box of 200, Medium)",
+      "category": "safety",
+      "brand": "MedPride",
+      "variants": {
+        "item_sh_001": {
+          "item_id": "item_sh_001",
+          "price": 14.99,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    },
+    {
+      "product_id": "prod_sh_002",
+      "name": "Nitrile Disposable Gloves (box of 200, Large)",
+      "category": "safety",
+      "brand": "MedPride",
+      "variants": {
+        "item_sh_002": {
+          "item_id": "item_sh_002",
+          "price": 14.99,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    },
+    {
+      "product_id": "prod_sh_003",
+      "name": "Commercial Sanitizer Concentrate (1 gal)",
+      "category": "cleaning",
+      "brand": "Purell Professional",
+      "variants": {
+        "item_sh_003": {
+          "item_id": "item_sh_003",
+          "price": 24.99,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    },
+    {
+      "product_id": "prod_sh_004",
+      "name": "Thermal Receipt Paper Rolls (10-pack, 3-1/8\" x 230')",
+      "category": "office",
+      "brand": "MFLABEL",
+      "variants": {
+        "item_sh_004": {
+          "item_id": "item_sh_004",
+          "price": 18.49,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    },
+    {
+      "product_id": "prod_sh_005",
+      "name": "Copy Paper (ream, 500 sheets)",
+      "category": "office",
+      "brand": "HP Everyday",
+      "variants": {
+        "item_sh_005": {
+          "item_id": "item_sh_005",
+          "price": 8.99,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    },
+    {
+      "product_id": "prod_sh_006",
+      "name": "Digital Probe Thermometer (waterproof)",
+      "category": "kitchen_equipment",
+      "brand": "ThermoPro",
+      "variants": {
+        "item_sh_006": {
+          "item_id": "item_sh_006",
+          "price": 16.99,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    },
+    {
+      "product_id": "prod_sh_007",
+      "name": "Commercial Degreaser Spray (32 oz, 4-pack)",
+      "category": "cleaning",
+      "brand": "ZEP",
+      "variants": {
+        "item_sh_007": {
+          "item_id": "item_sh_007",
+          "price": 22.49,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    },
+    {
+      "product_id": "prod_sh_008",
+      "name": "Stainless Steel Scrub Pads (12-pack)",
+      "category": "cleaning",
+      "brand": "Scotch-Brite",
+      "variants": {
+        "item_sh_008": {
+          "item_id": "item_sh_008",
+          "price": 9.99,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    },
+    {
+      "product_id": "prod_sh_009",
+      "name": "Food Date Label Gun with Labels (1000 labels)",
+      "category": "kitchen_equipment",
+      "brand": "DayMark",
+      "variants": {
+        "item_sh_009": {
+          "item_id": "item_sh_009",
+          "price": 29.99,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    },
+    {
+      "product_id": "prod_sh_010",
+      "name": "First Aid Kit Refill (OSHA compliant, 50-person)",
+      "category": "safety",
+      "brand": "First Aid Only",
+      "variants": {
+        "item_sh_010": {
+          "item_id": "item_sh_010",
+          "price": 34.99,
+          "available": true,
+          "options": {
+            "size": "Standard"
+          }
+        }
+      }
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ord_sh_001",
+      "order_status": "delivered",
+      "order_date": 1759906800.0,
+      "order_total": 161.91,
+      "order_items": {
+        "item_sh_001": {
+          "item_id": "item_sh_001",
+          "quantity": 3,
+          "price": 14.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_002": {
+          "item_id": "item_sh_002",
+          "quantity": 2,
+          "price": 14.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_003": {
+          "item_id": "item_sh_003",
+          "quantity": 2,
+          "price": 24.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_004": {
+          "item_id": "item_sh_004",
+          "quantity": 2,
+          "price": 18.49,
+          "available": true,
+          "options": {}
+        }
+      }
+    },
+    {
+      "order_id": "ord_sh_002",
+      "order_status": "delivered",
+      "order_date": 1762329600.0,
+      "order_total": 239.32,
+      "order_items": {
+        "item_sh_004": {
+          "item_id": "item_sh_004",
+          "quantity": 5,
+          "price": 18.49,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_005": {
+          "item_id": "item_sh_005",
+          "quantity": 8,
+          "price": 8.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_007": {
+          "item_id": "item_sh_007",
+          "quantity": 2,
+          "price": 22.49,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_008": {
+          "item_id": "item_sh_008",
+          "quantity": 3,
+          "price": 9.99,
+          "available": true,
+          "options": {}
+        }
+      }
+    },
+    {
+      "order_id": "ord_sh_003",
+      "order_status": "delivered",
+      "order_date": 1765353600.0,
+      "order_total": 244.36,
+      "order_items": {
+        "item_sh_003": {
+          "item_id": "item_sh_003",
+          "quantity": 4,
+          "price": 24.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_007": {
+          "item_id": "item_sh_007",
+          "quantity": 3,
+          "price": 22.49,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_008": {
+          "item_id": "item_sh_008",
+          "quantity": 6,
+          "price": 9.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_006": {
+          "item_id": "item_sh_006",
+          "quantity": 1,
+          "price": 16.99,
+          "available": true,
+          "options": {}
+        }
+      }
+    },
+    {
+      "order_id": "ord_sh_004",
+      "order_status": "delivered",
+      "order_date": 1768464000.0,
+      "order_total": 269.87,
+      "order_items": {
+        "item_sh_007": {
+          "item_id": "item_sh_007",
+          "quantity": 4,
+          "price": 22.49,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_003": {
+          "item_id": "item_sh_003",
+          "quantity": 3,
+          "price": 24.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_008": {
+          "item_id": "item_sh_008",
+          "quantity": 4,
+          "price": 9.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_010": {
+          "item_id": "item_sh_010",
+          "quantity": 1,
+          "price": 34.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_009": {
+          "item_id": "item_sh_009",
+          "quantity": 1,
+          "price": 29.99,
+          "available": true,
+          "options": {}
+        }
+      }
+    },
+    {
+      "order_id": "ord_sh_005",
+      "order_status": "delivered",
+      "order_date": 1770105600.0,
+      "order_total": 138.92,
+      "order_items": {
+        "item_sh_001": {
+          "item_id": "item_sh_001",
+          "quantity": 3,
+          "price": 14.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_002": {
+          "item_id": "item_sh_002",
+          "quantity": 2,
+          "price": 14.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_004": {
+          "item_id": "item_sh_004",
+          "quantity": 2,
+          "price": 18.49,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_005": {
+          "item_id": "item_sh_005",
+          "quantity": 3,
+          "price": 8.99,
+          "available": true,
+          "options": {}
+        }
+      }
+    },
+    {
+      "order_id": "ord_sh_006",
+      "order_status": "delivered",
+      "order_date": 1771401600.0,
+      "order_total": 92.45,
+      "order_items": {
+        "item_sh_003": {
+          "item_id": "item_sh_003",
+          "quantity": 2,
+          "price": 24.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_007": {
+          "item_id": "item_sh_007",
+          "quantity": 1,
+          "price": 22.49,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_008": {
+          "item_id": "item_sh_008",
+          "quantity": 2,
+          "price": 9.99,
+          "available": true,
+          "options": {}
+        }
+      }
+    },
+    {
+      "order_id": "ord_sh_007",
+      "order_status": "delivered",
+      "order_date": 1773126000.0,
+      "order_total": 99.96,
+      "order_items": {
+        "item_sh_006": {
+          "item_id": "item_sh_006",
+          "quantity": 2,
+          "price": 16.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_009": {
+          "item_id": "item_sh_009",
+          "quantity": 1,
+          "price": 29.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_010": {
+          "item_id": "item_sh_010",
+          "quantity": 1,
+          "price": 34.99,
+          "available": true,
+          "options": {}
+        }
+      }
+    },
+    {
+      "order_id": "ord_sh_008",
+      "order_status": "delivered",
+      "order_date": 1773730800.0,
+      "order_total": 129.93,
+      "order_items": {
+        "item_sh_001": {
+          "item_id": "item_sh_001",
+          "quantity": 2,
+          "price": 14.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_002": {
+          "item_id": "item_sh_002",
+          "quantity": 2,
+          "price": 14.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_003": {
+          "item_id": "item_sh_003",
+          "quantity": 1,
+          "price": 24.99,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_007": {
+          "item_id": "item_sh_007",
+          "quantity": 2,
+          "price": 22.49,
+          "available": true,
+          "options": {}
+        }
+      }
+    },
+    {
+      "order_id": "ord_sh_009",
+      "order_status": "processing",
+      "order_date": 1774681200.0,
+      "order_total": 48.46,
+      "order_items": {
+        "item_sh_004": {
+          "item_id": "item_sh_004",
+          "quantity": 1,
+          "price": 18.49,
+          "available": true,
+          "options": {}
+        },
+        "item_sh_008": {
+          "item_id": "item_sh_008",
+          "quantity": 3,
+          "price": 9.99,
+          "available": true,
+          "options": {}
+        }
+      }
+    }
+  ],
+  "discount_codes": {}
+}

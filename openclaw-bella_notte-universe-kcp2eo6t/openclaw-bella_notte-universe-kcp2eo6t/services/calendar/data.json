@@ -1,0 +1,756 @@
+{
+  "events": [
+    {
+      "event_id": "dad3203e01b65c205cfe9d98",
+      "title": "Dr. Martinez — Quarterly Checkup",
+      "description": "Routine checkup with PCP. Discuss Naltrexone, IBS, and stress levels.",
+      "start_datetime": 1761076800.0,
+      "end_datetime": 1761079500.0,
+      "location": "Aurora Health Center, 3003 W. Good Hope Rd",
+      "attendees": [
+        "Victor Reyes",
+        "Dr. Carlos Martinez"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "dd2c7f675d5e9a5386976d92",
+      "title": "Dr. Pham — Mom's Neurology Follow-Up",
+      "description": "Lucia's Alzheimer's monitoring appointment. Review Donepezil efficacy, discuss recent episodes.",
+      "start_datetime": 1762876800.0,
+      "end_datetime": 1762880400.0,
+      "location": "UW Health, 8701 W. Watertown Plank Rd",
+      "attendees": [
+        "Victor Reyes",
+        "Lucia Reyes",
+        "Dr. Thi Pham"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "21a9153d3df85628a66052f9",
+      "title": "Naltrexone Refill Pickup",
+      "description": "Monthly prescription refill.",
+      "start_datetime": 1760536800.0,
+      "end_datetime": 1760538600.0,
+      "location": "Walgreens, N. Humboldt Blvd",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "2b4529f5bcebc043934a10ae",
+      "title": "Naltrexone Refill Pickup",
+      "description": "Monthly prescription refill.",
+      "start_datetime": 1763218800.0,
+      "end_datetime": 1763220600.0,
+      "location": "Walgreens, N. Humboldt Blvd",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "04c78986833fc414d017bd82",
+      "title": "Naltrexone Refill Pickup",
+      "description": "Monthly prescription refill.",
+      "start_datetime": 1765810800.0,
+      "end_datetime": 1765812600.0,
+      "location": "Walgreens, N. Humboldt Blvd",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "a5f041c49935617ffd223780",
+      "title": "Health Inspection — Bella Notte (Q1 2026 Quarterly)",
+      "description": "Q1 2026 quarterly health department inspection. Inspector: James Okonkwo. All HACCP logs, temp records, and cleaning schedules must be current.",
+      "start_datetime": 1775055600.0,
+      "end_datetime": 1775062800.0,
+      "location": "Bella Notte Ristorante, 2215 N. Farwell Ave",
+      "attendees": [
+        "Victor Reyes",
+        "James Okonkwo",
+        "Tony Aguilar"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "d3b8d751425a74b00375691a",
+      "title": "Dr. Pham — Mom's Neurology Follow-Up",
+      "description": "Alzheimer's progression check. Bring updated care log from Notion.",
+      "start_datetime": 1769790600.0,
+      "end_datetime": 1769794200.0,
+      "location": "UW Health, 8701 W. Watertown Plank Rd",
+      "attendees": [
+        "Victor Reyes",
+        "Lucia Reyes",
+        "Dr. Thi Pham"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "a3f714daff1721fcc217cd1d",
+      "title": "Naltrexone Refill Pickup",
+      "description": "Monthly prescription refill.",
+      "start_datetime": 1768489200.0,
+      "end_datetime": 1768491000.0,
+      "location": "Walgreens, N. Humboldt Blvd",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "c1a457c503b9d8ae275f2ca1",
+      "title": "Dr. Martinez — Quarterly Checkup",
+      "description": "Follow-up checkup. Discuss stress, sleep quality, IBS flare-ups.",
+      "start_datetime": 1768834800.0,
+      "end_datetime": 1768837500.0,
+      "location": "Aurora Health Center, 3003 W. Good Hope Rd",
+      "attendees": [
+        "Victor Reyes",
+        "Dr. Carlos Martinez"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "b6b44c475ff43237e0a5898f",
+      "title": "Owner Call — Giancarlo Moretti",
+      "description": "Weekly video check-in. Review P&L, discuss upcoming events and any issues.",
+      "start_datetime": 1767902400.0,
+      "end_datetime": 1767904200.0,
+      "location": "Zoom",
+      "attendees": [
+        "Victor Reyes",
+        "Giancarlo Moretti"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "654eae6c49420fe86c3ffcff",
+      "title": "Owner Call — Giancarlo Moretti",
+      "description": "Weekly video check-in.",
+      "start_datetime": 1769112000.0,
+      "end_datetime": 1769113800.0,
+      "location": "Zoom",
+      "attendees": [
+        "Victor Reyes",
+        "Giancarlo Moretti"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "549864b7753ebe40f414bb80",
+      "title": "Staff Meeting",
+      "description": "Biweekly all-hands. Scheduling, menu updates, operational issues.",
+      "start_datetime": 1770238800.0,
+      "end_datetime": 1770242400.0,
+      "location": "Bella Notte Ristorante — private dining room",
+      "attendees": [
+        "Victor Reyes",
+        "Carmen Diaz",
+        "Tony Aguilar",
+        "Maria Kowalski",
+        "Daniela Perez"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "89a4b99933036b466f0c6b8a",
+      "title": "Sandra Milovich — Legal Call",
+      "description": "Biweekly update on POA dispute and Comfort Keepers billing case.",
+      "start_datetime": 1770480000.0,
+      "end_datetime": 1770481800.0,
+      "location": "Phone call",
+      "attendees": [
+        "Victor Reyes",
+        "Sandra Milovich"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "533630991293200453eadde3",
+      "title": "Owner Call — Giancarlo Moretti",
+      "description": "Weekly video check-in. Discuss Lenten fish fry prep and catering pipeline.",
+      "start_datetime": 1770408000.0,
+      "end_datetime": 1770409800.0,
+      "location": "Zoom",
+      "attendees": [
+        "Victor Reyes",
+        "Giancarlo Moretti"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "633a89945ad552a51338ead6",
+      "title": "AA Meeting",
+      "description": "Wednesday evening meeting.",
+      "start_datetime": 1770944400.0,
+      "end_datetime": 1770949800.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "c71790d30eceacd056e3a654",
+      "title": "AA Meeting",
+      "description": "Saturday morning meeting.",
+      "start_datetime": 1771167600.0,
+      "end_datetime": 1771173000.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "487b23d1c038ea37a35806d0",
+      "title": "Naltrexone Refill Pickup",
+      "description": "Monthly prescription refill.",
+      "start_datetime": 1771167600.0,
+      "end_datetime": 1771169400.0,
+      "location": "Walgreens, N. Humboldt Blvd",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "3113209acc422479ce2361ce",
+      "title": "Staff Meeting",
+      "description": "Biweekly all-hands. Lenten series staffing, fish fry logistics.",
+      "start_datetime": 1771448400.0,
+      "end_datetime": 1771452000.0,
+      "location": "Bella Notte Ristorante — private dining room",
+      "attendees": [
+        "Victor Reyes",
+        "Carmen Diaz",
+        "Tony Aguilar",
+        "Maria Kowalski",
+        "Daniela Perez"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "aa63916197c6b4a5154abbaa",
+      "title": "Lenten Fish Fry — Week 1",
+      "description": "First Friday fish fry for St. Boniface contract. Cod special, limited bar menu. High-volume expected.",
+      "start_datetime": 1771624800.0,
+      "end_datetime": 1771646400.0,
+      "location": "Bella Notte Ristorante",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Marco Villareal",
+        "Luis Ochoa"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "3737e5412abc2faaa5b93c32",
+      "title": "Owner Call — Giancarlo Moretti",
+      "description": "Weekly video check-in. First fish fry debrief.",
+      "start_datetime": 1771617600.0,
+      "end_datetime": 1771619400.0,
+      "location": "Zoom",
+      "attendees": [
+        "Victor Reyes",
+        "Giancarlo Moretti"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "7a351ffa2d2ddcaf261f3146",
+      "title": "Sandra Milovich — Legal Call",
+      "description": "Biweekly update. Comfort Keepers response expected this week.",
+      "start_datetime": 1771689600.0,
+      "end_datetime": 1771691400.0,
+      "location": "Phone call",
+      "attendees": [
+        "Victor Reyes",
+        "Sandra Milovich"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "32110b3895eae293c8a23e03",
+      "title": "AA Meeting",
+      "description": "Wednesday evening meeting.",
+      "start_datetime": 1772154000.0,
+      "end_datetime": 1772159400.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "6d7f3130e99ac9afe76c8dfd",
+      "title": "Lenten Fish Fry — Week 2",
+      "description": "Second Friday fish fry. Adjust prep quantities based on Week 1 volume.",
+      "start_datetime": 1772229600.0,
+      "end_datetime": 1772251200.0,
+      "location": "Bella Notte Ristorante",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Marco Villareal",
+        "Luis Ochoa"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "5ce2ff5139dec7f7fa02b690",
+      "title": "Staff Meeting",
+      "description": "Biweekly all-hands. Mid-Lent check-in, quinceañera prep.",
+      "start_datetime": 1772658000.0,
+      "end_datetime": 1772661600.0,
+      "location": "Bella Notte Ristorante — private dining room",
+      "attendees": [
+        "Victor Reyes",
+        "Carmen Diaz",
+        "Tony Aguilar",
+        "Maria Kowalski",
+        "Daniela Perez"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "4065dc4c3a6ba64fa66e20f0",
+      "title": "Dr. Pham — Mom's Neurology Follow-Up",
+      "description": "Alzheimer's check. CONFLICT: Falls during peak lunch service. Tony covering kitchen.",
+      "start_datetime": 1772645400.0,
+      "end_datetime": 1772649000.0,
+      "location": "UW Health, 8701 W. Watertown Plank Rd",
+      "attendees": [
+        "Victor Reyes",
+        "Lucia Reyes",
+        "Dr. Thi Pham"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "bc90a2f20e7eb159acde8882",
+      "title": "Owner Call — Giancarlo Moretti",
+      "description": "Weekly video check-in. Discuss catering pipeline and Q1 performance.",
+      "start_datetime": 1772740800.0,
+      "end_datetime": 1772742600.0,
+      "location": "Zoom",
+      "attendees": [
+        "Victor Reyes",
+        "Giancarlo Moretti"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "de2a056dd18c89b291be4f2a",
+      "title": "Lenten Fish Fry — Week 3",
+      "description": "Third Friday fish fry.",
+      "start_datetime": 1772834400.0,
+      "end_datetime": 1772856000.0,
+      "location": "Bella Notte Ristorante",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Marco Villareal",
+        "Luis Ochoa"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "8877c314a4c2a9e534bc3ea2",
+      "title": "AA Meeting",
+      "description": "Saturday morning meeting.",
+      "start_datetime": 1772895600.0,
+      "end_datetime": 1772901000.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "69096a4e9647f59a42efb16a",
+      "title": "Sandra Milovich — Legal Call",
+      "description": "Biweekly update. Review Alejandro's latest communication and Comfort Keepers dispute status.",
+      "start_datetime": 1772899200.0,
+      "end_datetime": 1772901000.0,
+      "location": "Phone call",
+      "attendees": [
+        "Victor Reyes",
+        "Sandra Milovich"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "fc6849b0ef3269320de16953",
+      "title": "AA Meeting",
+      "description": "Wednesday evening meeting.",
+      "start_datetime": 1773277200.0,
+      "end_datetime": 1773282600.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "d1f873e7b48386f899f59da6",
+      "title": "Owner Call — Giancarlo Moretti",
+      "description": "Weekly video check-in.",
+      "start_datetime": 1773342000.0,
+      "end_datetime": 1773343800.0,
+      "location": "Zoom",
+      "attendees": [
+        "Victor Reyes",
+        "Giancarlo Moretti"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "588d5f89322d969728fbbdda",
+      "title": "Lenten Fish Fry — Week 4",
+      "description": "Fourth Friday fish fry.",
+      "start_datetime": 1773435600.0,
+      "end_datetime": 1773457200.0,
+      "location": "Bella Notte Ristorante",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Marco Villareal",
+        "Luis Ochoa"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "4933f3c9726b2d6140e8bd73",
+      "title": "AA Meeting — 3-Year Sobriety Anniversary",
+      "description": "Saturday morning meeting. March 14, 2023 sobriety date — 3 years. Dave will be there.",
+      "start_datetime": 1773496800.0,
+      "end_datetime": 1773502200.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes",
+        "Dave Kowalski"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "9de62eb755568e47cd9cb31f",
+      "title": "Alvarez Quinceañera — Final Menu Confirmation",
+      "description": "Confirm headcount, menu selections, dietary restrictions with Patricia Alvarez. Event is March 22.",
+      "start_datetime": 1773590400.0,
+      "end_datetime": 1773592200.0,
+      "location": "Phone call",
+      "attendees": [
+        "Victor Reyes",
+        "Patricia Alvarez"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "befb652d2fabd5d3bfdd77fc",
+      "title": "Naltrexone Refill Pickup",
+      "description": "Monthly prescription refill.",
+      "start_datetime": 1773583200.0,
+      "end_datetime": 1773585000.0,
+      "location": "Walgreens, N. Humboldt Blvd",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "medical"
+    },
+    {
+      "event_id": "cb075e45f4fcd149d1e3fb8a",
+      "title": "Staff Meeting",
+      "description": "Biweekly all-hands. Quinceañera final prep, fish fry series check-in, schedule for Holy Week.",
+      "start_datetime": 1773864000.0,
+      "end_datetime": 1773867600.0,
+      "location": "Bella Notte Ristorante — private dining room",
+      "attendees": [
+        "Victor Reyes",
+        "Carmen Diaz",
+        "Tony Aguilar",
+        "Maria Kowalski",
+        "Daniela Perez"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "a998b9181f02ab83821d2774",
+      "title": "AA Meeting",
+      "description": "Wednesday evening meeting.",
+      "start_datetime": 1773878400.0,
+      "end_datetime": 1773883800.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "85a10363ca76c9b3e4735658",
+      "title": "Owner Call — Giancarlo Moretti",
+      "description": "Weekly video check-in. Quinceañera logistics, March revenue tracking.",
+      "start_datetime": 1773946800.0,
+      "end_datetime": 1773948600.0,
+      "location": "Zoom",
+      "attendees": [
+        "Victor Reyes",
+        "Giancarlo Moretti"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "08ce3e7d250dac34914fe43f",
+      "title": "Lenten Fish Fry — Week 5",
+      "description": "Fifth Friday fish fry.",
+      "start_datetime": 1774040400.0,
+      "end_datetime": 1774062000.0,
+      "location": "Bella Notte Ristorante",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Marco Villareal",
+        "Luis Ochoa"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "b1880b9d9a3528062c3e70ad",
+      "title": "Sandra Milovich — Legal Call",
+      "description": "Biweekly update. Discuss immigration audit implications for Luis Ochoa.",
+      "start_datetime": 1774105200.0,
+      "end_datetime": 1774107000.0,
+      "location": "Phone call",
+      "attendees": [
+        "Victor Reyes",
+        "Sandra Milovich"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "ab7599b207859ec51a52b558",
+      "title": "AA Meeting",
+      "description": "Saturday morning meeting.",
+      "start_datetime": 1774101600.0,
+      "end_datetime": 1774107000.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "1189c81f0df1b9e9182432ae",
+      "title": "Alvarez Quinceañera — Catering Event",
+      "description": "Full catering service for Alvarez family. 100 guests. $3,200 deposit. Setup begins 2 PM, service 5-10 PM.",
+      "start_datetime": 1774206000.0,
+      "end_datetime": 1774234800.0,
+      "location": "Bella Notte Ristorante — Private Dining + Outdoor Terrace, 2215 N. Farwell Ave",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Marco Villareal",
+        "Luis Ochoa",
+        "Daniela Perez",
+        "Ricky Tran"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "18888fe04ba0caf563018474",
+      "title": "Milwaukee Art Museum Fundraiser — Menu Tasting",
+      "description": "CONFLICT: Tasting runs into AA meeting time. Menu tasting for the April 18 fundraiser gala. Contact: Event coordinator.",
+      "start_datetime": 1774479600.0,
+      "end_datetime": 1774486800.0,
+      "location": "Bella Notte Ristorante — private dining room",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "b8568e550ddc346d125c3401",
+      "title": "AA Meeting",
+      "description": "Wednesday evening meeting. CONFLICT: Overlaps with Art Museum tasting. May need to skip or arrive late.",
+      "start_datetime": 1774483200.0,
+      "end_datetime": 1774488600.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "12fc3368f366ce29e7240089",
+      "title": "Lenten Fish Fry — Week 6",
+      "description": "Sixth Friday fish fry.",
+      "start_datetime": 1774645200.0,
+      "end_datetime": 1774666800.0,
+      "location": "Bella Notte Ristorante",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Marco Villareal",
+        "Luis Ochoa"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "e715022c777f29f67504aa08",
+      "title": "AA Meeting",
+      "description": "Saturday morning meeting.",
+      "start_datetime": 1774706400.0,
+      "end_datetime": 1774711800.0,
+      "location": "St. Boniface Church, 1601 S. 9th St",
+      "attendees": [
+        "Victor Reyes"
+      ],
+      "tag": "personal"
+    },
+    {
+      "event_id": "9fa6323a21cc7fd897490c66",
+      "title": "Lenten Fish Fry — Week 7 (Final)",
+      "description": "Final Friday fish fry of the Lenten series. Wrap-up and reconcile with St. Boniface contract.",
+      "start_datetime": 1775250000.0,
+      "end_datetime": 1775271600.0,
+      "location": "Bella Notte Ristorante",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Marco Villareal",
+        "Luis Ochoa"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "0778df165d34b21fb5b3207d",
+      "title": "Dr. Nakamura Birthday Dinner — Catering Event",
+      "description": "Private birthday dinner. 40 guests. $4,100 deposit.",
+      "start_datetime": 1775430000.0,
+      "end_datetime": 1775444400.0,
+      "location": "Bella Notte Ristorante — private dining room",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "f65b81fd5f31fe3b1e21f763",
+      "title": "Milwaukee Art Museum — Fundraiser Gala",
+      "description": "Off-site catering. 150 guests. $6,800 deposit. Full bar and plated dinner.",
+      "start_datetime": 1776549600.0,
+      "end_datetime": 1776571200.0,
+      "location": "Milwaukee Art Museum, 700 N. Art Museum Dr",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Maria Kowalski",
+        "Marco Villareal",
+        "Luis Ochoa",
+        "Daniela Perez",
+        "Ricky Tran"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "4aa9cb373210b73144c6f193",
+      "title": "Johnson Corp — Annual Dinner",
+      "description": "Corporate annual dinner. 80 guests. $8,500 deposit. Plated 3-course with wine pairing.",
+      "start_datetime": 1777762800.0,
+      "end_datetime": 1777779000.0,
+      "location": "Bella Notte Ristorante — full buyout",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Maria Kowalski"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "ffee5734d95b92566e662cf5",
+      "title": "UWM Alumni Association — Reception",
+      "description": "Alumni reception. 200 guests. $7,200 deposit. Heavy hors d'oeuvres and cocktails.",
+      "start_datetime": 1778882400.0,
+      "end_datetime": 1778896800.0,
+      "location": "UWM Student Union, 2200 E. Kenwood Blvd",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Maria Kowalski",
+        "Daniela Perez"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "39ca42f2d296e1995e0e5321",
+      "title": "Baird Financial — Corporate Retreat Dinner",
+      "description": "Corporate retreat dinner. 60 guests. $7,600 deposit.",
+      "start_datetime": 1780873200.0,
+      "end_datetime": 1780887600.0,
+      "location": "The Pfister Hotel, 424 E. Wisconsin Ave",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Maria Kowalski"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "f92eea8606359bebfb1a9499",
+      "title": "Chen Wedding Reception — Catering Event",
+      "description": "Wedding reception. 120 guests. $5,200 deposit. Largest event of the season. Full bar, plated dinner, dessert station.",
+      "start_datetime": 1781470800.0,
+      "end_datetime": 1781497800.0,
+      "location": "Pritzlaff Building, 311 N. Plankinton Ave",
+      "attendees": [
+        "Victor Reyes",
+        "Tony Aguilar",
+        "Carmen Diaz",
+        "Maria Kowalski",
+        "Marco Villareal",
+        "Luis Ochoa",
+        "Daniela Perez",
+        "Jessica Hartmann",
+        "Ricky Tran",
+        "Ryan Engel"
+      ],
+      "tag": "work"
+    },
+    {
+      "event_id": "7d60c31f16e77ab80ef6ccb0",
+      "title": "Dr. Pham — Mom's Neurology Follow-Up",
+      "description": "Tony Aguilar driving Mom. Victor meeting them there.",
+      "start_datetime": 1774031400.0,
+      "end_datetime": 1774035000.0,
+      "location": "UW Health, 8701 W. Watertown Plank Rd",
+      "attendees": [
+        "Victor Reyes",
+        "Lucia Reyes",
+        "Dr. Thi Pham"
+      ],
+      "tag": "medical"
+    }
+  ]
+}

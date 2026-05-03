@@ -1,0 +1,741 @@
+{
+  "companies": [
+    {
+      "id": "c63a3f054262a184b7dfffd3",
+      "name": "Chen Family",
+      "industry": "Private Client",
+      "contact_ids": [
+        "c9087b751970f888c159967c",
+        "db5d986c58add924307e256d"
+      ],
+      "notes": "Wedding reception Jun 14, 2026. 120 guests. High-value event."
+    },
+    {
+      "id": "82836711c92bdd89fd6a7b8b",
+      "name": "Johnson Corp",
+      "industry": "Manufacturing",
+      "contact_ids": [
+        "7715e6b38e57b7869832d28d"
+      ],
+      "notes": "Annual corporate dinner client. Second year with us."
+    },
+    {
+      "id": "3c6a3fda1a2c8e8108fd254c",
+      "name": "Milwaukee Art Museum",
+      "industry": "Arts & Culture / Nonprofit",
+      "contact_ids": [
+        "77bc01f8f40df40785b7ceac"
+      ],
+      "notes": "Fundraiser gala Apr 18. Off-site catering at museum."
+    },
+    {
+      "id": "78bd4a91e353047bd58406ad",
+      "name": "Alvarez Family",
+      "industry": "Private Client",
+      "contact_ids": [
+        "3748e9c5e63723184c6e891c"
+      ],
+      "notes": "Quincea\u00f1era Mar 22 at Bella Notte (private dining + outdoor terrace). Referred by Father Thomas Nowak at St. Boniface."
+    },
+    {
+      "id": "d8ddaa1592c8e69124881b11",
+      "name": "St. Boniface Church",
+      "industry": "Religious Organization",
+      "contact_ids": [
+        "4e2d2671a884e895ce4d2001"
+      ],
+      "notes": "Lenten fish fry partnership. Long-standing community relationship."
+    },
+    {
+      "id": "d7357af78281545826f7abeb",
+      "name": "Nakamura Medical Group",
+      "industry": "Healthcare",
+      "contact_ids": [
+        "45892929451d6560c3cae924"
+      ],
+      "notes": "Dr. Nakamura birthday dinner Apr 5. Referred by Froedtert colleague."
+    },
+    {
+      "id": "7161955ede392b56962f68c7",
+      "name": "UWM Alumni Association",
+      "industry": "Higher Education",
+      "contact_ids": [
+        "a8db308d9360e5762d9e6d98"
+      ],
+      "notes": "Alumni reception May 15. First event with us \u2014 growth opportunity."
+    },
+    {
+      "id": "b078ce12372fdcbc796694fc",
+      "name": "Baird Financial Group",
+      "industry": "Financial Services",
+      "contact_ids": [
+        "5c1390f8c1dccd56a490b34a"
+      ],
+      "notes": "Corporate retreat dinner Jun 7. High-profile client, VP-level contacts."
+    },
+    {
+      "id": "60fdd2587492eb176fffc7d7",
+      "name": "Hartwell & Associates",
+      "industry": "Legal",
+      "contact_ids": [
+        "29594e9425f0b279cab4f4ae"
+      ],
+      "notes": "VIP corporate regulars. Monthly partner dinners, table for 6. Prefers back corner booth."
+    },
+    {
+      "id": "e5c2356bb4030afffcccda0f",
+      "name": "Lakefront Ventures",
+      "industry": "Venture Capital",
+      "contact_ids": [
+        "be8ba66f08367fc0357e8690"
+      ],
+      "notes": "VIP regulars. Weekly Friday dinner for 4. Wine club members. Spend avg $600/visit."
+    }
+  ],
+  "contacts": [
+    {
+      "id": "c9087b751970f888c159967c",
+      "full_name": "Lisa Chen",
+      "email": "lisa.chen.bride@gmail.com",
+      "phone": "(414) 555-0261",
+      "company_id": "c63a3f054262a184b7dfffd3",
+      "notes": "Very responsive via email. Fianc\u00e9: David. Mother-in-law has shellfish allergy.",
+      "jobtitle": "Bride",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "7715e6b38e57b7869832d28d",
+      "full_name": "Lisa Johnson",
+      "email": "ljohnson@johnsoncorp.com",
+      "phone": "(414) 555-0384",
+      "company_id": "82836711c92bdd89fd6a7b8b",
+      "notes": "Decision-maker for all corporate events. Prefers email communication. Gluten-free.",
+      "jobtitle": "VP of Operations",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "77bc01f8f40df40785b7ceac",
+      "full_name": "Sarah Lindgren",
+      "email": "slindgren@mam.org",
+      "phone": "(414) 555-0472",
+      "company_id": "3c6a3fda1a2c8e8108fd254c",
+      "notes": "Coordinating museum access and setup logistics. Very detail-oriented.",
+      "jobtitle": "Director of Special Events",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "3748e9c5e63723184c6e891c",
+      "full_name": "Patricia Alvarez",
+      "email": "patricia.alvarez74@gmail.com",
+      "phone": "(414) 555-0519",
+      "company_id": "78bd4a91e353047bd58406ad",
+      "notes": "Mother of quincea\u00f1era. Bilingual (Spanish/English). Coordinating cake and mariachi separately.",
+      "jobtitle": null,
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "4e2d2671a884e895ce4d2001",
+      "full_name": "Father Thomas Nowak",
+      "email": "father.nowak@stboniface-mil.org",
+      "phone": "(414) 555-0633",
+      "company_id": "d8ddaa1592c8e69124881b11",
+      "notes": "Great community partner. Congregation feedback has been very positive on fish fry. May want to extend series next year.",
+      "jobtitle": "Parish Priest",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "45892929451d6560c3cae924",
+      "full_name": "Dr. Reiko Nakamura",
+      "email": "reiko.nakamura@froedtert.com",
+      "phone": "(414) 555-0741",
+      "company_id": "d7357af78281545826f7abeb",
+      "notes": "Foodie, interested in Japanese-Italian fusion concept. Turning 60. Several guests are sake enthusiasts.",
+      "jobtitle": "Chief of Cardiology, Froedtert Hospital",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "a8db308d9360e5762d9e6d98",
+      "full_name": "Karen Whitfield",
+      "email": "kwhitfield@uwmalumni.org",
+      "phone": "(414) 555-0856",
+      "company_id": "7161955ede392b56962f68c7",
+      "notes": "Working within institutional budget. Responsive to email.",
+      "jobtitle": "Events Coordinator",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "5c1390f8c1dccd56a490b34a",
+      "full_name": "David Bernstein",
+      "email": "dbernstein@rwbaird.com",
+      "phone": "(414) 555-0968",
+      "company_id": "b078ce12372fdcbc796694fc",
+      "notes": "Premium expectations. Interested in sommelier-led wine education segment. Budget is flexible.",
+      "jobtitle": "VP of Events & Client Relations",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "29594e9425f0b279cab4f4ae",
+      "full_name": "Patricia Hartwell",
+      "email": "phartwell@hartwelllaw.com",
+      "phone": "(414) 555-1077",
+      "company_id": "60fdd2587492eb176fffc7d7",
+      "notes": "VIP regular. Monthly partner dinner, usually first Tuesday. Prefers back corner booth. Sends wine as holiday gift.",
+      "jobtitle": "Managing Partner",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "be8ba66f08367fc0357e8690",
+      "full_name": "James Okafor",
+      "email": "jokafor@lakefrontventures.com",
+      "phone": "(414) 555-1185",
+      "company_id": "e5c2356bb4030afffcccda0f",
+      "notes": "VIP regular. Weekly Friday dinner. Wine club member \u2014 enjoys Barolo tastings with Maria. Potential catering lead for firm's summer retreat.",
+      "jobtitle": "Founding Partner",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "db5d986c58add924307e256d",
+      "full_name": "David",
+      "email": "david.chen.groom@gmail.com",
+      "phone": "(414) 555-0274",
+      "company_id": "c63a3f054262a184b7dfffd3",
+      "notes": "Lisa's fianc\u00e9. Handling AV and music logistics for reception. More relaxed than Lisa about details.",
+      "jobtitle": "Groom",
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "9e5dfac81aedcf2f90ad9b66",
+      "full_name": "Sofia Alvarez",
+      "email": "sofia.alvarez@example.com",
+      "phone": "(414) 555-0521",
+      "company_id": "78bd4a91e353047bd58406ad",
+      "notes": "Quincea\u00f1era honoree. Patricia's daughter. 15th birthday celebration.",
+      "jobtitle": null,
+      "company": "",
+      "address": null,
+      "city": "Milwaukee",
+      "state": "WI",
+      "country": "USA",
+      "zip": "",
+      "mobilephone": null,
+      "website": null,
+      "createdate": "2025-10-01T00:00:00.000Z"
+    }
+  ],
+  "deals": [
+    {
+      "id": "5f394f1f59b816f9906ea17d",
+      "dealname": "Chen Wedding Reception \u2014 Jun 14",
+      "dealstage": "contractsent",
+      "amount": 10400.0,
+      "closedate": "2025-11-28",
+      "contact_ids": [
+        "c9087b751970f888c159967c",
+        "db5d986c58add924307e256d"
+      ],
+      "notes": "Total estimated $10,400. 120 guests. Deposit $5,200 received. Second installment due May 1."
+    },
+    {
+      "id": "bc8e4d27bc090b8b7a2ff3cb",
+      "dealname": "Johnson Corp Annual Dinner \u2014 May 2",
+      "dealstage": "contractsent",
+      "amount": 17000.0,
+      "closedate": "2026-02-12",
+      "contact_ids": [
+        "7715e6b38e57b7869832d28d"
+      ],
+      "notes": "Full buyout. Estimated $17K. 50% deposit received. Final balance due 2 weeks before event."
+    },
+    {
+      "id": "25931646a3d91cc7e2ec5f92",
+      "dealname": "Milwaukee Art Museum Gala \u2014 Apr 18",
+      "dealstage": "presentationscheduled",
+      "amount": 13600.0,
+      "closedate": "2026-01-08",
+      "contact_ids": [
+        "77bc01f8f40df40785b7ceac"
+      ],
+      "notes": "Off-site at museum. 150 guests. Deposit received. Final invoice sent 3/15 \u2014 awaiting payment."
+    },
+    {
+      "id": "dba6d66aef63cc2e9d0a124a",
+      "dealname": "Alvarez Quincea\u00f1era \u2014 Mar 22",
+      "dealstage": "closedwon",
+      "amount": 4800.0,
+      "closedate": "2026-01-15",
+      "contact_ids": [
+        "3748e9c5e63723184c6e891c"
+      ],
+      "notes": "100 guests at Bella Notte (private dining + outdoor terrace). Event complete. Deposit + final balance paid. Patricia expressed interest in future events."
+    },
+    {
+      "id": "26304d8fa1d64e3df8de0edf",
+      "dealname": "St. Boniface Lenten Fish Fry \u2014 Feb\u2013Apr",
+      "dealstage": "presentationscheduled",
+      "amount": 4800.0,
+      "closedate": "2025-12-15",
+      "contact_ids": [
+        "4e2d2671a884e895ce4d2001"
+      ],
+      "notes": "Ongoing series. 5 of 7 Fridays complete. Deposit covers full series. Final reconciliation after last Friday."
+    },
+    {
+      "id": "002a26581e45855fe6f3fde1",
+      "dealname": "Dr. Nakamura Birthday Dinner \u2014 Apr 5",
+      "dealstage": "presentationscheduled",
+      "amount": 8200.0,
+      "closedate": "2026-01-30",
+      "contact_ids": [
+        "45892929451d6560c3cae924"
+      ],
+      "notes": "Japanese-Italian fusion tasting menu. 7 courses. Tony developing concept. 40 guests."
+    },
+    {
+      "id": "c7140d8e69f50fe456e2638b",
+      "dealname": "UWM Alumni Reception \u2014 May 15",
+      "dealstage": "contractsent",
+      "amount": 14400.0,
+      "closedate": "2026-02-18",
+      "contact_ids": [
+        "a8db308d9360e5762d9e6d98"
+      ],
+      "notes": "Cocktail reception, heavy apps + open bar. 160 guests. Menu draft sent \u2014 awaiting feedback."
+    },
+    {
+      "id": "6b11f34776daa9b52c5e5e01",
+      "dealname": "Baird Financial Retreat Dinner \u2014 Jun 7",
+      "dealstage": "contractsent",
+      "amount": 15200.0,
+      "closedate": "2026-02-27",
+      "contact_ids": [
+        "5c1390f8c1dccd56a490b34a"
+      ],
+      "notes": "Premium event. 90 guests. Dietary survey sent. Wine education segment under discussion with Maria."
+    }
+  ],
+  "engagements": [
+    {
+      "id": "6234a828964713b454e3b4ec",
+      "engagement_type": "CALL",
+      "body": "Inbound inquiry from Lisa Johnson at Johnson Corp. She attended a holiday party here last year and wants to book the annual corporate dinner. 120 guests, full restaurant buyout. Discussed May 2 date. Sending proposal this week.",
+      "timestamp": "2025-10-08T10:30:00-05:00",
+      "contact_ids": [
+        "7715e6b38e57b7869832d28d"
+      ]
+    },
+    {
+      "id": "219d936d5a17707dfe60bbe3",
+      "engagement_type": "EMAIL",
+      "body": "Sent catering proposal to Lisa Johnson for Johnson Corp annual dinner. Included 4-course Northern Italian prix fixe options and cocktail hour packages. She wants to review with CEO before confirming menu.",
+      "timestamp": "2025-10-12T09:15:00-05:00",
+      "contact_ids": [
+        "7715e6b38e57b7869832d28d"
+      ]
+    },
+    {
+      "id": "41189212c319846cf23f7431",
+      "engagement_type": "NOTE",
+      "body": "Patricia Hartwell's October partner dinner. Table for 6, back corner booth, 7:30 PM. They ordered the Barolo and the veal osso buco as always. Patricia mentioned they may want to host a holiday client reception in December. Following up.",
+      "timestamp": "2025-10-07T21:00:00-05:00",
+      "contact_ids": [
+        "29594e9425f0b279cab4f4ae"
+      ]
+    },
+    {
+      "id": "4ae7dd499715e5440a2e03c8",
+      "engagement_type": "CALL",
+      "body": "Exploratory call from David Bernstein at Baird Financial. Interested in hosting a corporate retreat dinner for 90 people in June. Wants something upscale but not stuffy. Discussed private dining + patio option. Sending venue info.",
+      "timestamp": "2025-11-03T14:00:00-06:00",
+      "contact_ids": [
+        "5c1390f8c1dccd56a490b34a"
+      ]
+    },
+    {
+      "id": "d0514dbdd11eb7ebf8fab6a2",
+      "engagement_type": "NOTE",
+      "body": "[Meeting] Initial tasting meeting with Lisa Chen and David. Discussed family-style Italian for 120 guests. Lisa's mother-in-law has shellfish allergy \u2014 noted for menu. Toured restaurant and patio. Very excited about the space. Deposit agreement signed.",
+      "timestamp": "2025-11-15T14:00:00-06:00",
+      "contact_ids": [
+        "c9087b751970f888c159967c",
+        "db5d986c58add924307e256d"
+      ]
+    },
+    {
+      "id": "bc998a3fa2b7b944d502c09b",
+      "engagement_type": "EMAIL",
+      "body": "Sent formal proposal to David Bernstein for Baird Financial retreat dinner. Premium prix fixe concept with sommelier-led wine education segment. He's very interested. Budget is flexible \u2014 wants memorable.",
+      "timestamp": "2025-11-10T09:30:00-06:00",
+      "contact_ids": [
+        "5c1390f8c1dccd56a490b34a"
+      ]
+    },
+    {
+      "id": "6c5883c21a8b6baa973bc2b3",
+      "engagement_type": "CALL",
+      "body": "Call from Karen Whitfield at UWM Alumni Association. Looking for a cocktail reception venue for 160 graduates. May 15 date. Discussed heavy apps + open bar format. She's working within institutional budget. Sending initial pricing.",
+      "timestamp": "2025-11-18T11:00:00-06:00",
+      "contact_ids": [
+        "a8db308d9360e5762d9e6d98"
+      ]
+    },
+    {
+      "id": "e126ebd8464af31f83df81f3",
+      "engagement_type": "EMAIL",
+      "body": "Sent Chen wedding deposit invoice ($5,200). Lisa confirmed receipt. Payment expected by end of month.",
+      "timestamp": "2025-11-20T10:00:00-06:00",
+      "contact_ids": [
+        "c9087b751970f888c159967c"
+      ]
+    },
+    {
+      "id": "b0531e47cbbfdf994af4f6e3",
+      "engagement_type": "NOTE",
+      "body": "James Okafor's Friday dinner. He mentioned Lakefront Ventures is growing and they may need a venue for investor events. Noted for follow-up in Q1. Weekly spend continues strong at ~$600.",
+      "timestamp": "2025-11-21T21:30:00-06:00",
+      "contact_ids": [
+        "be8ba66f08367fc0357e8690"
+      ]
+    },
+    {
+      "id": "163c98ae9afa3040fb202de7",
+      "engagement_type": "NOTE",
+      "body": "[Meeting] Sat down with Father Thomas Nowak at St. Boniface to discuss Lenten fish fry partnership. He wants beer-battered cod, coleslaw, fries \u2014 classic Wisconsin fish fry. Pickup format from our kitchen, church volunteers serve at parish hall. 7 consecutive Fridays, Feb 20 through Apr 3. Agreed on $2,400 deposit covering the series.",
+      "timestamp": "2025-12-05T10:00:00-06:00",
+      "contact_ids": [
+        "4e2d2671a884e895ce4d2001"
+      ]
+    },
+    {
+      "id": "7fea6203770718a181a3d666",
+      "engagement_type": "EMAIL",
+      "body": "Sent St. Boniface fish fry deposit invoice ($2,400). Father Nowak says the parish council approved the budget. Check coming by Dec 15.",
+      "timestamp": "2025-12-10T09:00:00-06:00",
+      "contact_ids": [
+        "4e2d2671a884e895ce4d2001"
+      ]
+    },
+    {
+      "id": "ef7207683f93080315cc2b80",
+      "engagement_type": "CALL",
+      "body": "Lisa Chen called to confirm deposit payment was sent. Guest count holding at 120. She asked about late-night pizza station \u2014 Tony thinks we can do it. Will mock up add-on pricing.",
+      "timestamp": "2025-12-15T13:00:00-06:00",
+      "contact_ids": [
+        "c9087b751970f888c159967c"
+      ]
+    },
+    {
+      "id": "15ed461f00a97a4af1b347e8",
+      "engagement_type": "NOTE",
+      "body": "[Meeting] Site visit at Milwaukee Art Museum with Sarah Lindgren. Walked the atrium and Windhover Hall spaces. Confirmed power access for chafing stations and bar setup. Loading dock available from 2 PM for setup. Sarah sending floor plan by end of week.",
+      "timestamp": "2026-01-06T10:00:00-06:00",
+      "contact_ids": [
+        "77bc01f8f40df40785b7ceac"
+      ]
+    },
+    {
+      "id": "69998094b83d554f4833c1dd",
+      "engagement_type": "EMAIL",
+      "body": "Sent Milwaukee Art Museum deposit invoice ($6,800). Sarah confirmed receipt. Payment processing through museum accounting \u2014 expect 7-10 business days.",
+      "timestamp": "2026-01-02T09:15:00-06:00",
+      "contact_ids": [
+        "77bc01f8f40df40785b7ceac"
+      ]
+    },
+    {
+      "id": "3e391e76f1485e695f19b44a",
+      "engagement_type": "CALL",
+      "body": "Patricia Alvarez called about quincea\u00f1era for her daughter Sofia. 100 guests. Wants it at Bella Notte \u2014 private dining room plus outdoor terrace. March 22 date. Discussed menu: antipasto, chicken marsala, pasta primavera, tiramisu. She's handling mariachi and tres leches cake separately. Father Nowak referred her.",
+      "timestamp": "2026-01-08T11:30:00-06:00",
+      "contact_ids": [
+        "3748e9c5e63723184c6e891c"
+      ]
+    },
+    {
+      "id": "26bd626627eb500641d845a3",
+      "engagement_type": "EMAIL",
+      "body": "Sent Alvarez quincea\u00f1era proposal and deposit invoice ($3,200). 100 guests, private dining + outdoor terrace at Bella Notte. Patricia confirmed she'll pay by mid-January.",
+      "timestamp": "2026-01-10T10:00:00-06:00",
+      "contact_ids": [
+        "3748e9c5e63723184c6e891c"
+      ]
+    },
+    {
+      "id": "bd55db9488f919a10f60da40",
+      "engagement_type": "NOTE",
+      "body": "[Meeting] First meeting with Dr. Reiko Nakamura about her 60th birthday dinner. April 5. She wants something special \u2014 Japanese-Italian fusion concept. 40 guests. Main dining room buyout. She brought a sake she'd like incorporated. Tony developing a 7-course menu concept.",
+      "timestamp": "2026-01-20T17:00:00-06:00",
+      "contact_ids": [
+        "45892929451d6560c3cae924"
+      ]
+    },
+    {
+      "id": "d6e7ae2062dac726e5f42e82",
+      "engagement_type": "EMAIL",
+      "body": "Sent Dr. Nakamura deposit invoice ($4,100). She paid same week via credit card. Very excited about the fusion concept.",
+      "timestamp": "2026-01-25T09:00:00-06:00",
+      "contact_ids": [
+        "45892929451d6560c3cae924"
+      ]
+    },
+    {
+      "id": "d67c18e7e97c0b8becfcfc8e",
+      "engagement_type": "EMAIL",
+      "body": "Sent formal catering proposal to Johnson Corp. Updated pricing with cocktail hour option. Lisa Johnson reviewing with CEO.",
+      "timestamp": "2026-02-03T09:15:00-06:00",
+      "contact_ids": [
+        "7715e6b38e57b7869832d28d"
+      ]
+    },
+    {
+      "id": "0bd2c6cd64578d71d1f421cf",
+      "engagement_type": "EMAIL",
+      "body": "Sent UWM Alumni reception proposal and deposit invoice ($7,200) to Karen Whitfield. Cocktail-style, 200 guests, heavy apps + open bar.",
+      "timestamp": "2026-02-10T10:30:00-06:00",
+      "contact_ids": [
+        "a8db308d9360e5762d9e6d98"
+      ]
+    },
+    {
+      "id": "5df9ec08b129ab73315aea96",
+      "engagement_type": "EMAIL",
+      "body": "Sent Baird Financial deposit invoice ($7,600). David Bernstein confirmed \u2014 paid via credit card within the week.",
+      "timestamp": "2026-02-20T09:00:00-06:00",
+      "contact_ids": [
+        "5c1390f8c1dccd56a490b34a"
+      ]
+    },
+    {
+      "id": "d0f337813cba0f76af8910ce",
+      "engagement_type": "NOTE",
+      "body": "Fish fry series underway. Week 1 (Feb 20): 65 portions. Father Nowak called after \u2014 congregation loved it. Best fish fry in years, he said. Smooth operation.",
+      "timestamp": "2026-02-21T10:00:00-06:00",
+      "contact_ids": [
+        "4e2d2671a884e895ce4d2001"
+      ]
+    },
+    {
+      "id": "32cce8f2897efe1091124a1c",
+      "engagement_type": "NOTE",
+      "body": "Valentine's Day \u2014 packed house, 262 covers. Patricia Hartwell's group came in as a couples dinner instead of the usual partner dinner. Ordered three bottles of Barolo. Big night for the bar \u2014 Maria ran a special cocktail menu. Record revenue night.",
+      "timestamp": "2026-02-14T22:30:00-06:00",
+      "contact_ids": [
+        "29594e9425f0b279cab4f4ae"
+      ]
+    },
+    {
+      "id": "719a3502e59ccdb73f05a443",
+      "engagement_type": "CALL",
+      "body": "Father Nowak called to discuss fish fry adjustments. Congregation wants more fries. Increasing portion by 10% for next week. Also mentioned possibility of extending partnership beyond Lent for monthly parish dinners.",
+      "timestamp": "2026-02-28T16:00:00-06:00",
+      "contact_ids": [
+        "4e2d2671a884e895ce4d2001"
+      ]
+    },
+    {
+      "id": "185fe73ea41285d703cb1552",
+      "engagement_type": "CALL",
+      "body": "Spoke with David Bernstein about Baird retreat dinner logistics. He wants a 'sophisticated but approachable' evening. Interested in sommelier-led wine education \u2014 Maria could walk guests through a 4-wine Italian tasting during appetizer course. Dietary survey going out to 90 attendees this week.",
+      "timestamp": "2026-03-05T14:00:00-06:00",
+      "contact_ids": [
+        "5c1390f8c1dccd56a490b34a"
+      ]
+    },
+    {
+      "id": "54acfe3ef14c1fa8c6d3df1a",
+      "engagement_type": "NOTE",
+      "body": "[Meeting] Menu development meeting with Dr. Nakamura at restaurant. Tony presented 7-course concept: amuse-bouche (dashi-infused burrata), miso black cod, yuzu risotto, wagyu tagliata, etc. She loved it. Deciding between matcha tiramisu or traditional cassata for dessert. Robert at Capital Wine to suggest Barolo pairings.",
+      "timestamp": "2026-03-10T17:00:00-05:00",
+      "contact_ids": [
+        "45892929451d6560c3cae924"
+      ]
+    },
+    {
+      "id": "2f82289b164e0b090f82366e",
+      "engagement_type": "EMAIL",
+      "body": "Sent initial menu draft to Karen Whitfield for UWM Alumni reception. Proposed: passed bruschetta trio, arancini, antipasto stations, pasta station, carving station (porchetta), and dessert display. Open bar with Prosecco, local craft beer (Lakefront Brewery), and signature Negroni.",
+      "timestamp": "2026-03-10T10:30:00-05:00",
+      "contact_ids": [
+        "a8db308d9360e5762d9e6d98"
+      ]
+    },
+    {
+      "id": "097157d7c10a75e784f44c51",
+      "engagement_type": "NOTE",
+      "body": "James Okafor's Friday dinner \u2014 mentioned at the table that Lakefront Ventures is planning a summer retreat for ~50 people. Asked if we do off-site. Told him absolutely. Follow up next week.",
+      "timestamp": "2026-03-14T21:15:00-05:00",
+      "contact_ids": [
+        "be8ba66f08367fc0357e8690"
+      ]
+    },
+    {
+      "id": "f0b2f87cd12516062d1cf406",
+      "engagement_type": "CALL",
+      "body": "Patricia Alvarez called to finalize quincea\u00f1era details. Confirmed 100 guests. External bakery delivering tres leches cake by 5 PM day-of. Mariachi band (Mariachi Sol de Milwaukee) arriving at 7 PM. Final headcount locked. Outdoor terrace confirmed weather permitting.",
+      "timestamp": "2026-03-15T11:30:00-05:00",
+      "contact_ids": [
+        "3748e9c5e63723184c6e891c"
+      ]
+    },
+    {
+      "id": "0b7cf6859403cdc8faf2140a",
+      "engagement_type": "EMAIL",
+      "body": "Sent final invoice to Milwaukee Art Museum (INV-3009). Final balance of $6,800 due by April 10. Sarah confirmed receipt and said accounting will process within 10 business days.",
+      "timestamp": "2026-03-15T15:00:00-05:00",
+      "contact_ids": [
+        "77bc01f8f40df40785b7ceac"
+      ]
+    },
+    {
+      "id": "32ca24ea74f32c34a318374d",
+      "engagement_type": "EMAIL",
+      "body": "Follow-up email to James Okafor RE: Lakefront Ventures summer retreat catering. Attached catering brochure and sample menus. Offered complimentary tasting for his team. He replied same day \u2014 interested, will discuss with partners.",
+      "timestamp": "2026-03-17T08:45:00-05:00",
+      "contact_ids": [
+        "be8ba66f08367fc0357e8690"
+      ]
+    },
+    {
+      "id": "8e72377f0c00ee4e173496ca",
+      "engagement_type": "CALL",
+      "body": "Quick call from Lisa Johnson. She wants to add a cocktail hour with passed hors d'oeuvres before the sit-down dinner. Asked for pricing on 45 min open bar + 4 app selections for 120. Sending updated proposal by end of week.",
+      "timestamp": "2026-03-18T16:30:00-05:00",
+      "contact_ids": [
+        "7715e6b38e57b7869832d28d"
+      ]
+    },
+    {
+      "id": "ab58101813095578bb06cce4",
+      "engagement_type": "CALL",
+      "body": "Lisa Chen called with guest update \u2014 holding at 120. Her cousin is vegan, plus 3 vegetarian guests. Need a clear vegan option for the family-style spread. Also wants the late-night pizza station confirmed. Tony can make it work. Second deposit installment coming May 1.",
+      "timestamp": "2026-03-20T13:00:00-05:00",
+      "contact_ids": [
+        "c9087b751970f888c159967c"
+      ]
+    },
+    {
+      "id": "4761acf1bc31cfeee9232549",
+      "engagement_type": "EMAIL",
+      "body": "Sent updated Johnson Corp proposal with cocktail hour add-on. 45-minute open bar (premium rail) + passed bruschetta, arancini, prosciutto-wrapped figs, and burrata crostini. Additional $3,200 to the quoted total. Lisa reviewing with her team.",
+      "timestamp": "2026-03-21T09:00:00-05:00",
+      "contact_ids": [
+        "7715e6b38e57b7869832d28d"
+      ]
+    },
+    {
+      "id": "59983274313db67e2d7d5acd",
+      "engagement_type": "NOTE",
+      "body": "[Meeting] Post-event debrief \u2014 Alvarez quincea\u00f1era. Event went beautifully. Patricia was emotional, very happy. Mariachi band was a hit. Tres leches cake arrived on time. Terrace worked well despite evening chill \u2014 we set up heat lamps. Only issue: bar ran low on horchata. Patricia mentioned her sister-in-law is planning a baptism party for fall \u2014 potential lead.",
+      "timestamp": "2026-03-23T10:00:00-05:00",
+      "contact_ids": [
+        "3748e9c5e63723184c6e891c"
+      ]
+    },
+    {
+      "id": "90cc4714723da2603afecf1a",
+      "engagement_type": "NOTE",
+      "body": "Karen Whitfield emailed back about UWM menu. Loves the concept but asked if we can substitute porchetta with a lighter option \u2014 many alumni are older demographic. Suggested roasted branzino station instead. Also wants a non-alcoholic cocktail option. Will revise and resend by 4/1.",
+      "timestamp": "2026-03-25T11:00:00-05:00",
+      "contact_ids": [
+        "a8db308d9360e5762d9e6d98"
+      ]
+    },
+    {
+      "id": "eedfef5804eb1658ea11ddce",
+      "engagement_type": "NOTE",
+      "body": "Dr. Nakamura texted to confirm matcha tiramisu as the dessert course. Full 7-course menu is now locked. Need to place specialty orders with Sysco (wagyu) and Capital Wine (sake) by 3/30 at latest. Tony handling kitchen prep timeline.",
+      "timestamp": "2026-03-28T12:00:00-05:00",
+      "contact_ids": [
+        "45892929451d6560c3cae924"
+      ]
+    }
+  ],
+  "leads": []
+}

@@ -1,0 +1,1845 @@
+{
+  "company": {
+    "name": "Bella Notte Ristorante LLC",
+    "legal_name": "Bella Notte Ristorante LLC",
+    "ein": "39-XXXXXXX",
+    "address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+    "fiscal_year_start": "2025-01-01"
+  },
+  "customers": [
+    {
+      "Balance": 0.0,
+      "Id": "CUST-1001",
+      "DisplayName": "Chen Family \u2014 Wedding",
+      "GivenName": "Lisa",
+      "FamilyName": "Chen",
+      "PrimaryEmailAddr": {
+        "Address": "lisa.chen.bride@gmail.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0261"
+      },
+      "Active": true,
+      "Taxable": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 0.0,
+      "Id": "CUST-1002",
+      "DisplayName": "Johnson Corp",
+      "GivenName": "Lisa",
+      "FamilyName": "Johnson",
+      "PrimaryEmailAddr": {
+        "Address": "ljohnson@johnsoncorp.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0384"
+      },
+      "Active": true,
+      "Taxable": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 0.0,
+      "Id": "CUST-1003",
+      "DisplayName": "Milwaukee Art Museum",
+      "GivenName": "Sarah",
+      "FamilyName": "Lindgren",
+      "PrimaryEmailAddr": {
+        "Address": "slindgren@mam.org"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0472"
+      },
+      "Active": true,
+      "Taxable": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 0.0,
+      "Id": "CUST-1004",
+      "DisplayName": "Alvarez Family",
+      "GivenName": "Patricia",
+      "FamilyName": "Alvarez",
+      "PrimaryEmailAddr": {
+        "Address": "patricia.alvarez74@gmail.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0519"
+      },
+      "Active": true,
+      "Taxable": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 0.0,
+      "Id": "CUST-1005",
+      "DisplayName": "St. Boniface Church",
+      "GivenName": "Father",
+      "FamilyName": "Thomas Nowak",
+      "PrimaryEmailAddr": {
+        "Address": "father.nowak@stboniface-mil.org"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0633"
+      },
+      "Active": true,
+      "Taxable": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 0.0,
+      "Id": "CUST-1006",
+      "DisplayName": "Dr. Reiko Nakamura",
+      "GivenName": "Reiko",
+      "FamilyName": "Nakamura",
+      "PrimaryEmailAddr": {
+        "Address": "reiko.nakamura@froedtert.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0741"
+      },
+      "Active": true,
+      "Taxable": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 0.0,
+      "Id": "CUST-1007",
+      "DisplayName": "UWM Alumni Association",
+      "GivenName": "Karen",
+      "FamilyName": "Whitfield",
+      "PrimaryEmailAddr": {
+        "Address": "kwhitfield@uwmalumni.org"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0856"
+      },
+      "Active": true,
+      "Taxable": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 0.0,
+      "Id": "CUST-1008",
+      "DisplayName": "Baird Financial Group",
+      "GivenName": "David",
+      "FamilyName": "Bernstein",
+      "PrimaryEmailAddr": {
+        "Address": "dbernstein@rwbaird.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0968"
+      },
+      "Active": true,
+      "Taxable": true,
+      "SyncToken": "0"
+    }
+  ],
+  "vendors": [
+    {
+      "Balance": 6100.0,
+      "Id": "VEND-2001",
+      "DisplayName": "Sysco Corporation",
+      "PrimaryEmailAddr": {
+        "Address": "dan.mallory@sysco.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0345"
+      },
+      "Active": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 2100.0,
+      "Id": "VEND-2002",
+      "DisplayName": "US Foods Inc",
+      "PrimaryEmailAddr": {
+        "Address": "keisha.brown@usfoods.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0478"
+      },
+      "Active": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 5200.0,
+      "Id": "VEND-2003",
+      "DisplayName": "Capital Wine Imports",
+      "PrimaryEmailAddr": {
+        "Address": "robert.fontaine@capitalwine.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0592"
+      },
+      "Active": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 920.0,
+      "Id": "VEND-2004",
+      "DisplayName": "Milwaukee Bread Co.",
+      "PrimaryEmailAddr": {
+        "Address": "anna@milwaukeebread.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0661"
+      },
+      "Active": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 680.0,
+      "Id": "VEND-2005",
+      "DisplayName": "Linen & Things Commercial",
+      "PrimaryEmailAddr": {
+        "Address": "tom.nguyen@linenandthings.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0714"
+      },
+      "Active": true,
+      "SyncToken": "0"
+    },
+    {
+      "Balance": 2400.0,
+      "Id": "VEND-2006",
+      "DisplayName": "Comfort Keepers",
+      "PrimaryEmailAddr": {
+        "Address": "milwaukee@comfortkeepers.com"
+      },
+      "PrimaryPhone": {
+        "FreeFormNumber": "(414) 555-0800"
+      },
+      "Active": true,
+      "SyncToken": "0"
+    }
+  ],
+  "accounts": [
+    {
+      "Id": "ACCT-1000",
+      "Name": "BMO Harris Business Checking",
+      "AccountType": "Bank",
+      "AccountSubType": "Checking",
+      "CurrentBalance": 34200.0,
+      "SyncToken": "0"
+    },
+    {
+      "Id": "ACCT-1100",
+      "Name": "Accounts Receivable",
+      "AccountType": "Accounts Receivable",
+      "AccountSubType": "Accounts Receivable",
+      "CurrentBalance": 2800.0,
+      "SyncToken": "0"
+    },
+    {
+      "Id": "ACCT-2000",
+      "Name": "Accounts Payable",
+      "AccountType": "Accounts Payable",
+      "AccountSubType": "Accounts Payable",
+      "CurrentBalance": 17400.0,
+      "SyncToken": "0"
+    },
+    {
+      "Id": "ACCT-2100",
+      "Name": "Catering Deposits Held",
+      "AccountType": "Other Current Liability",
+      "AccountSubType": "Trust Funds \u2014 Catering",
+      "CurrentBalance": 45000.0,
+      "SyncToken": "0"
+    },
+    {
+      "Id": "ACCT-4000",
+      "Name": "Restaurant Revenue",
+      "AccountType": "Income",
+      "AccountSubType": "Sales of Product/Service",
+      "CurrentBalance": 487600.0,
+      "SyncToken": "0"
+    },
+    {
+      "Id": "ACCT-5000",
+      "Name": "Cost of Goods Sold",
+      "AccountType": "Cost of Goods Sold",
+      "AccountSubType": "Supplies & Materials \u2014 COGS",
+      "CurrentBalance": 158400.0,
+      "SyncToken": "0"
+    },
+    {
+      "Id": "ACCT-6000",
+      "Name": "Payroll Expense",
+      "AccountType": "Expense",
+      "AccountSubType": "Payroll Expenses",
+      "CurrentBalance": 234000.0,
+      "SyncToken": "0"
+    },
+    {
+      "Id": "ACCT-6500",
+      "Name": "Operating Expenses",
+      "AccountType": "Expense",
+      "AccountSubType": "Other General & Admin",
+      "CurrentBalance": 62300.0,
+      "SyncToken": "0"
+    }
+  ],
+  "invoices": [
+    {
+      "Id": "INV-3001",
+      "CustomerRef": {
+        "value": "CUST-1001",
+        "name": "Chen Family \u2014 Wedding"
+      },
+      "TxnDate": "2025-11-20",
+      "DueDate": "2025-12-01",
+      "TotalAmt": 5200.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 5200.0,
+          "Description": "Wedding Reception (120 guests) \u2014 Deposit Installment 1",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 5200.0
+          },
+          "Id": "1"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3002",
+      "CustomerRef": {
+        "value": "CUST-1005",
+        "name": "St. Boniface Church"
+      },
+      "TxnDate": "2025-12-10",
+      "DueDate": "2025-12-20",
+      "TotalAmt": 2400.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 2400.0,
+          "Description": "Lenten Fish Fry Series (7 Fridays) \u2014 Deposit",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 2400.0
+          },
+          "Id": "2"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3003",
+      "CustomerRef": {
+        "value": "CUST-1003",
+        "name": "Milwaukee Art Museum"
+      },
+      "TxnDate": "2026-01-02",
+      "DueDate": "2026-01-12",
+      "TotalAmt": 6800.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 6800.0,
+          "Description": "Fundraiser Gala Catering (160 guests) \u2014 Deposit",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 6800.0
+          },
+          "Id": "3"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3004",
+      "CustomerRef": {
+        "value": "CUST-1004",
+        "name": "Alvarez Family"
+      },
+      "TxnDate": "2026-01-10",
+      "DueDate": "2026-01-20",
+      "TotalAmt": 3200.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 3200.0,
+          "Description": "Quincea\u00f1era (100 guests, private dining + terrace) \u2014 Deposit",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 3200.0
+          },
+          "Id": "4"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3005",
+      "CustomerRef": {
+        "value": "CUST-1006",
+        "name": "Dr. Reiko Nakamura"
+      },
+      "TxnDate": "2026-01-25",
+      "DueDate": "2026-02-01",
+      "TotalAmt": 4100.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 4100.0,
+          "Description": "Birthday Dinner (40 guests) \u2014 Deposit",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 4100.0
+          },
+          "Id": "5"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3006",
+      "CustomerRef": {
+        "value": "CUST-1002",
+        "name": "Johnson Corp"
+      },
+      "TxnDate": "2026-02-05",
+      "DueDate": "2026-02-15",
+      "TotalAmt": 8500.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 8500.0,
+          "Description": "Annual Corporate Dinner (120 guests, full buyout) \u2014 Deposit (50%)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 8500.0
+          },
+          "Id": "6"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3007",
+      "CustomerRef": {
+        "value": "CUST-1007",
+        "name": "UWM Alumni Association"
+      },
+      "TxnDate": "2026-02-10",
+      "DueDate": "2026-02-20",
+      "TotalAmt": 7200.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 7200.0,
+          "Description": "Alumni Reception (160 guests, cocktail-style) \u2014 Deposit (50%)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 7200.0
+          },
+          "Id": "7"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3008",
+      "CustomerRef": {
+        "value": "CUST-1008",
+        "name": "Baird Financial Group"
+      },
+      "TxnDate": "2026-02-20",
+      "DueDate": "2026-03-01",
+      "TotalAmt": 7600.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 7600.0,
+          "Description": "Corporate Retreat Dinner (90 guests) \u2014 Deposit (50%)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 7600.0
+          },
+          "Id": "8"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3009",
+      "CustomerRef": {
+        "value": "CUST-1004",
+        "name": "Alvarez Family"
+      },
+      "TxnDate": "2026-03-10",
+      "DueDate": "2026-03-20",
+      "TotalAmt": 1600.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 1600.0,
+          "Description": "Quincea\u00f1era \u2014 Final Balance (100 guests, private dining + terrace)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 1600.0
+          },
+          "Id": "9"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3010",
+      "CustomerRef": {
+        "value": "CUST-1003",
+        "name": "Milwaukee Art Museum"
+      },
+      "TxnDate": "2026-03-15",
+      "DueDate": "2026-04-10",
+      "TotalAmt": 6800.0,
+      "Balance": 6800.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 6800.0,
+          "Description": "Fundraiser Gala \u2014 Final Balance (160 guests, 3 stations + bar)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 6800.0
+          },
+          "Id": "10"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3011",
+      "CustomerRef": {
+        "value": "CUST-1002",
+        "name": "Johnson Corp"
+      },
+      "TxnDate": "2026-03-20",
+      "DueDate": "2026-04-15",
+      "TotalAmt": 8500.0,
+      "Balance": 8500.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 8500.0,
+          "Description": "Annual Corporate Dinner \u2014 Final Balance (120 guests, full buyout + cocktail hour)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 8500.0
+          },
+          "Id": "11"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3012",
+      "CustomerRef": {
+        "value": "CUST-1001",
+        "name": "Chen Family \u2014 Wedding"
+      },
+      "TxnDate": "2026-03-25",
+      "DueDate": "2026-05-01",
+      "TotalAmt": 5200.0,
+      "Balance": 5200.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 5200.0,
+          "Description": "Wedding Reception (120 guests) \u2014 Deposit Installment 2",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 5200.0
+          },
+          "Id": "12"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3013",
+      "CustomerRef": {
+        "value": "CUST-1006",
+        "name": "Dr. Reiko Nakamura"
+      },
+      "TxnDate": "2026-03-28",
+      "DueDate": "2026-04-05",
+      "TotalAmt": 4100.0,
+      "Balance": 4100.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 4100.0,
+          "Description": "Birthday Dinner \u2014 Final Balance (40 guests, 7-course fusion tasting)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 4100.0
+          },
+          "Id": "13"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3014",
+      "CustomerRef": {
+        "value": "CUST-1007",
+        "name": "UWM Alumni Association"
+      },
+      "TxnDate": "2026-03-28",
+      "DueDate": "2026-04-30",
+      "TotalAmt": 7200.0,
+      "Balance": 7200.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 7200.0,
+          "Description": "Alumni Reception \u2014 Final Balance (160 guests, cocktail + bar)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 7200.0
+          },
+          "Id": "14"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3015",
+      "CustomerRef": {
+        "value": "CUST-1008",
+        "name": "Baird Financial Group"
+      },
+      "TxnDate": "2026-03-28",
+      "DueDate": "2026-05-15",
+      "TotalAmt": 7600.0,
+      "Balance": 7600.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 7600.0,
+          "Description": "Corporate Retreat Dinner \u2014 Final Balance (90 guests, wine education)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 7600.0
+          },
+          "Id": "15"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "INV-3016",
+      "CustomerRef": {
+        "value": "CUST-1005",
+        "name": "St. Boniface Church"
+      },
+      "TxnDate": "2026-03-28",
+      "DueDate": "2026-04-15",
+      "TotalAmt": 2400.0,
+      "Balance": 2400.0,
+      "Line": [
+        {
+          "DetailType": "SalesItemLineDetail",
+          "Amount": 2400.0,
+          "Description": "Lenten Fish Fry Series \u2014 Final Reconciliation (7 weeks, avg 75 portions)",
+          "SalesItemLineDetail": {
+            "Qty": 1,
+            "UnitPrice": 2400.0
+          },
+          "Id": "16"
+        }
+      ],
+      "SyncToken": "0"
+    }
+  ],
+  "bills": [
+    {
+      "Id": "BILL-4001",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2025-10-07",
+      "DueDate": "2025-11-06",
+      "TotalAmt": 2850.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2850.0,
+          "Description": "Weekly food order \u2014 proteins, dairy, produce",
+          "Id": "17"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4002",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2025-10-14",
+      "DueDate": "2025-11-13",
+      "TotalAmt": 3100.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3100.0,
+          "Description": "Weekly food order \u2014 proteins, dairy, produce, fall menu items",
+          "Id": "18"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4003",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2025-10-28",
+      "DueDate": "2025-11-27",
+      "TotalAmt": 2900.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2900.0,
+          "Description": "Weekly food order \u2014 proteins, dairy, produce",
+          "Id": "19"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4004",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2025-11-04",
+      "DueDate": "2025-12-04",
+      "TotalAmt": 3200.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3200.0,
+          "Description": "Weekly food order \u2014 holiday party stock-up, proteins, dairy",
+          "Id": "20"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4005",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2025-11-18",
+      "DueDate": "2025-12-18",
+      "TotalAmt": 3450.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3450.0,
+          "Description": "Weekly food order \u2014 Thanksgiving week prep, turkey, sides",
+          "Id": "21"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4006",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2025-12-02",
+      "DueDate": "2026-01-01",
+      "TotalAmt": 3500.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3500.0,
+          "Description": "Weekly food order \u2014 holiday party season, increased volume",
+          "Id": "22"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4007",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2025-12-16",
+      "DueDate": "2026-01-15",
+      "TotalAmt": 3400.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3400.0,
+          "Description": "Weekly food order \u2014 peak holiday week, extra proteins",
+          "Id": "23"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4008",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2025-12-30",
+      "DueDate": "2026-01-29",
+      "TotalAmt": 3300.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3300.0,
+          "Description": "Weekly food order \u2014 NYE prep, seafood, dairy",
+          "Id": "24"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4009",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2026-01-13",
+      "DueDate": "2026-02-12",
+      "TotalAmt": 2800.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2800.0,
+          "Description": "Weekly food order \u2014 post-holiday standard volume",
+          "Id": "25"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4010",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2026-01-27",
+      "DueDate": "2026-02-26",
+      "TotalAmt": 2950.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2950.0,
+          "Description": "Weekly food order \u2014 proteins, dairy, produce",
+          "Id": "26"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4011",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2026-02-10",
+      "DueDate": "2026-03-12",
+      "TotalAmt": 3350.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3350.0,
+          "Description": "Weekly food order \u2014 Valentine's prep, extra seafood",
+          "Id": "27"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4012",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2026-02-24",
+      "DueDate": "2026-03-26",
+      "TotalAmt": 3150.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3150.0,
+          "Description": "Weekly food order \u2014 Lenten fish fry cod (40 lbs), standard order",
+          "Id": "28"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4013",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2026-03-10",
+      "DueDate": "2026-04-09",
+      "TotalAmt": 3200.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3200.0,
+          "Description": "Weekly food order \u2014 proteins, dairy, produce",
+          "Id": "29"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4014",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2026-03-17",
+      "DueDate": "2026-04-16",
+      "TotalAmt": 2950.0,
+      "Balance": 2950.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2950.0,
+          "Description": "Weekly food order \u2014 proteins, dairy, produce, fish fry cod (40 lbs)",
+          "Id": "30"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4015",
+      "VendorRef": {
+        "value": "VEND-2001",
+        "name": "Sysco Corporation"
+      },
+      "TxnDate": "2026-03-24",
+      "DueDate": "2026-04-23",
+      "TotalAmt": 3100.0,
+      "Balance": 3100.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 3100.0,
+          "Description": "Weekly food order \u2014 quincea\u00f1era catering extras, standard order",
+          "Id": "31"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4016",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2025-10-10",
+      "DueDate": "2025-11-09",
+      "TotalAmt": 980.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 980.0,
+          "Description": "Biweekly order \u2014 dry goods, paper products, disposables",
+          "Id": "32"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4017",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2025-10-24",
+      "DueDate": "2025-11-23",
+      "TotalAmt": 870.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 870.0,
+          "Description": "Biweekly order \u2014 dry goods, oils, canned tomatoes",
+          "Id": "33"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4018",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2025-11-07",
+      "DueDate": "2025-12-07",
+      "TotalAmt": 1050.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 1050.0,
+          "Description": "Biweekly order \u2014 dry goods, holiday paper products, disposables",
+          "Id": "34"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4019",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2025-11-21",
+      "DueDate": "2025-12-21",
+      "TotalAmt": 1180.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 1180.0,
+          "Description": "Biweekly order \u2014 Thanksgiving supplies, extra disposables",
+          "Id": "35"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4020",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2025-12-05",
+      "DueDate": "2026-01-04",
+      "TotalAmt": 1100.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 1100.0,
+          "Description": "Biweekly order \u2014 holiday season dry goods, paper products",
+          "Id": "36"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4021",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2025-12-19",
+      "DueDate": "2026-01-18",
+      "TotalAmt": 1200.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 1200.0,
+          "Description": "Biweekly order \u2014 NYE prep, extra stock",
+          "Id": "37"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4022",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2026-01-16",
+      "DueDate": "2026-02-15",
+      "TotalAmt": 880.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 880.0,
+          "Description": "Biweekly order \u2014 dry goods, oils, flour",
+          "Id": "38"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4023",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2026-02-06",
+      "DueDate": "2026-03-08",
+      "TotalAmt": 1050.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 1050.0,
+          "Description": "Biweekly order \u2014 Valentine's extra supplies, dry goods",
+          "Id": "39"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4024",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2026-02-20",
+      "DueDate": "2026-03-22",
+      "TotalAmt": 950.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 950.0,
+          "Description": "Biweekly order \u2014 Lenten disposables for fish fry, dry goods",
+          "Id": "40"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4025",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2026-03-06",
+      "DueDate": "2026-04-05",
+      "TotalAmt": 980.0,
+      "Balance": 980.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 980.0,
+          "Description": "Biweekly order \u2014 dry goods, oils, canned tomatoes, flour",
+          "Id": "41"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4026",
+      "VendorRef": {
+        "value": "VEND-2002",
+        "name": "US Foods Inc"
+      },
+      "TxnDate": "2026-03-20",
+      "DueDate": "2026-04-19",
+      "TotalAmt": 1100.0,
+      "Balance": 1100.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 1100.0,
+          "Description": "Biweekly order \u2014 dry goods, paper products, quincea\u00f1era disposables",
+          "Id": "42"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4027",
+      "VendorRef": {
+        "value": "VEND-2003",
+        "name": "Capital Wine Imports"
+      },
+      "TxnDate": "2025-10-08",
+      "DueDate": "2025-11-22",
+      "TotalAmt": 4800.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 4800.0,
+          "Description": "October wine & spirits \u2014 Barolo, Chianti, Prosecco, house wines, well spirits",
+          "Id": "43"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4028",
+      "VendorRef": {
+        "value": "VEND-2003",
+        "name": "Capital Wine Imports"
+      },
+      "TxnDate": "2025-11-05",
+      "DueDate": "2025-12-20",
+      "TotalAmt": 5400.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 5400.0,
+          "Description": "November wine & spirits \u2014 holiday season stock-up, champagne for parties",
+          "Id": "44"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4029",
+      "VendorRef": {
+        "value": "VEND-2003",
+        "name": "Capital Wine Imports"
+      },
+      "TxnDate": "2025-12-03",
+      "DueDate": "2026-01-17",
+      "TotalAmt": 5500.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 5500.0,
+          "Description": "December wine & spirits \u2014 peak holiday order, extra champagne, premium spirits",
+          "Id": "45"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4030",
+      "VendorRef": {
+        "value": "VEND-2003",
+        "name": "Capital Wine Imports"
+      },
+      "TxnDate": "2026-01-07",
+      "DueDate": "2026-02-21",
+      "TotalAmt": 4500.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 4500.0,
+          "Description": "January wine & spirits \u2014 post-holiday standard order",
+          "Id": "46"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4031",
+      "VendorRef": {
+        "value": "VEND-2003",
+        "name": "Capital Wine Imports"
+      },
+      "TxnDate": "2026-02-04",
+      "DueDate": "2026-03-21",
+      "TotalAmt": 5100.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 5100.0,
+          "Description": "February wine & spirits \u2014 Valentine's special reserve Barolo, rose selections",
+          "Id": "47"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4032",
+      "VendorRef": {
+        "value": "VEND-2003",
+        "name": "Capital Wine Imports"
+      },
+      "TxnDate": "2026-03-04",
+      "DueDate": "2026-04-18",
+      "TotalAmt": 5200.0,
+      "Balance": 5200.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 5200.0,
+          "Description": "March wine & spirits \u2014 Barolo, Chianti Classico, Prosecco, house wines, well spirits",
+          "Id": "48"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4033",
+      "VendorRef": {
+        "value": "VEND-2004",
+        "name": "Milwaukee Bread Co."
+      },
+      "TxnDate": "2025-10-31",
+      "DueDate": "2025-11-15",
+      "TotalAmt": 680.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 680.0,
+          "Description": "October daily bread delivery \u2014 ciabatta, focaccia, breadsticks",
+          "Id": "49"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4034",
+      "VendorRef": {
+        "value": "VEND-2004",
+        "name": "Milwaukee Bread Co."
+      },
+      "TxnDate": "2025-11-30",
+      "DueDate": "2025-12-15",
+      "TotalAmt": 740.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 740.0,
+          "Description": "November daily bread delivery \u2014 ciabatta, focaccia, breadsticks, holiday dinner rolls",
+          "Id": "50"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4035",
+      "VendorRef": {
+        "value": "VEND-2004",
+        "name": "Milwaukee Bread Co."
+      },
+      "TxnDate": "2025-12-31",
+      "DueDate": "2026-01-15",
+      "TotalAmt": 790.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 790.0,
+          "Description": "December daily bread delivery \u2014 peak volume, holiday service",
+          "Id": "51"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4036",
+      "VendorRef": {
+        "value": "VEND-2004",
+        "name": "Milwaukee Bread Co."
+      },
+      "TxnDate": "2026-01-31",
+      "DueDate": "2026-02-15",
+      "TotalAmt": 620.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 620.0,
+          "Description": "January daily bread delivery \u2014 ciabatta, focaccia, breadsticks",
+          "Id": "52"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4037",
+      "VendorRef": {
+        "value": "VEND-2004",
+        "name": "Milwaukee Bread Co."
+      },
+      "TxnDate": "2026-02-28",
+      "DueDate": "2026-03-15",
+      "TotalAmt": 700.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 700.0,
+          "Description": "February daily bread delivery \u2014 ciabatta, focaccia, breadsticks, fish fry dinner rolls",
+          "Id": "53"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4038",
+      "VendorRef": {
+        "value": "VEND-2004",
+        "name": "Milwaukee Bread Co."
+      },
+      "TxnDate": "2026-03-31",
+      "DueDate": "2026-04-15",
+      "TotalAmt": 720.0,
+      "Balance": 720.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 720.0,
+          "Description": "March daily bread delivery \u2014 ciabatta, focaccia, breadsticks, fish fry dinner rolls",
+          "Id": "54"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4039",
+      "VendorRef": {
+        "value": "VEND-2005",
+        "name": "Linen & Things Commercial"
+      },
+      "TxnDate": "2025-10-31",
+      "DueDate": "2025-11-30",
+      "TotalAmt": 420.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 420.0,
+          "Description": "October weekly linen service \u2014 tablecloths, napkins, aprons",
+          "Id": "55"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4040",
+      "VendorRef": {
+        "value": "VEND-2005",
+        "name": "Linen & Things Commercial"
+      },
+      "TxnDate": "2025-11-30",
+      "DueDate": "2025-12-30",
+      "TotalAmt": 480.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 480.0,
+          "Description": "November weekly linen service \u2014 extra tablecloths for holiday parties",
+          "Id": "56"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4041",
+      "VendorRef": {
+        "value": "VEND-2005",
+        "name": "Linen & Things Commercial"
+      },
+      "TxnDate": "2025-12-31",
+      "DueDate": "2026-01-30",
+      "TotalAmt": 500.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 500.0,
+          "Description": "December weekly linen service \u2014 peak holiday volume, extra napkins",
+          "Id": "57"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4042",
+      "VendorRef": {
+        "value": "VEND-2005",
+        "name": "Linen & Things Commercial"
+      },
+      "TxnDate": "2026-01-31",
+      "DueDate": "2026-03-02",
+      "TotalAmt": 410.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 410.0,
+          "Description": "January weekly linen service \u2014 standard volume",
+          "Id": "58"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4043",
+      "VendorRef": {
+        "value": "VEND-2005",
+        "name": "Linen & Things Commercial"
+      },
+      "TxnDate": "2026-02-28",
+      "DueDate": "2026-03-30",
+      "TotalAmt": 460.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 460.0,
+          "Description": "February weekly linen service \u2014 Valentine's extra table settings",
+          "Id": "59"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4044",
+      "VendorRef": {
+        "value": "VEND-2005",
+        "name": "Linen & Things Commercial"
+      },
+      "TxnDate": "2026-03-19",
+      "DueDate": "2026-04-18",
+      "TotalAmt": 450.0,
+      "Balance": 450.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 450.0,
+          "Description": "March weekly linen service \u2014 standard + quincea\u00f1era event linens",
+          "Id": "60"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4045",
+      "VendorRef": {
+        "value": "VEND-2006",
+        "name": "Comfort Keepers"
+      },
+      "TxnDate": "2025-10-01",
+      "DueDate": "2025-10-01",
+      "TotalAmt": 2400.0,
+      "Balance": 0.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2400.0,
+          "Description": "October home care services \u2014 Rosa Gutierrez, M-F 8 AM-4 PM",
+          "Id": "61"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4046",
+      "VendorRef": {
+        "value": "VEND-2006",
+        "name": "Comfort Keepers"
+      },
+      "TxnDate": "2025-11-01",
+      "DueDate": "2025-11-01",
+      "TotalAmt": 2400.0,
+      "Balance": 2400.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2400.0,
+          "Description": "November home care services \u2014 Rosa Gutierrez, M-F 8 AM-4 PM",
+          "Id": "62"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4047",
+      "VendorRef": {
+        "value": "VEND-2006",
+        "name": "Comfort Keepers"
+      },
+      "TxnDate": "2025-12-01",
+      "DueDate": "2025-12-01",
+      "TotalAmt": 2400.0,
+      "Balance": 2400.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2400.0,
+          "Description": "December home care services \u2014 Rosa Gutierrez, M-F 8 AM-4 PM",
+          "Id": "63"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4048",
+      "VendorRef": {
+        "value": "VEND-2006",
+        "name": "Comfort Keepers"
+      },
+      "TxnDate": "2026-01-01",
+      "DueDate": "2026-01-01",
+      "TotalAmt": 2400.0,
+      "Balance": 2400.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2400.0,
+          "Description": "January home care services \u2014 Rosa Gutierrez, M-F 8 AM-4 PM",
+          "Id": "64"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4049",
+      "VendorRef": {
+        "value": "VEND-2006",
+        "name": "Comfort Keepers"
+      },
+      "TxnDate": "2026-02-01",
+      "DueDate": "2026-02-01",
+      "TotalAmt": 2400.0,
+      "Balance": 2400.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2400.0,
+          "Description": "February home care services \u2014 Rosa Gutierrez, M-F 8 AM-4 PM",
+          "Id": "65"
+        }
+      ],
+      "SyncToken": "0"
+    },
+    {
+      "Id": "BILL-4050",
+      "VendorRef": {
+        "value": "VEND-2006",
+        "name": "Comfort Keepers"
+      },
+      "TxnDate": "2026-03-01",
+      "DueDate": "2026-03-01",
+      "TotalAmt": 2400.0,
+      "Balance": 2400.0,
+      "Line": [
+        {
+          "DetailType": "AccountBasedExpenseLineDetail",
+          "Amount": 2400.0,
+          "Description": "March home care services \u2014 Rosa Gutierrez, M-F 8 AM-4 PM",
+          "Id": "66"
+        }
+      ],
+      "SyncToken": "0"
+    }
+  ],
+  "payroll": [
+    {
+      "id": "PAY-5001",
+      "pay_period_start": "2025-09-22",
+      "pay_period_end": "2025-10-05",
+      "pay_date": "2025-10-03",
+      "status": "Processed",
+      "total_gross": 18600.0,
+      "total_taxes_withheld": 3906.0,
+      "total_employer_taxes": 1422.9,
+      "total_net": 14694.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. Standard fall volume."
+    },
+    {
+      "id": "PAY-5002",
+      "pay_period_start": "2025-10-06",
+      "pay_period_end": "2025-10-19",
+      "pay_date": "2025-10-17",
+      "status": "Processed",
+      "total_gross": 18700.0,
+      "total_taxes_withheld": 3927.0,
+      "total_employer_taxes": 1430.55,
+      "total_net": 14773.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll."
+    },
+    {
+      "id": "PAY-5003",
+      "pay_period_start": "2025-10-20",
+      "pay_period_end": "2025-11-02",
+      "pay_date": "2025-10-31",
+      "status": "Processed",
+      "total_gross": 18800.0,
+      "total_taxes_withheld": 3948.0,
+      "total_employer_taxes": 1438.2,
+      "total_net": 14852.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll."
+    },
+    {
+      "id": "PAY-5004",
+      "pay_period_start": "2025-11-03",
+      "pay_period_end": "2025-11-16",
+      "pay_date": "2025-11-14",
+      "status": "Processed",
+      "total_gross": 19100.0,
+      "total_taxes_withheld": 4011.0,
+      "total_employer_taxes": 1461.15,
+      "total_net": 15089.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. Holiday party season begins \u2014 extra hours for servers."
+    },
+    {
+      "id": "PAY-5005",
+      "pay_period_start": "2025-11-17",
+      "pay_period_end": "2025-11-30",
+      "pay_date": "2025-11-28",
+      "status": "Processed",
+      "total_gross": 19500.0,
+      "total_taxes_withheld": 4095.0,
+      "total_employer_taxes": 1491.75,
+      "total_net": 15405.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. Thanksgiving week OT for 4 staff."
+    },
+    {
+      "id": "PAY-5006",
+      "pay_period_start": "2025-12-01",
+      "pay_period_end": "2025-12-14",
+      "pay_date": "2025-12-12",
+      "status": "Processed",
+      "total_gross": 19400.0,
+      "total_taxes_withheld": 4074.0,
+      "total_employer_taxes": 1484.1,
+      "total_net": 15326.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. Peak holiday party season."
+    },
+    {
+      "id": "PAY-5007",
+      "pay_period_start": "2025-12-15",
+      "pay_period_end": "2025-12-28",
+      "pay_date": "2025-12-26",
+      "status": "Processed",
+      "total_gross": 19300.0,
+      "total_taxes_withheld": 4053.0,
+      "total_employer_taxes": 1476.45,
+      "total_net": 15247.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. Christmas week \u2014 closed Dec 25, reduced hours."
+    },
+    {
+      "id": "PAY-5008",
+      "pay_period_start": "2025-12-29",
+      "pay_period_end": "2026-01-11",
+      "pay_date": "2026-01-09",
+      "status": "Processed",
+      "total_gross": 18500.0,
+      "total_taxes_withheld": 3885.0,
+      "total_employer_taxes": 1415.25,
+      "total_net": 14615.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. NYE OT offset by post-holiday slowdown."
+    },
+    {
+      "id": "PAY-5009",
+      "pay_period_start": "2026-01-12",
+      "pay_period_end": "2026-01-25",
+      "pay_date": "2026-01-23",
+      "status": "Processed",
+      "total_gross": 18600.0,
+      "total_taxes_withheld": 3906.0,
+      "total_employer_taxes": 1422.9,
+      "total_net": 14694.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. January slowdown."
+    },
+    {
+      "id": "PAY-5010",
+      "pay_period_start": "2026-01-26",
+      "pay_period_end": "2026-02-08",
+      "pay_date": "2026-02-06",
+      "status": "Processed",
+      "total_gross": 18600.0,
+      "total_taxes_withheld": 3906.0,
+      "total_employer_taxes": 1422.9,
+      "total_net": 14694.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll."
+    },
+    {
+      "id": "PAY-5011",
+      "pay_period_start": "2026-02-09",
+      "pay_period_end": "2026-02-22",
+      "pay_date": "2026-02-20",
+      "status": "Processed",
+      "total_gross": 19400.0,
+      "total_taxes_withheld": 4074.0,
+      "total_employer_taxes": 1484.1,
+      "total_net": 15326.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. Valentine's weekend OT for 6 staff."
+    },
+    {
+      "id": "PAY-5012",
+      "pay_period_start": "2026-02-23",
+      "pay_period_end": "2026-03-08",
+      "pay_date": "2026-03-06",
+      "status": "Processed",
+      "total_gross": 18800.0,
+      "total_taxes_withheld": 3948.0,
+      "total_employer_taxes": 1438.2,
+      "total_net": 14852.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. Lenten fish fry adds 2 hrs OT for Tony."
+    },
+    {
+      "id": "PAY-5013",
+      "pay_period_start": "2026-03-09",
+      "pay_period_end": "2026-03-22",
+      "pay_date": "2026-03-20",
+      "status": "Processed",
+      "total_gross": 19200.0,
+      "total_taxes_withheld": 4032.0,
+      "total_employer_taxes": 1468.8,
+      "total_net": 15168.0,
+      "employee_count": 25,
+      "memo": "Biweekly payroll. Fish fry + quincea\u00f1era prep OT."
+    }
+  ],
+  "items": []
+}

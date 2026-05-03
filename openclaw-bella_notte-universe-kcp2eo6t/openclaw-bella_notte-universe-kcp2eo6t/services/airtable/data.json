@@ -1,0 +1,5191 @@
+{
+  "bases": [
+    {
+      "id": "app5a028465def9f5",
+      "name": "Bella Notte Operations"
+    }
+  ],
+  "tables": [
+    {
+      "id": "tblac723cae9a0323",
+      "base_id": "app5a028465def9f5",
+      "name": "Staff Schedule",
+      "description": "",
+      "fields": [
+        {
+          "id": "fld260c6a7268e052",
+          "name": "employee_name",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld72b2ab5d64c1f3",
+          "name": "role",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld4f06e9cda61acc",
+          "name": "shift_date",
+          "type": "date"
+        },
+        {
+          "id": "flda7d7175116f11d",
+          "name": "shift_start",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldef00ee359b9c84",
+          "name": "shift_end",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldf6229a3e8ab7d3",
+          "name": "station",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld9c483b095d53a6",
+          "name": "notes",
+          "type": "multilineText"
+        }
+      ],
+      "views": [
+        {
+          "id": "viw55223058d7eb73",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tbla0aa96fd8e5664",
+      "base_id": "app5a028465def9f5",
+      "name": "Register Close-Out Log",
+      "description": "",
+      "fields": [
+        {
+          "id": "flda1d47e4584325e",
+          "name": "date",
+          "type": "date"
+        },
+        {
+          "id": "fld30eee2424208a4",
+          "name": "day_of_week",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldaaafb409c496d7",
+          "name": "shift_lead_closing",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld6c894cbbf1e813",
+          "name": "expected_amount",
+          "type": "currency"
+        },
+        {
+          "id": "flde39f37369c369d",
+          "name": "actual_amount",
+          "type": "currency"
+        },
+        {
+          "id": "fld0e98d1c45b7e5e",
+          "name": "discrepancy",
+          "type": "currency"
+        },
+        {
+          "id": "fld15f282d273b7c6",
+          "name": "tip_total",
+          "type": "currency"
+        },
+        {
+          "id": "fld75d1655cd6e804",
+          "name": "notes",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld13b1fea2396c04",
+          "name": "status",
+          "type": "singleSelect"
+        }
+      ],
+      "views": [
+        {
+          "id": "viwe642260ed432a9",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tbl0a8b6dca473705",
+      "base_id": "app5a028465def9f5",
+      "name": "Temperature Log",
+      "description": "",
+      "fields": [
+        {
+          "id": "flddb022dd7647ca8",
+          "name": "date",
+          "type": "date"
+        },
+        {
+          "id": "fld94a1d918ecfe86",
+          "name": "time",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld131eedf28ceb73",
+          "name": "walk_in_temp_f",
+          "type": "number"
+        },
+        {
+          "id": "fldb9431f8b32c4b9",
+          "name": "freezer_temp_f",
+          "type": "number"
+        },
+        {
+          "id": "fld41d59056c5a27b",
+          "name": "recorded_by",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldb19c2d68b9ae6d",
+          "name": "notes",
+          "type": "multilineText"
+        }
+      ],
+      "views": [
+        {
+          "id": "viw74e09f4d0414e3",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    },
+    {
+      "id": "tbl7f110d31832f4c",
+      "base_id": "app5a028465def9f5",
+      "name": "Catering Event Tracker",
+      "description": "",
+      "fields": [
+        {
+          "id": "fldea1a14fba12b49",
+          "name": "client",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fldde1c04936bcd49",
+          "name": "event_type",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld569d0d4652573a",
+          "name": "date",
+          "type": "singleLineText"
+        },
+        {
+          "id": "fld835000fb1b87c8",
+          "name": "guest_count",
+          "type": "number"
+        },
+        {
+          "id": "fldf75b16a1a965ec",
+          "name": "deposit_amount",
+          "type": "currency"
+        },
+        {
+          "id": "fld8b0bf99b060064",
+          "name": "deposit_status",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fld2ffd4c061cdd7d",
+          "name": "menu_status",
+          "type": "singleSelect"
+        },
+        {
+          "id": "fldf0a1420b4713d8",
+          "name": "vendor_orders_placed",
+          "type": "checkbox"
+        },
+        {
+          "id": "fld4e21cce2586534",
+          "name": "special_requirements",
+          "type": "multilineText"
+        },
+        {
+          "id": "fld86fb73eb003457",
+          "name": "notes",
+          "type": "multilineText"
+        }
+      ],
+      "views": [
+        {
+          "id": "viw09bada43b9aab8",
+          "name": "Grid view",
+          "type": "grid"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "rec99f11338a3fea5",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-10-07",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reccc76e827b3f708",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-10-07",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec4ca33a5c273436",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2025-10-07",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec430192212ee729",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2025-10-07",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recbe88c7921385c3",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2025-10-08",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec24898a24e2cf11",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-10-08",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec76c22da5fbd11a",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Luis Ochoa",
+        "role": "Line Cook",
+        "shift_date": "2025-10-08",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Kitchen — Sauté",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec05532351c5e255",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-10-09",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recbe90f5c08ea04d",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2025-10-09",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Host Stand",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1cab735fc8acc0",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-10-09",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec415479b6ffd0e4",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ricky Tran",
+        "role": "Dishwasher / Prep",
+        "shift_date": "2025-10-09",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Dish Pit",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc3bb680ebff0b6",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-10-10",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec0ae0e4773128b0",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-10-10",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec194d46aafa7889",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2025-10-10",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec21fed2574b0310",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2025-10-10",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Dining Room — Sections 1-3",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "receffdd4277eb731",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-10-11",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc5d9be011ee786",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2025-10-11",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reca1e788f56fdc86",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ryan Engel",
+        "role": "Bartender",
+        "shift_date": "2025-10-11",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec43dd58fadec259",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ricky Tran",
+        "role": "Dishwasher / Prep",
+        "shift_date": "2025-10-11",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Dish Pit",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recfdc4adf402934e",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2025-10-12",
+        "shift_start": "16:00",
+        "shift_end": "21:30",
+        "station": "Floor / Register",
+        "notes": "Closing lead. Victor off PM."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1eb86cd52c7a54",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2025-10-12",
+        "shift_start": "10:00",
+        "shift_end": "21:30",
+        "station": "Kitchen",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec089711686265a2",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2025-10-12",
+        "shift_start": "10:30",
+        "shift_end": "16:00",
+        "station": "Dining Room — Sections 1-4",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec7142fcc8426040",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-11-04",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec46fc0768778974",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-11-04",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recaf7543b9da338a",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2025-11-04",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec4b954a3d5a55be",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Luis Ochoa",
+        "role": "Line Cook",
+        "shift_date": "2025-11-04",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Kitchen — Sauté",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6b6496f423c094",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-11-05",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf453ab77e482d4",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2025-11-05",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec662134785fdcdd",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2025-11-05",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9de62e6152a95f",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-11-06",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec13af7b35ae7400",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-11-06",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec94e9c8abb26f40",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2025-11-06",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Host Stand",
+        "notes": "Double-checked weekend reservations."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec4a3289afd795ba",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ricky Tran",
+        "role": "Dishwasher / Prep",
+        "shift_date": "2025-11-06",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Dish Pit",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec29622afa3a4668",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-11-07",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rece5975ead1cc8f2",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-11-07",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9032ecad1d9212",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2025-11-07",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": "Holiday cocktail menu testing."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1f65ffd4d815d9",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2025-11-07",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close. New special: braised short rib."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec4e87339ce35e7b",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-11-08",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8ac2d9555fc4ce",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ryan Engel",
+        "role": "Bartender",
+        "shift_date": "2025-11-08",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec99b159bc2b8cf4",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2025-11-08",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec882f36fed43118",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Luis Ochoa",
+        "role": "Line Cook",
+        "shift_date": "2025-11-08",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Kitchen — Grill",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec609e2b2631f364",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2025-11-09",
+        "shift_start": "16:00",
+        "shift_end": "21:30",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6e6742c1446cf3",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-11-09",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Floor / Office",
+        "notes": "AM only. Off for evening."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec429506d05624e8",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2025-11-07",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Dining Room — Sections 1-3",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recd5a80821e6b89c",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2025-11-09",
+        "shift_start": "10:30",
+        "shift_end": "16:00",
+        "station": "Dining Room — Sections 1-4",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec2be5ca07ee15b5",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-12-09",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc48bac73d18eae",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-12-09",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc74d3ec6154d60",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2025-12-09",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec5c0658e44d1076",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2025-12-09",
+        "shift_start": "10:00",
+        "shift_end": "19:00",
+        "station": "Kitchen",
+        "notes": "Prepping holiday party menus."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc1995f5a541aed",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-12-10",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec18fec2d41ff030",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2025-12-10",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Bar",
+        "notes": "Holiday cocktail menu launch."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec35cd468cc6c62a",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Luis Ochoa",
+        "role": "Line Cook",
+        "shift_date": "2025-12-10",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Kitchen — Sauté",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc475d81363c5f9",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-12-11",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec7e49c99e56f177",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-12-11",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recbc21157c2bb1bc",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2025-12-11",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Host Stand",
+        "notes": "Corporate party inquiries — 3 walk-ins today."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recd1e3cd0585b6ce",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ricky Tran",
+        "role": "Dishwasher / Prep",
+        "shift_date": "2025-12-11",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Dish Pit",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb441fae7966b08",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2025-12-12",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec75acae54d1df39",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-12-12",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead. Holiday party of 30 in private dining."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recef7a577dbd4953",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2025-12-12",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close. Private party plated dinner service."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec94d9c752a503e4",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2025-12-12",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb046683f8cf58d",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2025-12-13",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf05041ce550555",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2025-12-13",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9e9ecc5c252f8c",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ryan Engel",
+        "role": "Bartender",
+        "shift_date": "2025-12-13",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1224a7644d2795",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2025-12-13",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec3dfb46e4520882",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ricky Tran",
+        "role": "Dishwasher / Prep",
+        "shift_date": "2025-12-13",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Dish Pit",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec5dbb9459933a15",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2025-12-14",
+        "shift_start": "16:00",
+        "shift_end": "21:30",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1bbead9c22133d",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2025-12-12",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Dining Room — Sections 1-3",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec04125fec48e73e",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2025-12-14",
+        "shift_start": "10:30",
+        "shift_end": "16:00",
+        "station": "Dining Room — Sections 1-4",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec05b48d1157f2be",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Luis Ochoa",
+        "role": "Line Cook",
+        "shift_date": "2025-12-14",
+        "shift_start": "16:00",
+        "shift_end": "21:30",
+        "station": "Kitchen — Sauté",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec95e728ffc9d173",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-01-06",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": "Post-holiday reset. New Year specials wrap up."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1ce63b685e482a",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-01-06",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rece0fea050f4dd51",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2026-01-06",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb1317f93995e65",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-01-06",
+        "shift_start": "10:00",
+        "shift_end": "19:00",
+        "station": "Kitchen",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec991f799dc3679e",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-01-07",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec74a3408c49a55e",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2026-01-07",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec81fea6a3b8437a",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Luis Ochoa",
+        "role": "Line Cook",
+        "shift_date": "2026-01-07",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Kitchen — Sauté",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf65cb41602844d",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-01-08",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recd44221a7efcb67",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-01-08",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec73502aa0cbde83",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2026-01-08",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Host Stand",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb7b1709427e475",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ricky Tran",
+        "role": "Dishwasher / Prep",
+        "shift_date": "2026-01-08",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Dish Pit",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec7b07b48a85c421",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-01-09",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8e6564a10bd0a4",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-01-09",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb4d5be20b2777b",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-01-09",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec772f102a006bdd",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2026-01-09",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec0b2e243b32899e",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-01-10",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec308e145147eae3",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-01-10",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec3ec8b44524ced7",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ryan Engel",
+        "role": "Bartender",
+        "shift_date": "2026-01-10",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec47c9678563e6d4",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Luis Ochoa",
+        "role": "Line Cook",
+        "shift_date": "2026-01-10",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Kitchen — Grill",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec5e37538338c3e6",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2026-01-11",
+        "shift_start": "16:00",
+        "shift_end": "21:30",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec7e4e2762498def",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2026-01-11",
+        "shift_start": "10:30",
+        "shift_end": "16:00",
+        "station": "Dining Room — Sections 1-4",
+        "notes": "Moved to AM-only per scheduling accommodation request."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb34cd0c31cea9b",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2026-01-11",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec206e937d60e7a0",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-02-10",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb44a2695d039cc",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-02-10",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recbfb59b1b0e5261",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2026-02-10",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec927f65f105cfa3",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-02-10",
+        "shift_start": "10:00",
+        "shift_end": "19:00",
+        "station": "Kitchen",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recab2922454774b0",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-02-11",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec459f0306135523",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2026-02-11",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec35a6754fbf4061",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Luis Ochoa",
+        "role": "Line Cook",
+        "shift_date": "2026-02-11",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Kitchen — Sauté",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf3c9a00182442d",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-02-12",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb35b7143c4c7d1",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-02-12",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb438aadb6f8e32",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2026-02-12",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Host Stand",
+        "notes": "Valentine's reservations — fully booked through Saturday."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reca3b7f0ca4eed42",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ricky Tran",
+        "role": "Dishwasher / Prep",
+        "shift_date": "2026-02-12",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Dish Pit",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec21ecaf3da909d9",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-02-13",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recea00442ed0123f",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-02-13",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1974ac92f11057",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-02-13",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close. Valentine's Eve — special tasting menu prep."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec50263f4622d812",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2026-02-13",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": "Champagne specials for Valentine's weekend."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec48d4b146984964",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-02-14",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Floor / Office",
+        "notes": "Valentine's Day. All hands on deck."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf4106a84de4099",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-02-14",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead. Valentine's Day — expect highest revenue night."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec09a02a2c03b053",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-02-14",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec66fc95390bf895",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ryan Engel",
+        "role": "Bartender",
+        "shift_date": "2026-02-14",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reccbf8f7602a6139",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ricky Tran",
+        "role": "Dishwasher / Prep",
+        "shift_date": "2026-02-14",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Dish Pit",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec0286a22a8d1923",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2026-02-15",
+        "shift_start": "16:00",
+        "shift_end": "21:30",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recd3ed17e23a849f",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2026-02-15",
+        "shift_start": "10:30",
+        "shift_end": "16:00",
+        "station": "Dining Room — Sections 1-4",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9b5528b46cbb0c",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2026-02-15",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1c14bf01792f6f",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-03-17",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb5a75fad6b0e54",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-03-17",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec20d43f0af10160",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-03-17",
+        "shift_start": "10:00",
+        "shift_end": "18:00",
+        "station": "Kitchen",
+        "notes": "Lunch prep and dinner line lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc01e3db588b0d0",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2026-03-17",
+        "shift_start": "10:30",
+        "shift_end": "18:00",
+        "station": "Host Stand",
+        "notes": "Confirm large-party reservations for the week."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recd7cea830473c38",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-03-18",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec53e3d0804e8936",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2026-03-18",
+        "shift_start": "10:30",
+        "shift_end": "18:00",
+        "station": "Dining Room — Sections 1-3",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf88618fec4108a",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Luis Ochoa",
+        "role": "Line Cook",
+        "shift_date": "2026-03-18",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Kitchen — Sauté",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb8daf638d4b514",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-03-19",
+        "shift_start": "10:00",
+        "shift_end": "23:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc5c0c29fe96d21",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-03-19",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc96f3f65f41d70",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ryan Engel",
+        "role": "Bartender",
+        "shift_date": "2026-03-19",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Bar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9020a4473ebb63",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ricky Tran",
+        "role": "Dishwasher / Prep",
+        "shift_date": "2026-03-19",
+        "shift_start": "16:00",
+        "shift_end": "23:00",
+        "station": "Dish Pit",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec10cbc04d863e62",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-03-20",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6aca9ac866c442",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-03-20",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead. Fish fry night — expect heavy cash volume."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recdc4b0a4f4a4215",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-03-20",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Kitchen",
+        "notes": "Kitchen close. Lenten fish fry prep — St. Boniface order."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec599d7b7a361d0c",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Maria Kowalski",
+        "role": "Head Bartender",
+        "shift_date": "2026-03-20",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Bar",
+        "notes": "Spring cocktail menu live tonight."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reca0cbb9a23c90bb",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Victor Reyes",
+        "role": "General Manager",
+        "shift_date": "2026-03-21",
+        "shift_start": "10:00",
+        "shift_end": "00:00",
+        "station": "Floor / Office",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recbb1fb1f718166c",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Carmen Diaz",
+        "role": "Shift Lead",
+        "shift_date": "2026-03-21",
+        "shift_start": "16:00",
+        "shift_end": "00:00",
+        "station": "Floor / Register",
+        "notes": "Closing lead. Alvarez quinceañera prep — private dining room."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec5150f2112eb75f",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-03-21",
+        "shift_start": "10:00",
+        "shift_end": "19:00",
+        "station": "Kitchen",
+        "notes": "Quinceañera staging and Saturday service."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec2483a7c2d7892c",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Ryan Engel",
+        "role": "Bartender",
+        "shift_date": "2026-03-21",
+        "shift_start": "11:00",
+        "shift_end": "18:00",
+        "station": "Bar",
+        "notes": "Day bar. Maria takes over PM."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec3b5590aea775fd",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Marco Villareal",
+        "role": "Line Cook",
+        "shift_date": "2026-03-21",
+        "shift_start": "10:00",
+        "shift_end": "16:00",
+        "station": "Kitchen — Pasta Station",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec44613e5896638e",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Daniela Perez",
+        "role": "FOH Manager",
+        "shift_date": "2026-03-22",
+        "shift_start": "10:30",
+        "shift_end": "21:30",
+        "station": "Host Stand / Floor / Register",
+        "notes": "Sunday service. Closing lead."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf08c8a22afc68e",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Jessica Hartmann",
+        "role": "Server",
+        "shift_date": "2026-03-22",
+        "shift_start": "10:30",
+        "shift_end": "17:00",
+        "station": "Dining Room — Sections 1-4",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rece56305b5bddb59",
+      "table_id": "tblac723cae9a0323",
+      "fields": {
+        "employee_name": "Tony Aguilar",
+        "role": "Sous Chef",
+        "shift_date": "2026-03-22",
+        "shift_start": "10:00",
+        "shift_end": "21:30",
+        "station": "Kitchen",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recfa65eac6224a3c",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-01",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4150.0,
+        "actual_amount": 4150.0,
+        "discrepancy": 0.0,
+        "tip_total": 945.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec5f1512e3e29284",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-03",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6200.0,
+        "actual_amount": 6200.0,
+        "discrepancy": 0.0,
+        "tip_total": 1650.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf11065c527df6b",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-05",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3550.0,
+        "actual_amount": 3550.0,
+        "discrepancy": 0.0,
+        "tip_total": 780.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recbc184d59b29cc7",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-07",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 3780.0,
+        "actual_amount": 3780.0,
+        "discrepancy": 0.0,
+        "tip_total": 870.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf133519807ac79",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-09",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4920.0,
+        "actual_amount": 4920.0,
+        "discrepancy": 0.0,
+        "tip_total": 1280.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec766d04484807ef",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-11",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6480.0,
+        "actual_amount": 6483.0,
+        "discrepancy": 3.0,
+        "tip_total": 1820.0,
+        "notes": "Over by $3 — rounding variance.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec331d883598b373",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-14",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 3890.0,
+        "actual_amount": 3890.0,
+        "discrepancy": 0.0,
+        "tip_total": 880.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recca8d4941e575bc",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-16",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5100.0,
+        "actual_amount": 5100.0,
+        "discrepancy": 0.0,
+        "tip_total": 1280.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf4e206f464a777",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-18",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6720.0,
+        "actual_amount": 6715.0,
+        "discrepancy": -5.0,
+        "tip_total": 1950.0,
+        "notes": "Short $5 — coin rounding. Within tolerance.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc6b31631c43c94",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-22",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 4250.0,
+        "actual_amount": 4250.0,
+        "discrepancy": 0.0,
+        "tip_total": 960.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec2581c2af9d1270",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-24",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6080.0,
+        "actual_amount": 6080.0,
+        "discrepancy": 0.0,
+        "tip_total": 1620.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec428e85d0ad81bb",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-26",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 3420.0,
+        "actual_amount": 3420.0,
+        "discrepancy": 0.0,
+        "tip_total": 720.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec41e37e0d2ed429",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-10-30",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5340.0,
+        "actual_amount": 5340.0,
+        "discrepancy": 0.0,
+        "tip_total": 1350.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec17b59bb9c4f06d",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-01",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6580.0,
+        "actual_amount": 6580.0,
+        "discrepancy": 0.0,
+        "tip_total": 1880.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf9f32ab1c77498",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-04",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 3920.0,
+        "actual_amount": 3922.0,
+        "discrepancy": 2.0,
+        "tip_total": 890.0,
+        "notes": "Over by $2.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec0185baef2458f3",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-06",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5180.0,
+        "actual_amount": 5180.0,
+        "discrepancy": 0.0,
+        "tip_total": 1310.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc05059bd8206ac",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-08",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6350.0,
+        "actual_amount": 6350.0,
+        "discrepancy": 0.0,
+        "tip_total": 1780.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec39506a2a0c977e",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-09",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3680.0,
+        "actual_amount": 3680.0,
+        "discrepancy": 0.0,
+        "tip_total": 810.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec4c6b5981744a30",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-12",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4420.0,
+        "actual_amount": 4420.0,
+        "discrepancy": 0.0,
+        "tip_total": 1040.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec848bd80e81fa37",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-14",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5900.0,
+        "actual_amount": 5904.0,
+        "discrepancy": 4.0,
+        "tip_total": 1700.0,
+        "notes": "Over by $4.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec19280b1235df49",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-16",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 3380.0,
+        "actual_amount": 3380.0,
+        "discrepancy": 0.0,
+        "tip_total": 740.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recdb49cd69bda498",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-20",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5250.0,
+        "actual_amount": 5250.0,
+        "discrepancy": 0.0,
+        "tip_total": 1320.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec4607dade60a9c9",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-22",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6810.0,
+        "actual_amount": 6810.0,
+        "discrepancy": 0.0,
+        "tip_total": 2010.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "receaa2ee26798ce6",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-25",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3750.0,
+        "actual_amount": 3750.0,
+        "discrepancy": 0.0,
+        "tip_total": 860.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec2e74bb71cb329f",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-27",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5480.0,
+        "actual_amount": 5480.0,
+        "discrepancy": 0.0,
+        "tip_total": 1450.0,
+        "notes": "Thanksgiving dinner special — prix fixe menu.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec14cf292b40cba7",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-11-29",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 6650.0,
+        "actual_amount": 6650.0,
+        "discrepancy": 0.0,
+        "tip_total": 1920.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8f01be350316d5",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-02",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4080.0,
+        "actual_amount": 4080.0,
+        "discrepancy": 0.0,
+        "tip_total": 920.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf062ff7489fa6e",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-04",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5150.0,
+        "actual_amount": 5150.0,
+        "discrepancy": 0.0,
+        "tip_total": 1300.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec689a67993364a4",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-06",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6720.0,
+        "actual_amount": 6720.0,
+        "discrepancy": 0.0,
+        "tip_total": 1890.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc27d6e66d578e4",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-07",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3510.0,
+        "actual_amount": 3510.0,
+        "discrepancy": 0.0,
+        "tip_total": 760.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8624920dc7542d",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-10",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4380.0,
+        "actual_amount": 4380.0,
+        "discrepancy": 0.0,
+        "tip_total": 1010.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec34fcdcb6819056",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-12",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6450.0,
+        "actual_amount": 6450.0,
+        "discrepancy": 0.0,
+        "tip_total": 1750.0,
+        "notes": "Holiday party of 30 in private dining.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc3baeeace8bdd8",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-13",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6900.0,
+        "actual_amount": 6903.0,
+        "discrepancy": 3.0,
+        "tip_total": 2050.0,
+        "notes": "Over by $3.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recbd8900fbd7b94b",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-14",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3620.0,
+        "actual_amount": 3620.0,
+        "discrepancy": 0.0,
+        "tip_total": 790.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec26fdd7ebeb5490",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-18",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5380.0,
+        "actual_amount": 5380.0,
+        "discrepancy": 0.0,
+        "tip_total": 1380.0,
+        "notes": "Holiday season. Strong bookings all week.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recea928272c93f55",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-20",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 6980.0,
+        "actual_amount": 6980.0,
+        "discrepancy": 0.0,
+        "tip_total": 2110.0,
+        "notes": "Peak holiday Saturday. Highest revenue night of December.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc3a26769f4ce18",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-24",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4680.0,
+        "actual_amount": 4680.0,
+        "discrepancy": 0.0,
+        "tip_total": 1180.0,
+        "notes": "Christmas Eve early seating. Closed at 9 PM.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec2a7d6d6d6ec267",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-26",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 5820.0,
+        "actual_amount": 5820.0,
+        "discrepancy": 0.0,
+        "tip_total": 1540.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb1d6f7af26d85d",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-28",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 3440.0,
+        "actual_amount": 3440.0,
+        "discrepancy": 0.0,
+        "tip_total": 730.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec67c65df10ef419",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2025-12-31",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5200.0,
+        "actual_amount": 5200.0,
+        "discrepancy": 0.0,
+        "tip_total": 1580.0,
+        "notes": "New Year's Eve prix fixe dinner. Full house.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec98d8cdb0d4545b",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-02",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5720.0,
+        "actual_amount": 5720.0,
+        "discrepancy": 0.0,
+        "tip_total": 1530.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec0766f6843c5bab",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-03",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6380.0,
+        "actual_amount": 6380.0,
+        "discrepancy": 0.0,
+        "tip_total": 1810.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec2eae75043b6783",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-04",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3350.0,
+        "actual_amount": 3350.0,
+        "discrepancy": 0.0,
+        "tip_total": 710.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec51ccf480591fc7",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-06",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 3680.0,
+        "actual_amount": 3680.0,
+        "discrepancy": 0.0,
+        "tip_total": 830.0,
+        "notes": "Slow post-holiday Tuesday.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec43e836c5761648",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-08",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4280.0,
+        "actual_amount": 4100.0,
+        "discrepancy": -180.0,
+        "tip_total": 1120.0,
+        "notes": "Drawer short $180. Carmen said large party paid cash and she may have given incorrect change. Checked receipts — party total was $347, paid with $400, correct change would be $53. Doesn't account for full shortage.",
+        "status": "investigated"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec87799f6d98b963",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-10",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6520.0,
+        "actual_amount": 6520.0,
+        "discrepancy": 0.0,
+        "tip_total": 1870.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8bb28323cf4286",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-11",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3280.0,
+        "actual_amount": 3280.0,
+        "discrepancy": 0.0,
+        "tip_total": 690.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec0e1c57b5521535",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-14",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 4180.0,
+        "actual_amount": 4180.0,
+        "discrepancy": 0.0,
+        "tip_total": 960.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recca96eacc6525f6",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-16",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5880.0,
+        "actual_amount": 5880.0,
+        "discrepancy": 0.0,
+        "tip_total": 1560.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1fee27c6d56292",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-18",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 3640.0,
+        "actual_amount": 3300.0,
+        "discrepancy": -340.0,
+        "tip_total": 780.0,
+        "notes": "Largest shortage yet. Carmen attributed to a voided transaction on table 12. Checked void log — void was $42 comp for undercooked steak, not $340. No other voids on record for this shift. Sunday night, lower foot traffic than usual. Carmen was covering Daniela's usual Sunday close.",
+        "status": "investigated"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9b7cbfaba80a74",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-22",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 5050.0,
+        "actual_amount": 5050.0,
+        "discrepancy": 0.0,
+        "tip_total": 1270.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec4a5396c0dcdc60",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-24",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6750.0,
+        "actual_amount": 6750.0,
+        "discrepancy": 0.0,
+        "tip_total": 1950.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc5c6d60025d57c",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-28",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 4180.0,
+        "actual_amount": 4180.0,
+        "discrepancy": 0.0,
+        "tip_total": 970.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec91bd861074cdef",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-01-30",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5680.0,
+        "actual_amount": 5400.0,
+        "discrepancy": -280.0,
+        "tip_total": 1490.0,
+        "notes": "Friday close. Carmen said new server (Sofia) may have miscounted change on a cash table. Spoke with Sofia — she only had 2 cash tables totaling $89, all reconciled on her server report. Shortage unaccounted for.",
+        "status": "investigated"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "receb17e8b7ac05bf",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-03",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 3820.0,
+        "actual_amount": 3820.0,
+        "discrepancy": 0.0,
+        "tip_total": 850.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec775b0292b0ddc5",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-05",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4980.0,
+        "actual_amount": 4980.0,
+        "discrepancy": 0.0,
+        "tip_total": 1250.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec2a473b55f67cc5",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-06",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 5780.0,
+        "actual_amount": 5780.0,
+        "discrepancy": 0.0,
+        "tip_total": 1520.0,
+        "notes": "Carmen off — Daniela covered Friday close.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec38363d054ad519",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-07",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6220.0,
+        "actual_amount": 5800.0,
+        "discrepancy": -420.0,
+        "tip_total": 1760.0,
+        "notes": "Saturday night — busiest shift of the week. $420 short. Carmen had no explanation other than 'crazy night.' Reviewed camera footage: camera angle doesn't cover register drawer clearly. Need to request better angle from security vendor.",
+        "status": "investigated"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec2dfc5919372924",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-10",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 3650.0,
+        "actual_amount": 3650.0,
+        "discrepancy": 0.0,
+        "tip_total": 820.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec72d83e32d2b9d9",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-12",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5320.0,
+        "actual_amount": 5320.0,
+        "discrepancy": 0.0,
+        "tip_total": 1340.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf2f61ab2edd89a",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-14",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6950.0,
+        "actual_amount": 6950.0,
+        "discrepancy": 0.0,
+        "tip_total": 2180.0,
+        "notes": "Valentine's Day. Record revenue night. All reconciled perfectly.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6ed593daefbb08",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-15",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3580.0,
+        "actual_amount": 3580.0,
+        "discrepancy": 0.0,
+        "tip_total": 810.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recaf1adfdb2cecb3",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-18",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4280.0,
+        "actual_amount": 4280.0,
+        "discrepancy": 0.0,
+        "tip_total": 980.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec0e34ae78b2c3c1",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-19",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 3950.0,
+        "actual_amount": 3800.0,
+        "discrepancy": -150.0,
+        "tip_total": 1080.0,
+        "notes": "Smaller shortage — Thursday, slower night. Carmen mentioned she had to break a $100 bill for a customer's take-out order. Register tape shows the transaction but drawer count is still off. Pattern is consistent: only short on Carmen's closes.",
+        "status": "investigated"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec90e559141b3954",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-22",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 3410.0,
+        "actual_amount": 3410.0,
+        "discrepancy": 0.0,
+        "tip_total": 720.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6c9cf72bb11e7c",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-26",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 4870.0,
+        "actual_amount": 4870.0,
+        "discrepancy": 0.0,
+        "tip_total": 1210.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec64c23fe106315d",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-02-28",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5810.0,
+        "actual_amount": 5500.0,
+        "discrepancy": -310.0,
+        "tip_total": 1640.0,
+        "notes": "Saturday again. I counted the drawer myself at 3 PM shift change — was accurate to the penny at that point. Shortage occurred between 3 PM and close. Only Carmen had register access after 9 PM when last server clocked out.",
+        "status": "investigated"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8223f7ad8f03df",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-01",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3480.0,
+        "actual_amount": 3480.0,
+        "discrepancy": 0.0,
+        "tip_total": 750.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec57ddff4fd9ae84",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-03",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 3920.0,
+        "actual_amount": 3920.0,
+        "discrepancy": 0.0,
+        "tip_total": 880.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reca4c2f95d1e3d05",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-05",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5080.0,
+        "actual_amount": 5080.0,
+        "discrepancy": 0.0,
+        "tip_total": 1290.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec133cd2a99e0c34",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-06",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6150.0,
+        "actual_amount": 6150.0,
+        "discrepancy": 0.0,
+        "tip_total": 1680.0,
+        "notes": "Lenten fish fry — strong cash night. All reconciled.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recdf94cf05566e79",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-07",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 6090.0,
+        "actual_amount": 5800.0,
+        "discrepancy": -290.0,
+        "tip_total": 1730.0,
+        "notes": "Running total now $2,000+. Cross-referenced every shift where Tony or Daniela closed instead of Carmen (6 shifts since Jan 1) — all reconciled perfectly. The pattern is undeniable. Need to talk to Sandra before next step.",
+        "status": "flagged"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec208ee0cfcb2eb0",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-08",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 3380.0,
+        "actual_amount": 3380.0,
+        "discrepancy": 0.0,
+        "tip_total": 710.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recedc273751dc0f2",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-10",
+        "day_of_week": "Tuesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 3750.0,
+        "actual_amount": 3750.0,
+        "discrepancy": 0.0,
+        "tip_total": 840.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec75ed9d8f3b38ba",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-12",
+        "day_of_week": "Thursday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 4920.0,
+        "actual_amount": 4920.0,
+        "discrepancy": 0.0,
+        "tip_total": 1230.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6a5beef39afd53",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-13",
+        "day_of_week": "Friday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5980.0,
+        "actual_amount": 5980.0,
+        "discrepancy": 0.0,
+        "tip_total": 1590.0,
+        "notes": "Fish fry night. All reconciled.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf2b2cb85b856c7",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-14",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 5930.0,
+        "actual_amount": 5500.0,
+        "discrepancy": -430.0,
+        "tip_total": 1680.0,
+        "notes": "Largest single shortage. $2,400 total across 8 incidents, all on Carmen's closes. Documentation is thorough. Contacted Sandra — meeting scheduled next week. Cannot act until caregiving replacement for Mom's evenings is identified. This is the constraint.",
+        "status": "flagged"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec836706dfa5cfff",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-18",
+        "day_of_week": "Wednesday",
+        "shift_lead_closing": "Carmen Diaz",
+        "expected_amount": 4350.0,
+        "actual_amount": 4350.0,
+        "discrepancy": 0.0,
+        "tip_total": 990.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf48dbfe68da255",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-21",
+        "day_of_week": "Saturday",
+        "shift_lead_closing": "Victor Reyes",
+        "expected_amount": 6580.0,
+        "actual_amount": 6580.0,
+        "discrepancy": 0.0,
+        "tip_total": 1920.0,
+        "notes": "Quinceañera prep night. Strong revenue.",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec5f2294fb85d9f4",
+      "table_id": "tbla0aa96fd8e5664",
+      "fields": {
+        "date": "2026-03-22",
+        "day_of_week": "Sunday",
+        "shift_lead_closing": "Daniela Perez",
+        "expected_amount": 3520.0,
+        "actual_amount": 3520.0,
+        "discrepancy": 0.0,
+        "tip_total": 770.0,
+        "notes": "",
+        "status": "reconciled"
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recce7deecadd0cc9",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-01",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf1c8495a9f71aa",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-02",
+        "time": "09:45",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec84ff7a55a23070",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-04",
+        "time": "09:15",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec18406b86c62ba2",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-05",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6cdbdacb504089",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-07",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -4,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec269ffd7a90aad6",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-08",
+        "time": "09:45",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recbdedb7623b02cc",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-10",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec4d45b94f19b0f7",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-11",
+        "time": "09:15",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recd8777ea5abc229",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-12",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec675bc36881cd35",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-15",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8f0e541cfeb21c",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-17",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec23121dad96dc26",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-18",
+        "time": "09:45",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec86d14044574bea",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-21",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reca4230b4fddbd41",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-23",
+        "time": "09:15",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec3bf3824616b21e",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-25",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -4,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec05cbbecb040488",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-28",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec3c8d5df31644a5",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-10-30",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9ca28ea1398713",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-01",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9654b0bbbef6e5",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-04",
+        "time": "09:45",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec44e60f29c8f5c2",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-05",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec368e65027aad13",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-07",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb2c92f48256dda",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-08",
+        "time": "09:15",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -3,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8902f05dad3289",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-09",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reca7bb11a443f0cb",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-12",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec626a8d1c024da3",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-14",
+        "time": "09:45",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec676f30262babf3",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-15",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -4,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recaab02e3717de38",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-18",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9085131541d9d1",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-20",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rece75a91c1d7e299",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-22",
+        "time": "09:15",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recd3699fdbdfc09e",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-25",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9c9cf2f170ce3f",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-27",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6844406507280d",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-28",
+        "time": "09:30",
+        "walk_in_temp_f": 39.5,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": "Walk-in slightly elevated. Heavy delivery day — door opened frequently during Thanksgiving week restock."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recdacf963baaf5a7",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-28",
+        "time": "17:00",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -2,
+        "recorded_by": "Luis Ochoa",
+        "notes": "Checked PM — walk-in came back down."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec65022ec424e1ac",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-11-29",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec740d0c294f8cdb",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-02",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rece1984fcf52ea63",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-04",
+        "time": "09:45",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recd8e8f506c2e56e",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-06",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -4,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf51bdd5a024cd2",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-07",
+        "time": "09:15",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reca7fa1f048de8b1",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-09",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec737f8bf5ac67cd",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-11",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec1016ee643b3463",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-12",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec21beb0d58c7fd2",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-13",
+        "time": "09:45",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6d4c2a18e0f151",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-16",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc25967ec703f07",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-18",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8cd0a41d3b51f1",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-20",
+        "time": "09:15",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recacc385b8cbe141",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-21",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec67c7e08e9e3040",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-24",
+        "time": "09:30",
+        "walk_in_temp_f": 39,
+        "freezer_temp_f": 0,
+        "recorded_by": "Tony Aguilar",
+        "notes": "Walk-in slightly warm. Holiday prep overloading walk-in — reorganized shelving."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6c65dfe1b39a36",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-24",
+        "time": "16:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": "Walk-in stabilized after reorganization."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recccc51416b959bb",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-26",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec0777258dfa1a4b",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-28",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec5697f0c6d34eec",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2025-12-31",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb5aa977849ce80",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-02",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec264d6d193bdb66",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-03",
+        "time": "09:15",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -4,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec7c4252772a70ea",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-06",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec46db48904225e8",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-08",
+        "time": "09:45",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec9bed1ca69e366a",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-09",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reccb87173dec6064",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-11",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec60e9c47e4ce3f9",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-14",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recdbd6f4f8dafdb3",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-16",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec5eaae2359222e5",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-18",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec27ac82f237095a",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-21",
+        "time": "09:45",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec469a071cf11111",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-23",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec544fc5bfc40413",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-24",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec47a770df773a67",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-27",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -4,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recf6c794975dee60",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-29",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec733e6cca81961d",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-30",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec944ce80847ab1f",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-01-31",
+        "time": "09:15",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec212f43060f10f4",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-03",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recd5d6662081b45d",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-05",
+        "time": "09:45",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec94203d32f6bfd6",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-07",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec461928aa475914",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-08",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc27eea225ed66f",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-10",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8f0e660892d0e6",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-12",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec793af776b1b01a",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-13",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec7418a4715b902e",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-14",
+        "time": "09:15",
+        "walk_in_temp_f": 39,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": "Walk-in slightly warm — Valentine's Day prep filling capacity."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec48da2cac3dad28",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-14",
+        "time": "17:00",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -2,
+        "recorded_by": "Luis Ochoa",
+        "notes": "PM check — walk-in stabilized after dinner service prep moved to stations."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec414fbc76b73f20",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-18",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec7591a36570a7fb",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-20",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec87d992b96a8677",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-21",
+        "time": "09:45",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec082089428d9845",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-24",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recac8bbb1e40dda9",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-26",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec2da284f6ecf32b",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-27",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec5795edad8aaeac",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-02-28",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec78e8ed1bc0c46a",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-03",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc3ebcb2c8e224c",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-05",
+        "time": "09:45",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec3898cfe6a73f43",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-06",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6cd9bb3fe6299e",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-07",
+        "time": "09:15",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recb8110a50484ad5",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-08",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Victor Reyes",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec6efda0dce2d029",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-10",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec28aa57daffe734",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-12",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec53e721614f8f04",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-14",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec7b106f2d1b1683",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-17",
+        "time": "09:30",
+        "walk_in_temp_f": 37,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec75e0d6b4720d1b",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-18",
+        "time": "09:45",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -4,
+        "recorded_by": "Marco Villareal",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8117f314886bb6",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-19",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": ""
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc11be707ceaf3a",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-20",
+        "time": "09:30",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -1,
+        "recorded_by": "Tony Aguilar",
+        "notes": "Stocked fish fry delivery — walk-in near capacity."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rece1cd66fbe6038e",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-21",
+        "time": "09:15",
+        "walk_in_temp_f": 38,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": "Walk-in door seal looks worn — flagged for Victor."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec036f4ddb89a9ee",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-21",
+        "time": "16:45",
+        "walk_in_temp_f": 42,
+        "freezer_temp_f": -1,
+        "recorded_by": "Marco Villareal",
+        "notes": "Walk-in reading 42°F — above 40°F safe limit. Compressor fan cycling intermittently. Notified Victor. Moved perishable proteins to freezer as precaution. Door seal may be compromised from heavy Saturday traffic."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "reccfafd3240fbb0d",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-22",
+        "time": "08:30",
+        "walk_in_temp_f": 39,
+        "freezer_temp_f": -2,
+        "recorded_by": "Tony Aguilar",
+        "notes": "Walk-in came back down overnight after compressor reset. Still above ideal. Victor called refrigeration service — Monday appointment scheduled."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec67574f9c07c1cd",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-24",
+        "time": "09:30",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -3,
+        "recorded_by": "Tony Aguilar",
+        "notes": "Refrigeration tech came this morning. Replaced compressor relay and tightened door gasket. Holding at 36°F. Invoice: $485."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec39e5dd849dc61e",
+      "table_id": "tbl0a8b6dca473705",
+      "fields": {
+        "date": "2026-03-25",
+        "time": "09:45",
+        "walk_in_temp_f": 36,
+        "freezer_temp_f": -2,
+        "recorded_by": "Marco Villareal",
+        "notes": "New gasket holding well."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec0e2a2b8ba22db5",
+      "table_id": "tbl7f110d31832f4c",
+      "fields": {
+        "client": "Alvarez Family",
+        "event_type": "Quinceañera",
+        "date": "2026-03-22",
+        "guest_count": 100,
+        "deposit_amount": 3200.0,
+        "deposit_status": "Confirmed",
+        "menu_status": "Finalized",
+        "vendor_orders_placed": true,
+        "special_requirements": "Private dining room + outdoor terrace. Tres leches cake from external bakery — coordinating delivery. Mariachi band arrives 7 PM, need rear entrance cleared.",
+        "notes": "AT BELLA NOTTE — full private dining buyout plus terrace overflow. Final headcount confirmed 3/15. Family-style service, traditional Mexican-Italian fusion menu. Florist delivering centerpieces 3 PM day-of."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec8ec4e200ffcc78",
+      "table_id": "tbl7f110d31832f4c",
+      "fields": {
+        "client": "St. Boniface Church (Father Thomas Nowak)",
+        "event_type": "Lenten Fish Fry Series",
+        "date": "Fridays, Feb 20 – Apr 3, 2026",
+        "guest_count": 150,
+        "deposit_amount": 2400.0,
+        "deposit_status": "In Progress",
+        "menu_status": "Finalized",
+        "vendor_orders_placed": true,
+        "special_requirements": "150 portions per Friday. Sysco standing order for cod fillets (case of 40 lbs weekly). Parish hall delivery by 4 PM each Friday.",
+        "notes": "Standard fish fry menu: beer-battered cod, coleslaw, fries, rye bread. Week 5 of 7 complete. Feedback from Father Nowak: congregation loves it. Remaining Fridays: Mar 27 and Apr 3. Deposit covers first 4 weeks; invoicing remaining weeks as delivered."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec21d5c9d22b096c",
+      "table_id": "tbl7f110d31832f4c",
+      "fields": {
+        "client": "Dr. Reiko Nakamura",
+        "event_type": "Birthday Dinner",
+        "date": "2026-04-05",
+        "guest_count": 40,
+        "deposit_amount": 4100.0,
+        "deposit_status": "Confirmed",
+        "menu_status": "In Review",
+        "vendor_orders_placed": false,
+        "special_requirements": "Intimate dinner, main dining room buyout. Japanese-Italian fusion tasting menu — Tony developing 7-course concept. Wine pairing: Robert at Capital Wine selecting Barolo and sake pairings.",
+        "notes": "Need final menu approval by 3/28. Dr. Nakamura has 2 guests with severe shellfish allergies — flagged for kitchen. Sommelier-guided pairing for each course. Budget allows premium selections."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recdb814f8017f8e1",
+      "table_id": "tbl7f110d31832f4c",
+      "fields": {
+        "client": "Milwaukee Art Museum",
+        "event_type": "Fundraiser Gala",
+        "date": "2026-04-18",
+        "guest_count": 150,
+        "deposit_amount": 6800.0,
+        "deposit_status": "Confirmed",
+        "menu_status": "Finalized",
+        "vendor_orders_placed": true,
+        "special_requirements": "Off-site at the museum. Passed hors d'oeuvres + 3 stations (pasta, carving, dessert). Need 8 servers + 2 bartenders. Setup access starts 2 PM day-of.",
+        "notes": "Linen & Things confirmed 40 round tablecloths. Sysco special order: 30 lbs beef tenderloin, 20 lbs shrimp. Museum contact: Sarah Chen, Events Director. AV handled by museum. Valet parking included in museum package."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec16927b21aa5c57",
+      "table_id": "tbl7f110d31832f4c",
+      "fields": {
+        "client": "Johnson Corp",
+        "event_type": "Annual Corporate Dinner",
+        "date": "2026-05-02",
+        "guest_count": 80,
+        "deposit_amount": 8500.0,
+        "deposit_status": "Confirmed",
+        "menu_status": "In Review",
+        "vendor_orders_placed": false,
+        "special_requirements": "Full restaurant buyout, 6:30–10:30 PM. Northern Italian prix fixe — 4 courses plus cocktail hour. AV requirements for CEO speech. Premium wine service.",
+        "notes": "Contact: Lisa Johnson, VP Operations. Budget allows premium wine service. Deposit covers 50% of estimated $17K total. Need to finalize AV requirements — podium, mic, projector screen. Second payment due April 15."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec35259473373607",
+      "table_id": "tbl7f110d31832f4c",
+      "fields": {
+        "client": "UWM Alumni Association",
+        "event_type": "Alumni Reception",
+        "date": "2026-05-15",
+        "guest_count": 200,
+        "deposit_amount": 7200.0,
+        "deposit_status": "Confirmed",
+        "menu_status": "Draft Sent",
+        "vendor_orders_placed": false,
+        "special_requirements": "Cocktail-style reception, heavy appetizers + open bar. Bar needs to stock extra prosecco and local craft beer (Lakefront Brewery).",
+        "notes": "Menu draft sent to event coordinator Karen Whitfield 3/10 — awaiting feedback. Expecting response by early April. 200 guests may require full restaurant + patio. Need to confirm tent rental if weather uncertain."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "rec36ee46d09037b6",
+      "table_id": "tbl7f110d31832f4c",
+      "fields": {
+        "client": "Baird Financial Group",
+        "event_type": "Corporate Retreat Dinner",
+        "date": "2026-06-07",
+        "guest_count": 60,
+        "deposit_amount": 7600.0,
+        "deposit_status": "Confirmed",
+        "menu_status": "In Review",
+        "vendor_orders_placed": false,
+        "special_requirements": "Private dining + patio. Senior leadership dinner. Sommelier-led wine education segment with Maria. Dietary restrictions survey sent to 60 attendees — awaiting responses.",
+        "notes": "Contact: David Bernstein, VP Events. High-end experience expected — this is their top-tier leadership group. Discussing 5-course tasting menu with wine pairings. Budget is generous. Final dietary restriction responses due by May 15."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "id": "recc1ab0315b8bd31",
+      "table_id": "tbl7f110d31832f4c",
+      "fields": {
+        "client": "Chen Family",
+        "event_type": "Wedding Reception",
+        "date": "2026-06-14",
+        "guest_count": 120,
+        "deposit_amount": 5200.0,
+        "deposit_status": "Confirmed",
+        "menu_status": "In Review",
+        "vendor_orders_placed": false,
+        "special_requirements": "Full restaurant + patio buyout. Ceremony at Cathedral of St. John — reception starts 5 PM. Bride (Lisa Chen) wants family-style Italian with Sichuan-inspired appetizer course. Florist delivering 3 PM.",
+        "notes": "Still finalizing cake vs. dessert table. Second deposit installment due May 1. Coordinator: Lisa Chen's mother, Lisa Chen's mother — (414) 555-0841. Need to confirm DJ setup location and dance floor arrangement by April 15."
+      },
+      "created_time": "2025-10-01T00:00:00.000Z",
+      "modified_time": "2025-10-01T00:00:00.000Z"
+    }
+  ]
+}

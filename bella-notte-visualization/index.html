@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Victor Reyes — Bella Notte Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══ HEADER ══ -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-logo">BN</div>
+        <div class="brand-name">
+          <span>Victor Reyes</span>
+          <small>Bella Notte · Milwaukee · OpenClaw</small>
+        </div>
+      </div>
+
+      <nav class="tabs">
+        <button class="tab active" data-tab="overview">Overview</button>
+        <button class="tab" data-tab="restaurant">Restaurant</button>
+        <button class="tab" data-tab="catering">Catering</button>
+        <button class="tab" data-tab="finances">Finances</button>
+        <button class="tab" data-tab="communications">Communications</button>
+        <button class="tab" data-tab="personal">Personal</button>
+        <button class="tab" data-tab="procurement">Procurement</button>
+        <button class="tab" data-tab="calendar">Calendar</button>
+      </nav>
+
+      <div class="hdr-right">
+        <span class="pulse-dot" id="status-dot"></span>
+        <span class="status-text" id="status-text">Loading…</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══ MAIN ══ -->
+  <main class="main">
+
+    <section class="page active" id="page-overview"><div id="overview-content"></div></section>
+
+    <!-- ── RESTAURANT ── -->
+    <section class="page" id="page-restaurant">
+      <div class="page-title"><h2>Restaurant Operations</h2><p>Slack · Airtable — Bella Notte Ristorante</p></div>
+      <div class="sub-tabs">
+        <button class="sub-tab active" data-subtab="rest-slack">Slack</button>
+        <button class="sub-tab" data-subtab="rest-airtable">Airtable</button>
+      </div>
+      <div id="rest-slack" class="sub-page active"></div>
+      <div id="rest-airtable" class="sub-page"></div>
+    </section>
+
+    <!-- ── CATERING ── -->
+    <section class="page" id="page-catering">
+      <div class="page-title"><h2>Catering Pipeline</h2><p>CRM · Stripe · Event tracker</p></div>
+      <div class="sub-tabs">
+        <button class="sub-tab active" data-subtab="cat-pipeline">Pipeline</button>
+        <button class="sub-tab" data-subtab="cat-crm">CRM</button>
+      </div>
+      <div id="cat-pipeline" class="sub-page active"></div>
+      <div id="cat-crm" class="sub-page"></div>
+    </section>
+
+    <!-- ── FINANCES ── -->
+    <section class="page" id="page-finances">
+      <div class="page-title"><h2>Finances</h2><p>Personal accounts · QuickBooks business ledger</p></div>
+      <div class="sub-tabs">
+        <button class="sub-tab active" data-subtab="fin-personal">Personal</button>
+        <button class="sub-tab" data-subtab="fin-business">Business (QB)</button>
+      </div>
+      <div id="fin-personal" class="sub-page active"></div>
+      <div id="fin-business" class="sub-page"></div>
+    </section>
+
+    <!-- ── COMMUNICATIONS ── -->
+    <section class="page" id="page-communications">
+      <div class="page-title"><h2>Communications</h2><p>Email · Direct messages</p></div>
+      <div class="sub-tabs">
+        <button class="sub-tab active" data-subtab="comm-email">Email</button>
+        <button class="sub-tab" data-subtab="comm-messages">Messages</button>
+      </div>
+      <div id="comm-email" class="sub-page active"></div>
+      <div id="comm-messages" class="sub-page"></div>
+    </section>
+
+    <!-- ── PERSONAL ── -->
+    <section class="page" id="page-personal">
+      <div class="page-title"><h2>Personal</h2><p>Contacts · Notion databases · Apple Health</p></div>
+      <div class="sub-tabs">
+        <button class="sub-tab active" data-subtab="pers-contacts">Contacts</button>
+        <button class="sub-tab" data-subtab="pers-notion">Notion</button>
+        <button class="sub-tab" data-subtab="pers-health">Health</button>
+      </div>
+      <div id="pers-contacts" class="sub-page active"></div>
+      <div id="pers-notion" class="sub-page"></div>
+      <div id="pers-health" class="sub-page"></div>
+    </section>
+
+    <!-- ── PROCUREMENT ── -->
+    <section class="page" id="page-procurement">
+      <div class="page-title"><h2>Procurement</h2><p>Shopping orders · Instacart · Amazon Fresh</p></div>
+      <div id="procurement-content"></div>
+    </section>
+
+    <!-- ── CALENDAR ── -->
+    <section class="page" id="page-calendar">
+      <div class="page-title"><h2>Calendar &amp; Reminders</h2><p>Events · Tasks · Deadlines</p></div>
+      <div class="sub-tabs">
+        <button class="sub-tab active" data-subtab="cal-events">Calendar</button>
+        <button class="sub-tab" data-subtab="cal-reminders">Reminders</button>
+      </div>
+      <div id="cal-events" class="sub-page active"></div>
+      <div id="cal-reminders" class="sub-page"></div>
+    </section>
+
+  </main>
+
+  <!-- ══ MODAL ══ -->
+  <div id="modal-overlay" class="modal-overlay hidden" onclick="handleModalClick(event)">
+    <div class="modal-box" id="modal-box">
+      <div class="modal-header">
+        <div class="modal-header-left">
+          <span class="modal-badge" id="modal-badge"></span>
+          <span class="modal-title" id="modal-title"></span>
+        </div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ══ LOADING ══ -->
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="loader-box">
+      <div class="spinner"></div>
+      <p id="load-status">Loading Bella Notte Universe…</p>
+    </div>
+  </div>
+
+  <script src="js/overview.js"></script>
+  <script src="js/restaurant.js"></script>
+  <script src="js/catering.js"></script>
+  <script src="js/finances.js"></script>
+  <script src="js/communications.js"></script>
+  <script src="js/personal.js"></script>
+  <script src="js/procurement.js"></script>
+  <script src="js/calendar.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

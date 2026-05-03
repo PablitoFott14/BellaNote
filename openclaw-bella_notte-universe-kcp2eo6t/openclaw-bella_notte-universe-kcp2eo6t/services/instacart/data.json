@@ -1,0 +1,2156 @@
+{
+  "users": [
+    {
+      "user_id": "ic_vreyes_001",
+      "name": "Victor Reyes",
+      "email": "victor.reyes@bellanotte.com",
+      "phone": "(414) 555-0291",
+      "address": "3847 N. Humboldt Blvd, Milwaukee, WI 53212",
+      "is_user": true
+    }
+  ],
+  "products": [
+    {
+      "product_id": "prod_ic_001",
+      "name": "Organic Heavy Whipping Cream (1 qt)",
+      "category": "dairy",
+      "price": 6.49,
+      "brand": "Organic Valley",
+      "id": "prod_ic_001",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_002",
+      "name": "Fresh Lemons (3 lb bag)",
+      "category": "produce",
+      "price": 4.99,
+      "brand": "Sunkist",
+      "id": "prod_ic_002",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_003",
+      "name": "Fresh Basil (large bunch)",
+      "category": "produce",
+      "price": 3.49,
+      "brand": "Organic",
+      "id": "prod_ic_003",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_004",
+      "name": "San Marzano Whole Peeled Tomatoes (28 oz)",
+      "category": "canned_goods",
+      "price": 5.99,
+      "brand": "Cento",
+      "id": "prod_ic_004",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_005",
+      "name": "Parmigiano-Reggiano (wedge, 1 lb)",
+      "category": "dairy",
+      "price": 22.99,
+      "brand": "Imported",
+      "id": "prod_ic_005",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_006",
+      "name": "Extra Virgin Olive Oil (1 L)",
+      "category": "pantry",
+      "price": 14.99,
+      "brand": "Colavita",
+      "id": "prod_ic_006",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_007",
+      "name": "Unsalted Butter (4 sticks, 1 lb)",
+      "category": "dairy",
+      "price": 5.49,
+      "brand": "Kerrygold",
+      "id": "prod_ic_007",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_008",
+      "name": "Fresh Mozzarella (16 oz)",
+      "category": "dairy",
+      "price": 7.99,
+      "brand": "BelGioioso",
+      "id": "prod_ic_008",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_009",
+      "name": "Maker's Mark Bourbon Whisky (1.75 L)",
+      "category": "spirits",
+      "price": 42.99,
+      "brand": "Maker's Mark",
+      "id": "prod_ic_009",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_010",
+      "name": "Grey Goose Vodka (1.75 L)",
+      "category": "spirits",
+      "price": 49.99,
+      "brand": "Grey Goose",
+      "id": "prod_ic_010",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_011",
+      "name": "Tanqueray London Dry Gin (1.75 L)",
+      "category": "spirits",
+      "price": 34.99,
+      "brand": "Tanqueray",
+      "id": "prod_ic_011",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_012",
+      "name": "Cabernet Sauvignon (case of 12)",
+      "category": "wine",
+      "price": 144.0,
+      "brand": "Bogle Vineyards",
+      "id": "prod_ic_012",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_013",
+      "name": "Dawn Professional Dish Soap (1 gal)",
+      "category": "cleaning",
+      "price": 18.99,
+      "brand": "Dawn Professional",
+      "id": "prod_ic_013",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_014",
+      "name": "Heavy Duty Degreaser (32 oz spray)",
+      "category": "cleaning",
+      "price": 8.49,
+      "brand": "Simple Green",
+      "id": "prod_ic_014",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_015",
+      "name": "Arborio Rice (2 lb)",
+      "category": "pantry",
+      "price": 6.99,
+      "brand": "RiceSelect",
+      "id": "prod_ic_015",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_016",
+      "name": "Fresh Flat-Leaf Parsley (bunch)",
+      "category": "produce",
+      "price": 1.99,
+      "brand": "Organic",
+      "id": "prod_ic_016",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_017",
+      "name": "Mascarpone Cheese (8 oz)",
+      "category": "dairy",
+      "price": 5.49,
+      "brand": "BelGioioso",
+      "id": "prod_ic_017",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_018",
+      "name": "Kalamata Olives (jar, 13 oz)",
+      "category": "pantry",
+      "price": 6.99,
+      "brand": "DeLallo",
+      "id": "prod_ic_018",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p001",
+      "name": "Whole Milk (1 gal)",
+      "category": "personal_dairy",
+      "price": 4.29,
+      "brand": "Kemps",
+      "id": "prod_ic_p001",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p002",
+      "name": "Large Eggs (1 dozen)",
+      "category": "personal_dairy",
+      "price": 3.99,
+      "brand": "Eggland's Best",
+      "id": "prod_ic_p002",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p003",
+      "name": "Sandwich White Bread",
+      "category": "personal_bakery",
+      "price": 3.49,
+      "brand": "Brownberry",
+      "id": "prod_ic_p003",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p004",
+      "name": "Bananas (bunch, ~2 lb)",
+      "category": "personal_produce",
+      "price": 1.99,
+      "brand": "Dole",
+      "id": "prod_ic_p004",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p005",
+      "name": "Gala Apples (3 lb bag)",
+      "category": "personal_produce",
+      "price": 4.99,
+      "brand": "Organic",
+      "id": "prod_ic_p005",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p006",
+      "name": "Long Grain White Rice (5 lb)",
+      "category": "personal_pantry",
+      "price": 4.49,
+      "brand": "Goya",
+      "id": "prod_ic_p006",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p007",
+      "name": "Black Beans (canned, 15 oz)",
+      "category": "personal_pantry",
+      "price": 1.29,
+      "brand": "Goya",
+      "id": "prod_ic_p007",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p008",
+      "name": "Boneless Skinless Chicken Thighs (2 lb)",
+      "category": "personal_meat",
+      "price": 7.49,
+      "brand": "Tyson",
+      "id": "prod_ic_p008",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p009",
+      "name": "Ground Beef 80/20 (1 lb)",
+      "category": "personal_meat",
+      "price": 5.99,
+      "brand": "Roundy's",
+      "id": "prod_ic_p009",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p010",
+      "name": "Flour Tortillas (10 ct)",
+      "category": "personal_bakery",
+      "price": 3.29,
+      "brand": "Mission",
+      "id": "prod_ic_p010",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p011",
+      "name": "Campbell's Chicken Noodle Soup (4-pack)",
+      "category": "personal_pantry",
+      "price": 5.49,
+      "brand": "Campbell's",
+      "id": "prod_ic_p011",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p012",
+      "name": "Yoplait Original Yogurt Variety Pack (8 ct)",
+      "category": "personal_dairy",
+      "price": 6.49,
+      "brand": "Yoplait",
+      "id": "prod_ic_p012",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p013",
+      "name": "Old Fashioned Oatmeal (42 oz)",
+      "category": "personal_pantry",
+      "price": 4.99,
+      "brand": "Quaker",
+      "id": "prod_ic_p013",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p014",
+      "name": "Decaf Green Tea (20 ct)",
+      "category": "personal_beverages",
+      "price": 3.99,
+      "brand": "Bigelow",
+      "id": "prod_ic_p014",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p015",
+      "name": "Ritz Crackers Original (13.7 oz)",
+      "category": "personal_snacks",
+      "price": 4.49,
+      "brand": "Nabisco",
+      "id": "prod_ic_p015",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p016",
+      "name": "Bounty Select-A-Size Paper Towels (6 rolls)",
+      "category": "household_supplies",
+      "price": 12.99,
+      "brand": "Bounty",
+      "id": "prod_ic_p016",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p017",
+      "name": "Dawn Ultra Dish Soap (19.4 oz)",
+      "category": "household_supplies",
+      "price": 3.99,
+      "brand": "Dawn",
+      "id": "prod_ic_p017",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p018",
+      "name": "Glad ForceFlex Tall Kitchen Trash Bags (45 ct)",
+      "category": "household_supplies",
+      "price": 9.99,
+      "brand": "Glad",
+      "id": "prod_ic_p018",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p019",
+      "name": "Charmin Ultra Soft Toilet Paper (12 mega rolls)",
+      "category": "household_supplies",
+      "price": 11.99,
+      "brand": "Charmin",
+      "id": "prod_ic_p019",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p020",
+      "name": "DiGiorno Rising Crust Pepperoni Pizza",
+      "category": "personal_frozen",
+      "price": 7.49,
+      "brand": "DiGiorno",
+      "id": "prod_ic_p020",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p021",
+      "name": "Oscar Mayer Deli Fresh Oven Roasted Turkey (9 oz)",
+      "category": "personal_deli",
+      "price": 4.99,
+      "brand": "Oscar Mayer",
+      "id": "prod_ic_p021",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p022",
+      "name": "Nature Made Daily Multivitamin (100 ct)",
+      "category": "personal_health",
+      "price": 9.99,
+      "brand": "Nature Made",
+      "id": "prod_ic_p022",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p023",
+      "name": "Metamucil Fiber Supplement Capsules (72 ct)",
+      "category": "personal_health",
+      "price": 16.99,
+      "brand": "Metamucil",
+      "id": "prod_ic_p023",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p024",
+      "name": "Progresso Traditional Chicken & Wild Rice Soup",
+      "category": "personal_pantry",
+      "price": 3.29,
+      "brand": "Progresso",
+      "id": "prod_ic_p024",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    },
+    {
+      "product_id": "prod_ic_p025",
+      "name": "Ensure Original Nutrition Shake Vanilla (6-pack)",
+      "category": "personal_health",
+      "price": 10.99,
+      "brand": "Ensure",
+      "id": "prod_ic_p025",
+      "description": "",
+      "currency": "USD",
+      "tags": "[]",
+      "image_url": "",
+      "product_url": "",
+      "inventory_count": 100,
+      "unit": "each",
+      "is_organic": false,
+      "is_perishable": false,
+      "created_at": "2025-10-01T00:00:00.000Z"
+    }
+  ],
+  "product_variants": [
+    {
+      "id": "var_ic_001",
+      "product_id": "prod_ic_001",
+      "name": "Organic Heavy Whipping Cream (1 qt) - Standard",
+      "price": 6.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_002",
+      "product_id": "prod_ic_002",
+      "name": "Fresh Lemons (3 lb bag) - Standard",
+      "price": 4.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_003",
+      "product_id": "prod_ic_003",
+      "name": "Fresh Basil (large bunch) - Standard",
+      "price": 3.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_004",
+      "product_id": "prod_ic_004",
+      "name": "San Marzano Whole Peeled Tomatoes (28 oz) - Standard",
+      "price": 5.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_005",
+      "product_id": "prod_ic_005",
+      "name": "Parmigiano-Reggiano (wedge, 1 lb) - Standard",
+      "price": 22.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_006",
+      "product_id": "prod_ic_006",
+      "name": "Extra Virgin Olive Oil (1 L) - Standard",
+      "price": 14.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_007",
+      "product_id": "prod_ic_007",
+      "name": "Unsalted Butter (4 sticks, 1 lb) - Standard",
+      "price": 5.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_008",
+      "product_id": "prod_ic_008",
+      "name": "Fresh Mozzarella (16 oz) - Standard",
+      "price": 7.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_009",
+      "product_id": "prod_ic_009",
+      "name": "Maker's Mark Bourbon Whisky (1.75 L) - Standard",
+      "price": 42.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_010",
+      "product_id": "prod_ic_010",
+      "name": "Grey Goose Vodka (1.75 L) - Standard",
+      "price": 49.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_011",
+      "product_id": "prod_ic_011",
+      "name": "Tanqueray London Dry Gin (1.75 L) - Standard",
+      "price": 34.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_012",
+      "product_id": "prod_ic_012",
+      "name": "Cabernet Sauvignon (case of 12) - Standard",
+      "price": 144.0,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_013",
+      "product_id": "prod_ic_013",
+      "name": "Dawn Professional Dish Soap (1 gal) - Standard",
+      "price": 18.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_014",
+      "product_id": "prod_ic_014",
+      "name": "Heavy Duty Degreaser (32 oz spray) - Standard",
+      "price": 8.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_015",
+      "product_id": "prod_ic_015",
+      "name": "Arborio Rice (2 lb) - Standard",
+      "price": 6.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_016",
+      "product_id": "prod_ic_016",
+      "name": "Fresh Flat-Leaf Parsley (bunch) - Standard",
+      "price": 1.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_017",
+      "product_id": "prod_ic_017",
+      "name": "Mascarpone Cheese (8 oz) - Standard",
+      "price": 5.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_018",
+      "product_id": "prod_ic_018",
+      "name": "Kalamata Olives (jar, 13 oz) - Standard",
+      "price": 6.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p001",
+      "product_id": "prod_ic_p001",
+      "name": "Whole Milk (1 gal) - Standard",
+      "price": 4.29,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p002",
+      "product_id": "prod_ic_p002",
+      "name": "Large Eggs (1 dozen) - Standard",
+      "price": 3.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p003",
+      "product_id": "prod_ic_p003",
+      "name": "Sandwich White Bread - Standard",
+      "price": 3.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p004",
+      "product_id": "prod_ic_p004",
+      "name": "Bananas (bunch, ~2 lb) - Standard",
+      "price": 1.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p005",
+      "product_id": "prod_ic_p005",
+      "name": "Gala Apples (3 lb bag) - Standard",
+      "price": 4.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p006",
+      "product_id": "prod_ic_p006",
+      "name": "Long Grain White Rice (5 lb) - Standard",
+      "price": 4.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p007",
+      "product_id": "prod_ic_p007",
+      "name": "Black Beans (canned, 15 oz) - Standard",
+      "price": 1.29,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p008",
+      "product_id": "prod_ic_p008",
+      "name": "Boneless Skinless Chicken Thighs (2 lb) - Standard",
+      "price": 7.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p009",
+      "product_id": "prod_ic_p009",
+      "name": "Ground Beef 80/20 (1 lb) - Standard",
+      "price": 5.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p010",
+      "product_id": "prod_ic_p010",
+      "name": "Flour Tortillas (10 ct) - Standard",
+      "price": 3.29,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p011",
+      "product_id": "prod_ic_p011",
+      "name": "Campbell's Chicken Noodle Soup (4-pack) - Standard",
+      "price": 5.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p012",
+      "product_id": "prod_ic_p012",
+      "name": "Yoplait Original Yogurt Variety Pack (8 ct) - Standard",
+      "price": 6.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p013",
+      "product_id": "prod_ic_p013",
+      "name": "Old Fashioned Oatmeal (42 oz) - Standard",
+      "price": 4.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p014",
+      "product_id": "prod_ic_p014",
+      "name": "Decaf Green Tea (20 ct) - Standard",
+      "price": 3.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p015",
+      "product_id": "prod_ic_p015",
+      "name": "Ritz Crackers Original (13.7 oz) - Standard",
+      "price": 4.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p016",
+      "product_id": "prod_ic_p016",
+      "name": "Bounty Select-A-Size Paper Towels (6 rolls) - Standard",
+      "price": 12.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p017",
+      "product_id": "prod_ic_p017",
+      "name": "Dawn Ultra Dish Soap (19.4 oz) - Standard",
+      "price": 3.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p018",
+      "product_id": "prod_ic_p018",
+      "name": "Glad ForceFlex Tall Kitchen Trash Bags (45 ct) - Standard",
+      "price": 9.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p019",
+      "product_id": "prod_ic_p019",
+      "name": "Charmin Ultra Soft Toilet Paper (12 mega rolls) - Standard",
+      "price": 11.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p020",
+      "product_id": "prod_ic_p020",
+      "name": "DiGiorno Rising Crust Pepperoni Pizza - Standard",
+      "price": 7.49,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p021",
+      "product_id": "prod_ic_p021",
+      "name": "Oscar Mayer Deli Fresh Oven Roasted Turkey (9 oz) - Standard",
+      "price": 4.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p022",
+      "product_id": "prod_ic_p022",
+      "name": "Nature Made Daily Multivitamin (100 ct) - Standard",
+      "price": 9.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p023",
+      "product_id": "prod_ic_p023",
+      "name": "Metamucil Fiber Supplement Capsules (72 ct) - Standard",
+      "price": 16.99,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p024",
+      "product_id": "prod_ic_p024",
+      "name": "Progresso Traditional Chicken & Wild Rice Soup - Standard",
+      "price": 3.29,
+      "available": true,
+      "options": {}
+    },
+    {
+      "id": "var_ic_p025",
+      "product_id": "prod_ic_p025",
+      "name": "Ensure Original Nutrition Shake Vanilla (6-pack) - Standard",
+      "price": 10.99,
+      "available": true,
+      "options": {}
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_ic_001",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2025-10-15T09:45:00-05:00",
+      "delivery_date": "2025-10-15",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 66.86,
+      "notes": "Emergency basil + cream \u2014 Sysco delivery late; needed for lunch and dinner service."
+    },
+    {
+      "id": "ord_ic_p001",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2025-10-25T08:30:00-05:00",
+      "delivery_date": "2025-10-25",
+      "delivery_address": "3847 N. Humboldt Blvd, Milwaukee, WI 53212",
+      "total": 43.71,
+      "notes": "Home groceries. Mom's oatmeal and decaf tea, yogurt, chicken for dinner this week."
+    },
+    {
+      "id": "ord_ic_p002",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2025-11-15T21:15:00-06:00",
+      "delivery_date": "2025-11-16",
+      "delivery_address": "3847 N. Humboldt Blvd, Milwaukee, WI 53212",
+      "total": 48.72,
+      "notes": "Household restock. Paper towels, trash bags, dish soap. Sandwich stuff for me, ground beef and tortillas for the week."
+    },
+    {
+      "id": "ord_ic_002",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2025-11-22T08:20:00-06:00",
+      "delivery_date": "2025-11-22",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 164.72,
+      "notes": "Thanksgiving prep overflow \u2014 turkey stock base, cranberries (produce add-on), extra cream."
+    },
+    {
+      "id": "ord_ic_p003",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2025-12-10T19:45:00-06:00",
+      "delivery_date": "2025-12-11",
+      "delivery_address": "3847 N. Humboldt Blvd, Milwaukee, WI 53212",
+      "total": 52.89,
+      "notes": "Home groceries. Mom's crackers and Ensure, rice and beans. Couple frozen pizzas for me \u2014 no time to cook at home during holiday rush."
+    },
+    {
+      "id": "ord_ic_003",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2025-12-19T13:10:00-06:00",
+      "delivery_date": "2025-12-19",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 332.79,
+      "notes": "Holiday party rush \u2014 specialty ingredients for private event and weekend specials."
+    },
+    {
+      "id": "ord_ic_004",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2025-12-31T15:30:00-06:00",
+      "delivery_date": "2025-12-31",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 337.99,
+      "notes": "NYE prep \u2014 champagne and sparkling for restaurant service (legitimate inventory; still a sobriety tension for Victor)."
+    },
+    {
+      "id": "ord_ic_p004",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-01-08T20:15:00-06:00",
+      "delivery_date": "2026-01-09",
+      "delivery_address": "3847 N. Humboldt Blvd, Milwaukee, WI 53212",
+      "total": 45.31,
+      "notes": "Soup weather. Stocking up \u2014 it's been below zero all week. Toilet paper running low. Basics for Mom and me."
+    },
+    {
+      "id": "ord_ic_005",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-01-12T10:00:00-06:00",
+      "delivery_date": "2026-01-12",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 82.33,
+      "notes": "Winter weather \u2014 Sysco delivery delayed due to snow; dairy, herbs, and dish soap backup."
+    },
+    {
+      "id": "ord_ic_p005",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-01-28T19:30:00-06:00",
+      "delivery_date": "2026-01-29",
+      "delivery_address": "3847 N. Humboldt Blvd, Milwaukee, WI 53212",
+      "total": 48.31,
+      "notes": "Mom's vitamins and fiber supplement \u2014 Dr. Pham recommended. Also oatmeal, rice, beans, tea."
+    },
+    {
+      "id": "ord_ic_006",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-02-04T14:20:00-06:00",
+      "delivery_date": "2026-02-04",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 106.39,
+      "notes": "Emergency \u2014 Sysco delivery short on dairy and produce. Need for tonight's service."
+    },
+    {
+      "id": "ord_ic_007",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-02-11T10:30:00-06:00",
+      "delivery_date": "2026-02-11",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 364.95,
+      "notes": "Bar restock \u2014 Capital Wine delivery delayed due to weather. Need by tonight."
+    },
+    {
+      "id": "ord_ic_p006",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-02-18T20:00:00-06:00",
+      "delivery_date": "2026-02-19",
+      "delivery_address": "3847 N. Humboldt Blvd, Milwaukee, WI 53212",
+      "total": 61.79,
+      "notes": "Home groceries. Quick meals for me \u2014 frozen pizzas, deli turkey. Mom's yogurt and Ensure. Ground beef for tacos."
+    },
+    {
+      "id": "ord_ic_008",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-02-20T09:15:00-06:00",
+      "delivery_date": "2026-02-20",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 101.87,
+      "notes": "Pantry staples \u2014 Sysco shorted on canned goods this week."
+    },
+    {
+      "id": "ord_ic_009",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-03-05T11:00:00-06:00",
+      "delivery_date": "2026-03-05",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 90.37,
+      "notes": "Tiramisu prep for Alvarez quincea\u00f1era test batch. Also fresh mozz for weekend specials."
+    },
+    {
+      "id": "ord_ic_p007",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-03-10T19:15:00-05:00",
+      "delivery_date": "2026-03-11",
+      "delivery_address": "3847 N. Humboldt Blvd, Milwaukee, WI 53212",
+      "total": 52.22,
+      "notes": "Household restock \u2014 paper towels and trash bags. Mom's tea and crackers. Chicken and apples for the week."
+    },
+    {
+      "id": "ord_ic_010",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-03-12T23:17:00-06:00",
+      "delivery_date": "2026-03-13",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 228.95,
+      "notes": ""
+    },
+    {
+      "id": "ord_ic_011",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-03-18T13:45:00-06:00",
+      "delivery_date": "2026-03-18",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 89.38,
+      "notes": "Deep clean supplies for health inspection prep + herb restock."
+    },
+    {
+      "id": "ord_ic_012",
+      "user_id": "ic_vreyes_001",
+      "status": "delivered",
+      "created_at": "2026-03-25T16:00:00-06:00",
+      "delivery_date": "2026-03-26",
+      "delivery_address": "2215 N. Farwell Ave, Milwaukee, WI 53202",
+      "total": 415.96,
+      "notes": "Weekly bar restock + olive oil backup."
+    }
+  ],
+  "order_items": [
+    {
+      "order_id": "ord_ic_001",
+      "product_id": "prod_ic_003",
+      "variant_id": "var_ic_003",
+      "quantity": 8,
+      "price_at_purchase": 3.49,
+      "id": "oi_ic_001"
+    },
+    {
+      "order_id": "ord_ic_001",
+      "product_id": "prod_ic_001",
+      "variant_id": "var_ic_001",
+      "quantity": 6,
+      "price_at_purchase": 6.49,
+      "id": "oi_ic_002"
+    },
+    {
+      "order_id": "ord_ic_p001",
+      "product_id": "prod_ic_p001",
+      "variant_id": "var_ic_p001",
+      "quantity": 1,
+      "price_at_purchase": 4.29,
+      "id": "oi_ic_003"
+    },
+    {
+      "order_id": "ord_ic_p001",
+      "product_id": "prod_ic_p002",
+      "variant_id": "var_ic_p002",
+      "quantity": 1,
+      "price_at_purchase": 3.99,
+      "id": "oi_ic_004"
+    },
+    {
+      "order_id": "ord_ic_p001",
+      "product_id": "prod_ic_p004",
+      "variant_id": "var_ic_p004",
+      "quantity": 1,
+      "price_at_purchase": 1.99,
+      "id": "oi_ic_005"
+    },
+    {
+      "order_id": "ord_ic_p001",
+      "product_id": "prod_ic_p005",
+      "variant_id": "var_ic_p005",
+      "quantity": 1,
+      "price_at_purchase": 4.99,
+      "id": "oi_ic_006"
+    },
+    {
+      "order_id": "ord_ic_p001",
+      "product_id": "prod_ic_p008",
+      "variant_id": "var_ic_p008",
+      "quantity": 1,
+      "price_at_purchase": 7.49,
+      "id": "oi_ic_007"
+    },
+    {
+      "order_id": "ord_ic_p001",
+      "product_id": "prod_ic_p011",
+      "variant_id": "var_ic_p011",
+      "quantity": 1,
+      "price_at_purchase": 5.49,
+      "id": "oi_ic_008"
+    },
+    {
+      "order_id": "ord_ic_p001",
+      "product_id": "prod_ic_p012",
+      "variant_id": "var_ic_p012",
+      "quantity": 1,
+      "price_at_purchase": 6.49,
+      "id": "oi_ic_009"
+    },
+    {
+      "order_id": "ord_ic_p001",
+      "product_id": "prod_ic_p013",
+      "variant_id": "var_ic_p013",
+      "quantity": 1,
+      "price_at_purchase": 4.99,
+      "id": "oi_ic_010"
+    },
+    {
+      "order_id": "ord_ic_p001",
+      "product_id": "prod_ic_p014",
+      "variant_id": "var_ic_p014",
+      "quantity": 1,
+      "price_at_purchase": 3.99,
+      "id": "oi_ic_011"
+    },
+    {
+      "order_id": "ord_ic_p002",
+      "product_id": "prod_ic_p016",
+      "variant_id": "var_ic_p016",
+      "quantity": 1,
+      "price_at_purchase": 12.99,
+      "id": "oi_ic_012"
+    },
+    {
+      "order_id": "ord_ic_p002",
+      "product_id": "prod_ic_p018",
+      "variant_id": "var_ic_p018",
+      "quantity": 1,
+      "price_at_purchase": 9.99,
+      "id": "oi_ic_013"
+    },
+    {
+      "order_id": "ord_ic_p002",
+      "product_id": "prod_ic_p017",
+      "variant_id": "var_ic_p017",
+      "quantity": 1,
+      "price_at_purchase": 3.99,
+      "id": "oi_ic_014"
+    },
+    {
+      "order_id": "ord_ic_p002",
+      "product_id": "prod_ic_p003",
+      "variant_id": "var_ic_p003",
+      "quantity": 1,
+      "price_at_purchase": 3.49,
+      "id": "oi_ic_015"
+    },
+    {
+      "order_id": "ord_ic_p002",
+      "product_id": "prod_ic_p021",
+      "variant_id": "var_ic_p021",
+      "quantity": 1,
+      "price_at_purchase": 4.99,
+      "id": "oi_ic_016"
+    },
+    {
+      "order_id": "ord_ic_p002",
+      "product_id": "prod_ic_p009",
+      "variant_id": "var_ic_p009",
+      "quantity": 1,
+      "price_at_purchase": 5.99,
+      "id": "oi_ic_017"
+    },
+    {
+      "order_id": "ord_ic_p002",
+      "product_id": "prod_ic_p010",
+      "variant_id": "var_ic_p010",
+      "quantity": 1,
+      "price_at_purchase": 3.29,
+      "id": "oi_ic_018"
+    },
+    {
+      "order_id": "ord_ic_p002",
+      "product_id": "prod_ic_p002",
+      "variant_id": "var_ic_p002",
+      "quantity": 1,
+      "price_at_purchase": 3.99,
+      "id": "oi_ic_019"
+    },
+    {
+      "order_id": "ord_ic_002",
+      "product_id": "prod_ic_001",
+      "variant_id": "var_ic_001",
+      "quantity": 8,
+      "price_at_purchase": 6.49,
+      "id": "oi_ic_020"
+    },
+    {
+      "order_id": "ord_ic_002",
+      "product_id": "prod_ic_004",
+      "variant_id": "var_ic_004",
+      "quantity": 10,
+      "price_at_purchase": 5.99,
+      "id": "oi_ic_021"
+    },
+    {
+      "order_id": "ord_ic_002",
+      "product_id": "prod_ic_007",
+      "variant_id": "var_ic_007",
+      "quantity": 6,
+      "price_at_purchase": 5.49,
+      "id": "oi_ic_022"
+    },
+    {
+      "order_id": "ord_ic_002",
+      "product_id": "prod_ic_002",
+      "variant_id": "var_ic_002",
+      "quantity": 4,
+      "price_at_purchase": 4.99,
+      "id": "oi_ic_023"
+    },
+    {
+      "order_id": "ord_ic_p003",
+      "product_id": "prod_ic_p001",
+      "variant_id": "var_ic_p001",
+      "quantity": 1,
+      "price_at_purchase": 4.29,
+      "id": "oi_ic_024"
+    },
+    {
+      "order_id": "ord_ic_p003",
+      "product_id": "prod_ic_p006",
+      "variant_id": "var_ic_p006",
+      "quantity": 1,
+      "price_at_purchase": 4.49,
+      "id": "oi_ic_025"
+    },
+    {
+      "order_id": "ord_ic_p003",
+      "product_id": "prod_ic_p007",
+      "variant_id": "var_ic_p007",
+      "quantity": 3,
+      "price_at_purchase": 1.29,
+      "id": "oi_ic_026"
+    },
+    {
+      "order_id": "ord_ic_p003",
+      "product_id": "prod_ic_p010",
+      "variant_id": "var_ic_p010",
+      "quantity": 1,
+      "price_at_purchase": 3.29,
+      "id": "oi_ic_027"
+    },
+    {
+      "order_id": "ord_ic_p003",
+      "product_id": "prod_ic_p012",
+      "variant_id": "var_ic_p012",
+      "quantity": 1,
+      "price_at_purchase": 6.49,
+      "id": "oi_ic_028"
+    },
+    {
+      "order_id": "ord_ic_p003",
+      "product_id": "prod_ic_p015",
+      "variant_id": "var_ic_p015",
+      "quantity": 1,
+      "price_at_purchase": 4.49,
+      "id": "oi_ic_029"
+    },
+    {
+      "order_id": "ord_ic_p003",
+      "product_id": "prod_ic_p020",
+      "variant_id": "var_ic_p020",
+      "quantity": 2,
+      "price_at_purchase": 7.49,
+      "id": "oi_ic_030"
+    },
+    {
+      "order_id": "ord_ic_p003",
+      "product_id": "prod_ic_p025",
+      "variant_id": "var_ic_p025",
+      "quantity": 1,
+      "price_at_purchase": 10.99,
+      "id": "oi_ic_031"
+    },
+    {
+      "order_id": "ord_ic_003",
+      "product_id": "prod_ic_005",
+      "variant_id": "var_ic_005",
+      "quantity": 3,
+      "price_at_purchase": 22.99,
+      "id": "oi_ic_032"
+    },
+    {
+      "order_id": "ord_ic_003",
+      "product_id": "prod_ic_012",
+      "variant_id": "var_ic_012",
+      "quantity": 1,
+      "price_at_purchase": 144.0,
+      "id": "oi_ic_033"
+    },
+    {
+      "order_id": "ord_ic_003",
+      "product_id": "prod_ic_008",
+      "variant_id": "var_ic_008",
+      "quantity": 6,
+      "price_at_purchase": 7.99,
+      "id": "oi_ic_034"
+    },
+    {
+      "order_id": "ord_ic_003",
+      "product_id": "prod_ic_017",
+      "variant_id": "var_ic_017",
+      "quantity": 8,
+      "price_at_purchase": 5.49,
+      "id": "oi_ic_035"
+    },
+    {
+      "order_id": "ord_ic_003",
+      "product_id": "prod_ic_018",
+      "variant_id": "var_ic_018",
+      "quantity": 4,
+      "price_at_purchase": 6.99,
+      "id": "oi_ic_036"
+    },
+    {
+      "order_id": "ord_ic_004",
+      "product_id": "prod_ic_012",
+      "variant_id": "var_ic_012",
+      "quantity": 2,
+      "price_at_purchase": 144.0,
+      "id": "oi_ic_037"
+    },
+    {
+      "order_id": "ord_ic_004",
+      "product_id": "prod_ic_010",
+      "variant_id": "var_ic_010",
+      "quantity": 1,
+      "price_at_purchase": 49.99,
+      "id": "oi_ic_038"
+    },
+    {
+      "order_id": "ord_ic_p004",
+      "product_id": "prod_ic_p001",
+      "variant_id": "var_ic_p001",
+      "quantity": 1,
+      "price_at_purchase": 4.29,
+      "id": "oi_ic_039"
+    },
+    {
+      "order_id": "ord_ic_p004",
+      "product_id": "prod_ic_p002",
+      "variant_id": "var_ic_p002",
+      "quantity": 1,
+      "price_at_purchase": 3.99,
+      "id": "oi_ic_040"
+    },
+    {
+      "order_id": "ord_ic_p004",
+      "product_id": "prod_ic_p003",
+      "variant_id": "var_ic_p003",
+      "quantity": 1,
+      "price_at_purchase": 3.49,
+      "id": "oi_ic_041"
+    },
+    {
+      "order_id": "ord_ic_p004",
+      "product_id": "prod_ic_p004",
+      "variant_id": "var_ic_p004",
+      "quantity": 1,
+      "price_at_purchase": 1.99,
+      "id": "oi_ic_042"
+    },
+    {
+      "order_id": "ord_ic_p004",
+      "product_id": "prod_ic_p008",
+      "variant_id": "var_ic_p008",
+      "quantity": 1,
+      "price_at_purchase": 7.49,
+      "id": "oi_ic_043"
+    },
+    {
+      "order_id": "ord_ic_p004",
+      "product_id": "prod_ic_p011",
+      "variant_id": "var_ic_p011",
+      "quantity": 1,
+      "price_at_purchase": 5.49,
+      "id": "oi_ic_044"
+    },
+    {
+      "order_id": "ord_ic_p004",
+      "product_id": "prod_ic_p019",
+      "variant_id": "var_ic_p019",
+      "quantity": 1,
+      "price_at_purchase": 11.99,
+      "id": "oi_ic_045"
+    },
+    {
+      "order_id": "ord_ic_p004",
+      "product_id": "prod_ic_p024",
+      "variant_id": "var_ic_p024",
+      "quantity": 2,
+      "price_at_purchase": 3.29,
+      "id": "oi_ic_046"
+    },
+    {
+      "order_id": "ord_ic_005",
+      "product_id": "prod_ic_001",
+      "variant_id": "var_ic_001",
+      "quantity": 5,
+      "price_at_purchase": 6.49,
+      "id": "oi_ic_047"
+    },
+    {
+      "order_id": "ord_ic_005",
+      "product_id": "prod_ic_003",
+      "variant_id": "var_ic_003",
+      "quantity": 6,
+      "price_at_purchase": 3.49,
+      "id": "oi_ic_048"
+    },
+    {
+      "order_id": "ord_ic_005",
+      "product_id": "prod_ic_013",
+      "variant_id": "var_ic_013",
+      "quantity": 1,
+      "price_at_purchase": 18.99,
+      "id": "oi_ic_049"
+    },
+    {
+      "order_id": "ord_ic_005",
+      "product_id": "prod_ic_016",
+      "variant_id": "var_ic_016",
+      "quantity": 5,
+      "price_at_purchase": 1.99,
+      "id": "oi_ic_050"
+    },
+    {
+      "order_id": "ord_ic_p005",
+      "product_id": "prod_ic_p004",
+      "variant_id": "var_ic_p004",
+      "quantity": 1,
+      "price_at_purchase": 1.99,
+      "id": "oi_ic_051"
+    },
+    {
+      "order_id": "ord_ic_p005",
+      "product_id": "prod_ic_p006",
+      "variant_id": "var_ic_p006",
+      "quantity": 1,
+      "price_at_purchase": 4.49,
+      "id": "oi_ic_052"
+    },
+    {
+      "order_id": "ord_ic_p005",
+      "product_id": "prod_ic_p007",
+      "variant_id": "var_ic_p007",
+      "quantity": 2,
+      "price_at_purchase": 1.29,
+      "id": "oi_ic_053"
+    },
+    {
+      "order_id": "ord_ic_p005",
+      "product_id": "prod_ic_p010",
+      "variant_id": "var_ic_p010",
+      "quantity": 1,
+      "price_at_purchase": 3.29,
+      "id": "oi_ic_054"
+    },
+    {
+      "order_id": "ord_ic_p005",
+      "product_id": "prod_ic_p013",
+      "variant_id": "var_ic_p013",
+      "quantity": 1,
+      "price_at_purchase": 4.99,
+      "id": "oi_ic_055"
+    },
+    {
+      "order_id": "ord_ic_p005",
+      "product_id": "prod_ic_p014",
+      "variant_id": "var_ic_p014",
+      "quantity": 1,
+      "price_at_purchase": 3.99,
+      "id": "oi_ic_056"
+    },
+    {
+      "order_id": "ord_ic_p005",
+      "product_id": "prod_ic_p022",
+      "variant_id": "var_ic_p022",
+      "quantity": 1,
+      "price_at_purchase": 9.99,
+      "id": "oi_ic_057"
+    },
+    {
+      "order_id": "ord_ic_p005",
+      "product_id": "prod_ic_p023",
+      "variant_id": "var_ic_p023",
+      "quantity": 1,
+      "price_at_purchase": 16.99,
+      "id": "oi_ic_058"
+    },
+    {
+      "order_id": "ord_ic_006",
+      "product_id": "prod_ic_001",
+      "variant_id": "var_ic_001",
+      "quantity": 4,
+      "price_at_purchase": 6.49,
+      "id": "oi_ic_059"
+    },
+    {
+      "order_id": "ord_ic_006",
+      "product_id": "prod_ic_002",
+      "variant_id": "var_ic_002",
+      "quantity": 2,
+      "price_at_purchase": 4.99,
+      "id": "oi_ic_060"
+    },
+    {
+      "order_id": "ord_ic_006",
+      "product_id": "prod_ic_003",
+      "variant_id": "var_ic_003",
+      "quantity": 3,
+      "price_at_purchase": 3.49,
+      "id": "oi_ic_061"
+    },
+    {
+      "order_id": "ord_ic_006",
+      "product_id": "prod_ic_005",
+      "variant_id": "var_ic_005",
+      "quantity": 2,
+      "price_at_purchase": 22.99,
+      "id": "oi_ic_062"
+    },
+    {
+      "order_id": "ord_ic_006",
+      "product_id": "prod_ic_007",
+      "variant_id": "var_ic_007",
+      "quantity": 4,
+      "price_at_purchase": 5.49,
+      "id": "oi_ic_063"
+    },
+    {
+      "order_id": "ord_ic_007",
+      "product_id": "prod_ic_009",
+      "variant_id": "var_ic_009",
+      "quantity": 2,
+      "price_at_purchase": 42.99,
+      "id": "oi_ic_064"
+    },
+    {
+      "order_id": "ord_ic_007",
+      "product_id": "prod_ic_010",
+      "variant_id": "var_ic_010",
+      "quantity": 2,
+      "price_at_purchase": 49.99,
+      "id": "oi_ic_065"
+    },
+    {
+      "order_id": "ord_ic_007",
+      "product_id": "prod_ic_011",
+      "variant_id": "var_ic_011",
+      "quantity": 1,
+      "price_at_purchase": 34.99,
+      "id": "oi_ic_066"
+    },
+    {
+      "order_id": "ord_ic_007",
+      "product_id": "prod_ic_012",
+      "variant_id": "var_ic_012",
+      "quantity": 1,
+      "price_at_purchase": 144.0,
+      "id": "oi_ic_067"
+    },
+    {
+      "order_id": "ord_ic_p006",
+      "product_id": "prod_ic_p001",
+      "variant_id": "var_ic_p001",
+      "quantity": 1,
+      "price_at_purchase": 4.29,
+      "id": "oi_ic_068"
+    },
+    {
+      "order_id": "ord_ic_p006",
+      "product_id": "prod_ic_p002",
+      "variant_id": "var_ic_p002",
+      "quantity": 1,
+      "price_at_purchase": 3.99,
+      "id": "oi_ic_069"
+    },
+    {
+      "order_id": "ord_ic_p006",
+      "product_id": "prod_ic_p003",
+      "variant_id": "var_ic_p003",
+      "quantity": 1,
+      "price_at_purchase": 3.49,
+      "id": "oi_ic_070"
+    },
+    {
+      "order_id": "ord_ic_p006",
+      "product_id": "prod_ic_p009",
+      "variant_id": "var_ic_p009",
+      "quantity": 1,
+      "price_at_purchase": 5.99,
+      "id": "oi_ic_071"
+    },
+    {
+      "order_id": "ord_ic_p006",
+      "product_id": "prod_ic_p012",
+      "variant_id": "var_ic_p012",
+      "quantity": 1,
+      "price_at_purchase": 6.49,
+      "id": "oi_ic_072"
+    },
+    {
+      "order_id": "ord_ic_p006",
+      "product_id": "prod_ic_p020",
+      "variant_id": "var_ic_p020",
+      "quantity": 2,
+      "price_at_purchase": 7.49,
+      "id": "oi_ic_073"
+    },
+    {
+      "order_id": "ord_ic_p006",
+      "product_id": "prod_ic_p021",
+      "variant_id": "var_ic_p021",
+      "quantity": 1,
+      "price_at_purchase": 4.99,
+      "id": "oi_ic_074"
+    },
+    {
+      "order_id": "ord_ic_p006",
+      "product_id": "prod_ic_p024",
+      "variant_id": "var_ic_p024",
+      "quantity": 2,
+      "price_at_purchase": 3.29,
+      "id": "oi_ic_075"
+    },
+    {
+      "order_id": "ord_ic_p006",
+      "product_id": "prod_ic_p025",
+      "variant_id": "var_ic_p025",
+      "quantity": 1,
+      "price_at_purchase": 10.99,
+      "id": "oi_ic_076"
+    },
+    {
+      "order_id": "ord_ic_008",
+      "product_id": "prod_ic_004",
+      "variant_id": "var_ic_004",
+      "quantity": 6,
+      "price_at_purchase": 5.99,
+      "id": "oi_ic_077"
+    },
+    {
+      "order_id": "ord_ic_008",
+      "product_id": "prod_ic_006",
+      "variant_id": "var_ic_006",
+      "quantity": 2,
+      "price_at_purchase": 14.99,
+      "id": "oi_ic_078"
+    },
+    {
+      "order_id": "ord_ic_008",
+      "product_id": "prod_ic_015",
+      "variant_id": "var_ic_015",
+      "quantity": 3,
+      "price_at_purchase": 6.99,
+      "id": "oi_ic_079"
+    },
+    {
+      "order_id": "ord_ic_008",
+      "product_id": "prod_ic_016",
+      "variant_id": "var_ic_016",
+      "quantity": 4,
+      "price_at_purchase": 1.99,
+      "id": "oi_ic_080"
+    },
+    {
+      "order_id": "ord_ic_008",
+      "product_id": "prod_ic_018",
+      "variant_id": "var_ic_018",
+      "quantity": 2,
+      "price_at_purchase": 6.99,
+      "id": "oi_ic_081"
+    },
+    {
+      "order_id": "ord_ic_009",
+      "product_id": "prod_ic_001",
+      "variant_id": "var_ic_001",
+      "quantity": 3,
+      "price_at_purchase": 6.49,
+      "id": "oi_ic_082"
+    },
+    {
+      "order_id": "ord_ic_009",
+      "product_id": "prod_ic_008",
+      "variant_id": "var_ic_008",
+      "quantity": 4,
+      "price_at_purchase": 7.99,
+      "id": "oi_ic_083"
+    },
+    {
+      "order_id": "ord_ic_009",
+      "product_id": "prod_ic_017",
+      "variant_id": "var_ic_017",
+      "quantity": 6,
+      "price_at_purchase": 5.49,
+      "id": "oi_ic_084"
+    },
+    {
+      "order_id": "ord_ic_009",
+      "product_id": "prod_ic_003",
+      "variant_id": "var_ic_003",
+      "quantity": 2,
+      "price_at_purchase": 3.49,
+      "id": "oi_ic_085"
+    },
+    {
+      "order_id": "ord_ic_p007",
+      "product_id": "prod_ic_p001",
+      "variant_id": "var_ic_p001",
+      "quantity": 1,
+      "price_at_purchase": 4.29,
+      "id": "oi_ic_086"
+    },
+    {
+      "order_id": "ord_ic_p007",
+      "product_id": "prod_ic_p002",
+      "variant_id": "var_ic_p002",
+      "quantity": 1,
+      "price_at_purchase": 3.99,
+      "id": "oi_ic_087"
+    },
+    {
+      "order_id": "ord_ic_p007",
+      "product_id": "prod_ic_p005",
+      "variant_id": "var_ic_p005",
+      "quantity": 1,
+      "price_at_purchase": 4.99,
+      "id": "oi_ic_088"
+    },
+    {
+      "order_id": "ord_ic_p007",
+      "product_id": "prod_ic_p008",
+      "variant_id": "var_ic_p008",
+      "quantity": 1,
+      "price_at_purchase": 7.49,
+      "id": "oi_ic_089"
+    },
+    {
+      "order_id": "ord_ic_p007",
+      "product_id": "prod_ic_p014",
+      "variant_id": "var_ic_p014",
+      "quantity": 1,
+      "price_at_purchase": 3.99,
+      "id": "oi_ic_090"
+    },
+    {
+      "order_id": "ord_ic_p007",
+      "product_id": "prod_ic_p015",
+      "variant_id": "var_ic_p015",
+      "quantity": 1,
+      "price_at_purchase": 4.49,
+      "id": "oi_ic_091"
+    },
+    {
+      "order_id": "ord_ic_p007",
+      "product_id": "prod_ic_p016",
+      "variant_id": "var_ic_p016",
+      "quantity": 1,
+      "price_at_purchase": 12.99,
+      "id": "oi_ic_092"
+    },
+    {
+      "order_id": "ord_ic_p007",
+      "product_id": "prod_ic_p018",
+      "variant_id": "var_ic_p018",
+      "quantity": 1,
+      "price_at_purchase": 9.99,
+      "id": "oi_ic_093"
+    },
+    {
+      "order_id": "ord_ic_010",
+      "product_id": "prod_ic_009",
+      "variant_id": "var_ic_009",
+      "quantity": 3,
+      "price_at_purchase": 42.99,
+      "id": "oi_ic_094"
+    },
+    {
+      "order_id": "ord_ic_010",
+      "product_id": "prod_ic_010",
+      "variant_id": "var_ic_010",
+      "quantity": 2,
+      "price_at_purchase": 49.99,
+      "id": "oi_ic_095"
+    },
+    {
+      "order_id": "ord_ic_011",
+      "product_id": "prod_ic_013",
+      "variant_id": "var_ic_013",
+      "quantity": 2,
+      "price_at_purchase": 18.99,
+      "id": "oi_ic_096"
+    },
+    {
+      "order_id": "ord_ic_011",
+      "product_id": "prod_ic_014",
+      "variant_id": "var_ic_014",
+      "quantity": 4,
+      "price_at_purchase": 8.49,
+      "id": "oi_ic_097"
+    },
+    {
+      "order_id": "ord_ic_011",
+      "product_id": "prod_ic_002",
+      "variant_id": "var_ic_002",
+      "quantity": 3,
+      "price_at_purchase": 4.99,
+      "id": "oi_ic_098"
+    },
+    {
+      "order_id": "ord_ic_011",
+      "product_id": "prod_ic_003",
+      "variant_id": "var_ic_003",
+      "quantity": 5,
+      "price_at_purchase": 3.49,
+      "id": "oi_ic_099"
+    },
+    {
+      "order_id": "ord_ic_012",
+      "product_id": "prod_ic_009",
+      "variant_id": "var_ic_009",
+      "quantity": 1,
+      "price_at_purchase": 42.99,
+      "id": "oi_ic_100"
+    },
+    {
+      "order_id": "ord_ic_012",
+      "product_id": "prod_ic_011",
+      "variant_id": "var_ic_011",
+      "quantity": 2,
+      "price_at_purchase": 34.99,
+      "id": "oi_ic_101"
+    },
+    {
+      "order_id": "ord_ic_012",
+      "product_id": "prod_ic_012",
+      "variant_id": "var_ic_012",
+      "quantity": 2,
+      "price_at_purchase": 144.0,
+      "id": "oi_ic_102"
+    },
+    {
+      "order_id": "ord_ic_012",
+      "product_id": "prod_ic_006",
+      "variant_id": "var_ic_006",
+      "quantity": 1,
+      "price_at_purchase": 14.99,
+      "id": "oi_ic_103"
+    }
+  ],
+  "policies": [],
+  "faqs": [],
+  "carts": [],
+  "cart_lines": []
+}

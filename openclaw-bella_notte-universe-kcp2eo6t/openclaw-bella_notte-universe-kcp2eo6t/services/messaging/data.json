@@ -1,0 +1,1644 @@
+{
+  "conversations": [
+    {
+      "conversation_id": "70eaa57ae8e1498912542244",
+      "title": "Family Group Chat",
+      "participant_ids": [
+        "p_victor",
+        "p_alejandro",
+        "p_maria_r"
+      ],
+      "last_updated": 1774062900.0,
+      "messages": [
+        {
+          "message_id": "918311b77905bb3631ba9b9b",
+          "sender_id": "p_alejandro",
+          "content": "Hey guys. Victor, how's Mom? I called her Sunday and she seemed a little scattered. Kept repeating the same story about Tía Elena.",
+          "timestamp": 1759803240.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "90b87efb00921613595de8a3",
+          "sender_id": "p_victor",
+          "content": "She has her moments. Overall she's doing well. Rosa is great with her and she sees Dr. Pham next week.",
+          "timestamp": 1759798920.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "a4110c9e9decddfea4a51466",
+          "sender_id": "p_maria_r",
+          "content": "I visited last weekend! She was in great spirits. We looked through old photos and she remembered everything about the Guadalajara trip. She made me pozole 🥣",
+          "timestamp": 1759799880.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "8935afe9381a68abc53342e4",
+          "sender_id": "p_alejandro",
+          "content": "That's good to hear. I just worry because I'm so far away. Vic can you keep me in the loop after her appointment?",
+          "timestamp": 1759808100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "aa262c38277293a2a6492194",
+          "sender_id": "p_victor",
+          "content": "Of course. I'll let you know how it goes.",
+          "timestamp": 1759801320.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "dd9d761f75b2daef0dee424d",
+          "sender_id": "p_victor",
+          "content": "Mom's appointment went well. Dr. Pham says she's stable on the donepezil. No changes to treatment. She had a good day — knew everyone, told the nurse about the restaurant.",
+          "timestamp": 1760653800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "2e74fc98ee50b12d287e1ba7",
+          "sender_id": "p_alejandro",
+          "content": "Thanks for the update. Stable is good. Does Dr. Pham think she'll need a higher level of care anytime soon?",
+          "timestamp": 1760663700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "12f5738036b740817de7e90a",
+          "sender_id": "p_victor",
+          "content": "Not at this time. She's well cared for at home.",
+          "timestamp": 1760658300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "70aa92a509dd16a79364c5a5",
+          "sender_id": "p_maria_r",
+          "content": "That's wonderful news. Tía is tough. She's not going anywhere 💪",
+          "timestamp": 1760659320.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "c1e62a75a32dbfd0dc41dd29",
+          "sender_id": "p_alejandro",
+          "content": "I'm thinking about coming for Thanksgiving. It's been too long since I've seen Mom in person.",
+          "timestamp": 1762363800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "0051f75d318f971aa0837bd8",
+          "sender_id": "p_maria_r",
+          "content": "That would be great Ale! I'm driving down from Chicago too. Full family Thanksgiving!",
+          "timestamp": 1762361280.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "c984a1cd458155799dab4cba",
+          "sender_id": "p_victor",
+          "content": "Sounds good. I'll be working lunch at the restaurant but I'll be home by 4. I'm doing the turkey.",
+          "timestamp": 1762366500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "13d2a194fca63bf40b94d18b",
+          "sender_id": "p_alejandro",
+          "content": "I'll handle the tamales. Mom's recipe. I've been practicing.",
+          "timestamp": 1762371720.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "983a719377a5df72854f1e95",
+          "sender_id": "p_alejandro",
+          "content": "Victor. Mom didn't know it was Thanksgiving today. She asked where Papá was. Twice.",
+          "timestamp": 1764302880.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "6b1fc9c3aaea5da31c856437",
+          "sender_id": "p_victor",
+          "content": "She has confusion episodes. They come and go. Dr. Pham is aware.",
+          "timestamp": 1764300720.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "8db6342ab9d48d53e504145d",
+          "sender_id": "p_alejandro",
+          "content": "Come and go? She called me Papa for ten minutes. She didn't know what year it was. That's not a bad day Victor. That's decline.",
+          "timestamp": 1764304800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "f2cf2023c7618b181c9f77da",
+          "sender_id": "p_maria_r",
+          "content": "She did have a rough evening but she was fine this morning. We made breakfast together and she was totally with it. Please don't panic after one bad moment.",
+          "timestamp": 1764302700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "97e2c9a21c0e712fefc89f79",
+          "sender_id": "p_alejandro",
+          "content": "I'm not panicking. I'm being realistic. She needs to be reassessed. And we need to have a serious conversation about what happens when things get worse.",
+          "timestamp": 1764343800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "0ef019c2b5d316adead73edf",
+          "sender_id": "p_victor",
+          "content": "Things are under control, Ale. I'm here every day. I manage her medication, her appointments, her meals. What exactly do you think needs to change?",
+          "timestamp": 1764344700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "d8aa282d0379e74c2dab3ee1",
+          "sender_id": "p_alejandro",
+          "content": "For starters, she needs a memory care evaluation. And we should be looking at facilities. Just in case. Not saying right now but we should have a plan.",
+          "timestamp": 1764349920.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "3576c2e8a9b79d5e922f3fa3",
+          "sender_id": "p_victor",
+          "content": "She is not going to a facility. She lives in her home with her son. That IS the plan.",
+          "timestamp": 1764347400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "9aade5321e6c14d4a7898ad1",
+          "sender_id": "p_maria_r",
+          "content": "Both of you. Take a breath. Nobody is putting Tía anywhere. Let's just get through the weekend and talk about this calmly later.",
+          "timestamp": 1764349200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e3e72b0e2800e23fb74575cd",
+          "sender_id": "p_alejandro",
+          "content": "Victor, I've been doing research. There are excellent memory care facilities in both Milwaukee and Phoenix. I'm not the enemy here.",
+          "timestamp": 1765228800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "554f0fa642104be0b8e74d45",
+          "sender_id": "p_victor",
+          "content": "Phoenix? You want to move our mother 1,700 miles away from everything she knows? From her home, her church, her aide who she loves?",
+          "timestamp": 1765227900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "f912ecf654350a4547113567",
+          "sender_id": "p_alejandro",
+          "content": "I want her to have options. And I want some transparency about her care. You won't share her records, you won't share Dr. Pham's notes, you won't even tell me the details of her medication changes.",
+          "timestamp": 1765232280.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "9d89eafc8c8155446d2326f0",
+          "sender_id": "p_victor",
+          "content": "There haven't been medication changes. She's stable on donepezil. I've told you this multiple times.",
+          "timestamp": 1765229700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "73b482040a6d5d379ed5f025",
+          "sender_id": "p_alejandro",
+          "content": "Then share the records and prove it. If everything is fine, what are you hiding?",
+          "timestamp": 1765233720.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "faf2411de8ee5b193ecc20e8",
+          "sender_id": "p_maria_r",
+          "content": "Guys. Please. It's Christmas season. Can we not do this right now? Ale, Victor is doing his best. Victor, Ale has a right to be concerned. Can we find a middle ground?",
+          "timestamp": 1765232100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "c12dd1a8de61ea244946a74b",
+          "sender_id": "p_alejandro",
+          "content": "I've tried middle ground for months. If Victor won't cooperate, I may need to look into power of attorney to make sure Mom's interests are protected.",
+          "timestamp": 1765382400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "775ac67238af315b9b61c58c",
+          "sender_id": "p_victor",
+          "content": "Power of attorney. Wow. You're going to threaten me with legal action over our mother.",
+          "timestamp": 1765383300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ccd105578d8e00b152466b9c",
+          "sender_id": "p_alejandro",
+          "content": "It's not a threat. It's an option. One you're forcing me toward by refusing to communicate.",
+          "timestamp": 1765387320.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "40a70a491025568ff9c5ea67",
+          "sender_id": "p_maria_r",
+          "content": "I can't believe this is where we are. We're a family. Tía wouldn't want this. Both of you need to step back.",
+          "timestamp": 1765386000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "01839d43557994804d0f2b61",
+          "sender_id": "p_alejandro",
+          "content": "Victor, I'm done asking nicely. I've tried for months to have a conversation about Mom's care. If you won't even consider options, I'll have to take action. I'm telling you directly before I do anything.",
+          "timestamp": 1767636000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "487a253434040a3dff3f75f2",
+          "sender_id": "p_victor",
+          "content": "I've given you updates. Mom is stable. I don't know what else you want from me.",
+          "timestamp": 1767644400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "c031a3c15ad8465ca2be8908",
+          "sender_id": "p_alejandro",
+          "content": "I want her medical records. I want her financial records. I want to know exactly what's happening.",
+          "timestamp": 1767648900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "2f1f92007ec6ec2fc891cefe",
+          "sender_id": "p_victor",
+          "content": "Talk to my attorney if you need records. Sandra Milovich, (414) 555-0617.",
+          "timestamp": 1767647400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "58bb5737b4cc6777ae1e9a8d",
+          "sender_id": "p_alejandro",
+          "content": "Your attorney. Unbelievable.",
+          "timestamp": 1767651300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "9d62cb458cf56a96caaefeb9",
+          "sender_id": "p_maria_r",
+          "content": "Victor, was that really necessary? Ale, please try to understand — Victor is overwhelmed. He's doing this alone.",
+          "timestamp": 1767650400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e234fae39f61a6cb208ff6a2",
+          "sender_id": "p_alejandro",
+          "content": "He doesn't have to do it alone. That's the whole point.",
+          "timestamp": 1767654480.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "40ab9ee07df65051e42641bc",
+          "sender_id": "p_maria_r",
+          "content": "I talked to Tía today. She asked about both of you. She said \"my boys are fighting\" and it made her cry. Just thought you should know.",
+          "timestamp": 1768782600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "a680f690a420d2cab1d984fe",
+          "sender_id": "p_alejandro",
+          "content": "I've retained an attorney. Douglas Hartfield. I didn't want to go this route but Victor has given me no choice. If you won't share Mom's records voluntarily, my attorney will handle it.",
+          "timestamp": 1770577200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "b5b8622b2ec152f738e388d0",
+          "sender_id": "p_maria_r",
+          "content": "Ale, no. Please. Lawyers? We're family. There has to be another way.",
+          "timestamp": 1770575400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "5dd620879fc8894bdf253281",
+          "sender_id": "p_alejandro",
+          "content": "I've tried every other way. Victor won't talk to me, won't share information, won't let me be involved. What am I supposed to do?",
+          "timestamp": 1770579900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "30a995aa7266d25d5426c1c1",
+          "sender_id": "p_maria_r",
+          "content": "Victor? Are you there?",
+          "timestamp": 1770580800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "14240e802f546201a7491091",
+          "sender_id": "p_maria_r",
+          "content": "Victor, please say something. Don't shut down.",
+          "timestamp": 1770650100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "bcee0975acf3d9a0622b2a98",
+          "sender_id": "p_victor",
+          "content": "I have nothing to say that won't be used against me.",
+          "timestamp": 1770658920.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "aa61a1208107eba71005fd58",
+          "sender_id": "p_maria_r",
+          "content": "Used against you? Victor, we're your family. Nobody is trying to use anything against anyone. Please.",
+          "timestamp": 1770660300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "5e4344110c94c0151bd49d82",
+          "sender_id": "p_alejandro",
+          "content": "I called Mom today. She had a good day. Told me about the garden she wants to plant. I miss her.",
+          "timestamp": 1771812000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "a336c8babc3b14d44fb7aca2",
+          "sender_id": "p_maria_r",
+          "content": "She told me the same thing! She wants tomatoes and jalapeños. Like Abuela's garden.",
+          "timestamp": 1771810200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ee607e46d91cc8f0bd454349",
+          "sender_id": "p_alejandro",
+          "content": "Victor I sent you a formal records request. I expect you or your attorney to respond within 14 days.",
+          "timestamp": 1772734500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "0b4b1e9c83864c3dd43aea95",
+          "sender_id": "p_victor",
+          "content": "My attorney has it. She'll respond to yours.",
+          "timestamp": 1772739000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ef5e4c6b9c15d6ae35ca510c",
+          "sender_id": "p_maria_r",
+          "content": "This is so sad. Tía deserves better than this from both of you.",
+          "timestamp": 1772742000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "9406576a5d4fe3bd04dd670d",
+          "sender_id": "p_alejandro",
+          "content": "I'm flying in Thursday the 20th. Arriving around noon. I'll come by the house to see Mom. Victor, I'd appreciate it if you were there.",
+          "timestamp": 1773588600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ee612fcf8d416ce5275a1fd4",
+          "sender_id": "p_victor",
+          "content": "I work Thursday lunch. I can be home by 3. Rosa will be with Mom until then.",
+          "timestamp": 1773591480.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "4d4846f4b4e836ccc8fbcdf3",
+          "sender_id": "p_maria_r",
+          "content": "I'll drive down from Chicago that morning. We can all have coffee and talk like adults. Please. For Tía.",
+          "timestamp": 1773594300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "3de0a0b1bf774af1361f7549",
+          "sender_id": "p_alejandro",
+          "content": "Mom looked good today. She was happy to see me. We sat in the kitchen and she told me about the fish fry at church. She remembered everything about it.",
+          "timestamp": 1774057500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "b24c64d1eeb99434080ea10f",
+          "sender_id": "p_maria_r",
+          "content": "I'm so glad. How did the visit go otherwise? Did you guys talk?",
+          "timestamp": 1774051800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "82dcc422d10700fe5477a1b8",
+          "sender_id": "p_alejandro",
+          "content": "Victor and I were polite. That's about all I can say. He wouldn't discuss records or care plans. Told me to talk to his lawyer.",
+          "timestamp": 1774059900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "919f5e08ed571dfdb091410b",
+          "sender_id": "p_maria_r",
+          "content": "At least you saw Tía. That matters. Both of you are coming from a place of love even if it doesn't feel like it right now.",
+          "timestamp": 1774053720.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "185a8d860806933cb9052538",
+          "sender_id": "p_victor",
+          "content": "Mom had a good day with everyone here. That's what matters.",
+          "timestamp": 1774062900.0,
+          "attachment_name": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "42bf06133b3d341ef7ee4ea2",
+      "title": "Dave K",
+      "participant_ids": [
+        "p_victor",
+        "p_dave"
+      ],
+      "last_updated": 1774500840.0,
+      "messages": [
+        {
+          "message_id": "bb447bd3d33b8b880e6ab3b4",
+          "sender_id": "p_dave",
+          "content": "Morning Vic. How are we today?",
+          "timestamp": 1759407300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "2cfc79f97cd6b9c73724dea6",
+          "sender_id": "p_victor",
+          "content": "Good day. Busy but good. Fall menu launched at the restaurant and Mom had a great morning.",
+          "timestamp": 1759408920.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "cc2cf6874d5528b37cabd5ad",
+          "sender_id": "p_dave",
+          "content": "Glad to hear it. 2 and a half years tomorrow, brother. That's something to be proud of.",
+          "timestamp": 1759409280.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "5191d227d0e6965d617db42c",
+          "sender_id": "p_victor",
+          "content": "913 days. Not that I'm counting.",
+          "timestamp": 1759409520.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "1a50ca7e0a0e3ac70712b21d",
+          "sender_id": "p_dave",
+          "content": "You better be counting. Every one of them matters. See you Saturday?",
+          "timestamp": 1759409700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "f43c8bb41b889b1831a77096",
+          "sender_id": "p_victor",
+          "content": "Wouldn't miss it.",
+          "timestamp": 1759409880.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "abb6d427938be7b1a335d73b",
+          "sender_id": "p_dave",
+          "content": "How's the week been? Any tough moments?",
+          "timestamp": 1760529000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "fb2331823e2e0f7b23337005",
+          "sender_id": "p_victor",
+          "content": "All good. Wine tasting at the restaurant yesterday for the fall list, but I had Maria handle it. Didn't even go near the room.",
+          "timestamp": 1760530200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "08341d084dbb72595dc26afc",
+          "sender_id": "p_dave",
+          "content": "Smart man. Boundaries are everything. Proud of you.",
+          "timestamp": 1760530440.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "0fa834d99ca839e2a12f1351",
+          "sender_id": "p_dave",
+          "content": "Checking in. How's things?",
+          "timestamp": 1762779600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "6f8de804fdab3e810e0fb566",
+          "sender_id": "p_victor",
+          "content": "Family stuff. Brother's coming for Thanksgiving and there's tension about Mom's care. He thinks I'm not doing enough.",
+          "timestamp": 1762781100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "62f5e1ac355a378f206d45b1",
+          "sender_id": "p_dave",
+          "content": "Family can be the hardest trigger. You know that. How are you feeling about it?",
+          "timestamp": 1762781400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "688d72843c69952d327aaa7e",
+          "sender_id": "p_victor",
+          "content": "Angry mostly. He doesn't do anything for Mom but has opinions about everything. I'm the one here every day.",
+          "timestamp": 1762781880.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "c7760fc17a0cfbc270d87a8e",
+          "sender_id": "p_dave",
+          "content": "Anger is dangerous for us. You know where to put it. Meeting Wednesday. Write about it before then.",
+          "timestamp": 1762782120.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "13a493d3aef4d8db49db9adc",
+          "sender_id": "p_victor",
+          "content": "Dave. Rough Thanksgiving. My brother saw Mom confused and went off about facilities and moving her to Phoenix. We argued. Badly.",
+          "timestamp": 1764391500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "5e82aa95e923e7e5742703c3",
+          "sender_id": "p_dave",
+          "content": "I'm sorry brother. That's heavy. How are you right now? Be honest.",
+          "timestamp": 1764391800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "a6fe2a1efba13c8481897ab1",
+          "sender_id": "p_victor",
+          "content": "Cravings were real for the first time in months. Sitting in the kitchen and there's a bottle of Barolo on the counter from dinner. I can smell it from here.",
+          "timestamp": 1764392280.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e61dee71a9ecec6497f8c1a3",
+          "sender_id": "p_dave",
+          "content": "Put the bottle away. Not in the trash, just out of sight. Pour yourself some water. Did you take your pill today?",
+          "timestamp": 1764392400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "66405834de03fc73886de471",
+          "sender_id": "p_victor",
+          "content": "Yes. 8 AM like always. I'm putting the bottle in the pantry. I'm not going to drink it.",
+          "timestamp": 1764392700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ec3aabf5352849a96febfb98",
+          "sender_id": "p_dave",
+          "content": "I know you're not. But call me if that changes. Even at 3 AM. I mean it Vic.",
+          "timestamp": 1764392820.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "63a29b9ee4f74b19b508f554",
+          "sender_id": "p_victor",
+          "content": "I know. Thank you Dave.",
+          "timestamp": 1764393000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "d49cb210ffddad86771c8880",
+          "sender_id": "p_dave",
+          "content": "Holiday season at the restaurant this week? How's that going?",
+          "timestamp": 1765027200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "b405c928f47c4b593d14f3ae",
+          "sender_id": "p_victor",
+          "content": "It's nonstop. Had to pour champagne for 60 people at a corporate event last night. Maria handled the bar but I was running the floor and I could smell everything.",
+          "timestamp": 1765028100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ba07a9a944314be84c747c2d",
+          "sender_id": "p_dave",
+          "content": "December is always the hardest month for people in our shoes. How'd you handle it?",
+          "timestamp": 1765028400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "403c021ba6de4839194dc958",
+          "sender_id": "p_victor",
+          "content": "Stayed busy. Focused on the food, the guests, the logistics. Didn't let myself stop moving. By the time I got home I was too tired to think about it.",
+          "timestamp": 1765028880.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "89614a623247c953098d3690",
+          "sender_id": "p_dave",
+          "content": "That works short term. Make sure you're not just white-knuckling through December. Meeting Wednesday, journal before then. Deal?",
+          "timestamp": 1765029120.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "99e96823aaa7263913b7db56",
+          "sender_id": "p_victor",
+          "content": "Deal.",
+          "timestamp": 1765029240.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "f5597027de7d67a65ec0b023",
+          "sender_id": "p_victor",
+          "content": "NYE was brutal. Open bar for the prix fixe, every table had bottles of champagne. I had to give a toast to the room at midnight with sparkling water in a champagne flute. Nobody noticed but I noticed.",
+          "timestamp": 1767251700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "969d4f5c243a24a67798a466",
+          "sender_id": "p_dave",
+          "content": "But you're texting me at 1 AM sober. That's a win, Vic. Happy New Year brother.",
+          "timestamp": 1767252000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "880ed34fac633d6abe238066",
+          "sender_id": "p_dave",
+          "content": "Morning. How's the new year treating you?",
+          "timestamp": 1767877500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "18dac1f41d4dd1b1de2af2a9",
+          "sender_id": "p_victor",
+          "content": "Something's going on at work that I can't really talk about yet. Just stressed. Can't get into details.",
+          "timestamp": 1767879000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "1ee45a2bfb1f8f7d4d7d5a99",
+          "sender_id": "p_dave",
+          "content": "You don't have to tell me what it is. Just tell me how you're handling it.",
+          "timestamp": 1767879300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "7abe48bd02a505dc11e3c9a0",
+          "sender_id": "p_victor",
+          "content": "Taking my pill. Going to meetings. Not drinking. Just grinding through it.",
+          "timestamp": 1767879600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "aa8945bf214b8ecf382d3d84",
+          "sender_id": "p_dave",
+          "content": "That's all you can do. You know where I am.",
+          "timestamp": 1767879780.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "0f143a73e8a7174e44f2f9c3",
+          "sender_id": "p_victor",
+          "content": "Furnace died last night. -12 outside. Had to wrap Mom in every blanket in the house until the repair guy came this morning. $480 I didn't have.",
+          "timestamp": 1768658400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "1e97f019418960e5bb40a81b",
+          "sender_id": "p_dave",
+          "content": "Damn. Is she okay? Are you okay?",
+          "timestamp": 1768658700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "adec8313429b65b39d7653ac",
+          "sender_id": "p_victor",
+          "content": "She's fine. I'm fine. Just tired of everything being an emergency.",
+          "timestamp": 1768659120.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "56b88e3a71d9816d3edb3b1b",
+          "sender_id": "p_dave",
+          "content": "I hear you. But you handled it. That's what matters.",
+          "timestamp": 1768659300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "481baaa25d89de33096337df",
+          "sender_id": "p_dave",
+          "content": "How's the week?",
+          "timestamp": 1770297000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "6561a25a60e1cb578a57b37d",
+          "sender_id": "p_victor",
+          "content": "Money's tight. Everything is tight. Legal bills, Mom's care costs, the restaurant needs things, and my brother is making everything harder.",
+          "timestamp": 1770298200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "008ffcc22a68b721c6af7e54",
+          "sender_id": "p_dave",
+          "content": "Financial stress is one of the biggest relapse triggers. Are you doing okay? Really okay?",
+          "timestamp": 1770298500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "fe64c41d412fd53513901217",
+          "sender_id": "p_victor",
+          "content": "I'm holding it together. Barely. But I am.",
+          "timestamp": 1770298920.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "9e83199276a87b29a43f0b53",
+          "sender_id": "p_dave",
+          "content": "Barely counts. Extra meeting this week? I'll go with you.",
+          "timestamp": 1770299100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "de5d2f9cbb018dd53232c7db",
+          "sender_id": "p_victor",
+          "content": "Yeah. Wednesday. I'll be there.",
+          "timestamp": 1770299280.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "628d8f92d1b2ae59bbec0573",
+          "sender_id": "p_victor",
+          "content": "Valentine's Day at the restaurant tonight. 240 covers. Every table had wine and cocktails flowing. I'm exhausted.",
+          "timestamp": 1771134300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "6e949379da2b121aed64dbcb",
+          "sender_id": "p_dave",
+          "content": "How'd you do?",
+          "timestamp": 1771134600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "a0a9321cac7b0637f9367a7f",
+          "sender_id": "p_victor",
+          "content": "Fine. Stayed in the kitchen mostly. Tony and Maria ran the floor and bar. I just cooked and counted plates.",
+          "timestamp": 1771134900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "96728d732c7e37fd13974e86",
+          "sender_id": "p_dave",
+          "content": "Smart. Knowing your limits is everything. Sleep well brother.",
+          "timestamp": 1771135080.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e1d5ee3f5ac0d1a0eb2b8a48",
+          "sender_id": "p_dave",
+          "content": "3 years today brother. I know you don't need me to tell you, but I'm proud of you. Meeting tonight if you want. Or just call.",
+          "timestamp": 1773491400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "4a5da0acc424063af3990569",
+          "sender_id": "p_victor",
+          "content": "Thanks Dave. It means everything. I'll be at the Wednesday meeting.",
+          "timestamp": 1773492300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "625882ac00aa34275a563ff5",
+          "sender_id": "p_dave",
+          "content": "Morning brother. How'd you sleep?",
+          "timestamp": 1773835920.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "1c24175011feb44ad3ee9f0b",
+          "sender_id": "p_victor",
+          "content": "3 hours. Mom was up at 2 AM confused. Thought she was at her parents' house. Took 45 minutes to get her settled.",
+          "timestamp": 1773836880.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "05f1811f563679a5f39a4894",
+          "sender_id": "p_dave",
+          "content": "That's rough. You take your pill this morning?",
+          "timestamp": 1773837060.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "10a449b605fda583299465eb",
+          "sender_id": "p_victor",
+          "content": "Yeah. 8 AM like clockwork. One thing I never miss.",
+          "timestamp": 1773837180.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "10d197aa0ff58632e3d3d08f",
+          "sender_id": "p_dave",
+          "content": "Good man. Any tough moments this week?",
+          "timestamp": 1774007700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "63adf8804c15a37a2cb6eda8",
+          "sender_id": "p_victor",
+          "content": "Had a customer chew out my bartender about a cocktail. Old fashioned wasn't sweet enough or something. Stood there smelling bourbon for 10 minutes while I handled it. I'm fine but it wasn't nothing.",
+          "timestamp": 1774008900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "efdd90f04c312924a18b2a5f",
+          "sender_id": "p_dave",
+          "content": "That's an honest answer. You want to talk before Saturday's meeting?",
+          "timestamp": 1774009200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e61f481ce5801ad24e45e443",
+          "sender_id": "p_victor",
+          "content": "Nah I'm okay. Just wanted to name it. I'll see you Saturday.",
+          "timestamp": 1774009500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "96a5de440bad6d61c33c1591",
+          "sender_id": "p_dave",
+          "content": "Always here. 3 years and 6 days, Vic. That's not nothing either.",
+          "timestamp": 1774009620.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "9163116c2d7c1a7f00af8e5a",
+          "sender_id": "p_victor",
+          "content": "Still at the restaurant. Long night. Just tired.",
+          "timestamp": 1774498440.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "a9a47277fbe8b1db76f18654",
+          "sender_id": "p_dave",
+          "content": "Tired or struggling? No judgment.",
+          "timestamp": 1774498680.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "8cdc123b17a0b93f126e7940",
+          "sender_id": "p_victor",
+          "content": "Just tired. I think. Going home.",
+          "timestamp": 1774499040.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "c9d19cf61cee4c4023bd6b44",
+          "sender_id": "p_dave",
+          "content": "Text me when you're home safe. I mean it.",
+          "timestamp": 1774499100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "7cbb463fede8b5e2f66d167f",
+          "sender_id": "p_victor",
+          "content": "Home. Mom's asleep. I'm going to bed.",
+          "timestamp": 1774500720.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "7bb02c4b3ec4417155b321dd",
+          "sender_id": "p_dave",
+          "content": "Proud of you. See you Saturday. Sleep well brother.",
+          "timestamp": 1774500840.0,
+          "attachment_name": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "1b0ad74e0663010c5cd20a11",
+      "title": "Tony A",
+      "participant_ids": [
+        "p_victor",
+        "p_tony"
+      ],
+      "last_updated": 1774104600.0,
+      "messages": [
+        {
+          "message_id": "53df187edf19023ad4b3bf1b",
+          "sender_id": "p_tony",
+          "content": "Hey boss. Fall menu is looking great. Pumpkin ravioli sold out by 8 last night. Want me to double prep tomorrow?",
+          "timestamp": 1760023800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "f40b04325bd428c6f5957993",
+          "sender_id": "p_victor",
+          "content": "Double it. If we sell out two nights in a row that's a signal. Also bump up the short rib pappardelle — that's moving fast too.",
+          "timestamp": 1760024700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "b9e8b947952e48350b4c6bcf",
+          "sender_id": "p_tony",
+          "content": "On it. How's your Mom doing? You mentioned she had a doctor's visit this week.",
+          "timestamp": 1760025120.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "981e0e80805e7be1b822aeab",
+          "sender_id": "p_victor",
+          "content": "She's good. Doctor says stable. Appreciate you asking, Tony.",
+          "timestamp": 1760025600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "fe8e0b3f6dd63f54cdbc6e6c",
+          "sender_id": "p_tony",
+          "content": "Sysco was short on the wild mushroom blend. Had to sub with cremini and shiitake from Metro Market. Worked fine but wanted you to know.",
+          "timestamp": 1761160500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "88ededfd356eb322e297f990",
+          "sender_id": "p_victor",
+          "content": "Good call. I'll talk to Dan about the reliability issues. Third short shipment this month.",
+          "timestamp": 1761161400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "db769f8bb65b63fe6757bae1",
+          "sender_id": "p_victor",
+          "content": "Tony, holiday party season. I need you to build out the prix fixe and get specialty orders to Sysco by next Friday. Can you handle the wine pairings with Maria?",
+          "timestamp": 1763478000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "b182244709bc20ba8c99d766",
+          "sender_id": "p_tony",
+          "content": "Already on it. Meeting with Maria tomorrow to finalize pairings. I'm thinking the braised short rib, lobster ravioli, and chocolate torte for the prix fixe. Classic Bella Notte.",
+          "timestamp": 1763479200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "500b07f064bb5ae9ad3b02ae",
+          "sender_id": "p_victor",
+          "content": "Perfect. That's exactly what I was thinking. Let's kill it this December.",
+          "timestamp": 1763479680.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "c189fde3760a78e3b47d60fc",
+          "sender_id": "p_tony",
+          "content": "NYE prep list is done. 120 covers confirmed for the prix fixe. Sysco special order confirmed for Dec 30. Extra oysters, lobster tails, and the good truffle oil. We're ready.",
+          "timestamp": 1766941200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "243b7c5dfc82becd519ee3f6",
+          "sender_id": "p_victor",
+          "content": "You're the best Tony. Seriously. I couldn't run this place without you.",
+          "timestamp": 1766942100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "421c90d0793238ce0c7425cf",
+          "sender_id": "p_tony",
+          "content": "How was your Christmas? How's your Mom?",
+          "timestamp": 1766942400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "178a7e296c86e134b2a25f8e",
+          "sender_id": "p_victor",
+          "content": "Quiet. Just me and Mom. She had a good day. We watched old movies and ate tamales. It was nice.",
+          "timestamp": 1766943000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "12bfa41f9880f21b97d1bdd7",
+          "sender_id": "p_tony",
+          "content": "Heads up — walk-in compressor sounded rough today. Temps are holding but I want to keep an eye on it. Might need a tech this week.",
+          "timestamp": 1767738600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "094a96674d89c10acc7a4114",
+          "sender_id": "p_victor",
+          "content": "Good catch. I'll schedule a tech for this week. Keep logging temps twice daily until they come out.",
+          "timestamp": 1767739500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "7706ab2401fe6709748cb09b",
+          "sender_id": "p_tony",
+          "content": "Health inspection early notice came in. Late March or early April. Want me to start the deep clean rotation?",
+          "timestamp": 1768489200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "191ea5fe5fe5cede7de43e5c",
+          "sender_id": "p_victor",
+          "content": "Yes. Start with the hood system and exhaust filters. We got 96 last time — I want to beat it. Let's be audit-ready by March 1.",
+          "timestamp": 1768490280.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ea8ce9693f1f54306b77fe35",
+          "sender_id": "p_tony",
+          "content": "Mom's appointment is the 30th right? Need me to drive her again?",
+          "timestamp": 1769623200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "aa2b282c8d7a50bc4fdfa611",
+          "sender_id": "p_victor",
+          "content": "Yeah, if you can. Appointment is at 10:30. I've got the owner call at 2 and can't make both.",
+          "timestamp": 1769624100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e5ee38e16a8fde07aba51ae6",
+          "sender_id": "p_tony",
+          "content": "Done. I'll pick her up at 9:45. She likes stopping at Culver's on the way back. My treat.",
+          "timestamp": 1769624400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "0c8571fa3058a311269e3518",
+          "sender_id": "p_victor",
+          "content": "You spoil her. Thanks Tony.",
+          "timestamp": 1769624700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "f12f5c6dc5cb512eabdded64",
+          "sender_id": "p_tony",
+          "content": "Fish fry prep for Week 1 is dialed in. 70 portions of beer-battered cod, coleslaw, fries, mac and cheese. Luis is handling the fry station.",
+          "timestamp": 1771516800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "b7bbcf423611719a53acf345",
+          "sender_id": "p_victor",
+          "content": "Great. Fr. Nowak says they might need more next week if word gets out. Be ready to scale to 85.",
+          "timestamp": 1771517700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "83feca6e342c45bbcee4d036",
+          "sender_id": "p_tony",
+          "content": "Valentine's Day was insane. 240 covers, no major mistakes, kitchen ran clean. Staff meal tomorrow to celebrate?",
+          "timestamp": 1771137000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "07aefb525b456a9d6aabf708",
+          "sender_id": "p_victor",
+          "content": "Absolutely. You earned it. The whole team did. I'll buy the steaks.",
+          "timestamp": 1771164000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "32c8384fa0dd2478bd2bf7d5",
+          "sender_id": "p_tony",
+          "content": "Hey boss. We're short on halibut, Sysco only sent 8 portions instead of 20. Want me to order from US Foods or just 86 it after tonight?",
+          "timestamp": 1773936300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "3deb12e36de081a27a6a3817",
+          "sender_id": "p_victor",
+          "content": "Order from US Foods, rush delivery. We've got that 8-top Thursday that pre-ordered the halibut special. Can't 86 it.",
+          "timestamp": 1773936720.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "b15eafdabee17c9460a1abd2",
+          "sender_id": "p_tony",
+          "content": "On it. Keisha at US Foods says she can get it to us by tomorrow 10 AM.",
+          "timestamp": 1773937800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "c5a8908d1fdaf3a18a9feb8f",
+          "sender_id": "p_victor",
+          "content": "Perfect. Hey, any chance you could drive Mom to Dr. Pham's on Thursday? I've got the owner call at 2.",
+          "timestamp": 1773940500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "76500f2f960622d7bc43d117",
+          "sender_id": "p_tony",
+          "content": "Of course. Same as last time? UW Health?",
+          "timestamp": 1773940680.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "290655ddbb953da9a8549ed1",
+          "sender_id": "p_victor",
+          "content": "Yeah. Appointment's at 1:30. Thanks man. She likes your car better than mine anyway.",
+          "timestamp": 1773940920.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "a210b976ffa55ca9b512319e",
+          "sender_id": "p_tony",
+          "content": "Ha. It's the heated seats. I'll pick her up at 12:45.",
+          "timestamp": 1773941100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "79242e1d47dfbcc21caf33e5",
+          "sender_id": "p_victor",
+          "content": "Health inspection confirmed for April 1. Need the deep clean scheduled this weekend.",
+          "timestamp": 1774104000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "cf3a1ba7498a3d2c27140e1c",
+          "sender_id": "p_tony",
+          "content": "Already on it. Marco and Ricky are doing the walk-in Saturday morning. I'll handle the line and hoods Sunday before service.",
+          "timestamp": 1774104480.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "8e66bb44d89e37e065aecd34",
+          "sender_id": "p_victor",
+          "content": "What would I do without you.",
+          "timestamp": 1774104600.0,
+          "attachment_name": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "cc962580673d09cff1dbba2a",
+      "title": "Carmen Diaz",
+      "participant_ids": [
+        "p_victor",
+        "p_carmen"
+      ],
+      "last_updated": 1773965400.0,
+      "messages": [
+        {
+          "message_id": "4f6334e038b20ac2c46bcaae",
+          "sender_id": "p_victor",
+          "content": "Hey Carmen, I'm closing tonight. Can you stay with Mom until I get home? Should be by 11:30.",
+          "timestamp": 1759958100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ff87878c7f03a6193668eac7",
+          "sender_id": "p_carmen",
+          "content": "Of course. I'll head over around 5:30. Does she need dinner or did you already cook?",
+          "timestamp": 1759958520.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "4d154c77f7a5ac0aa3d175c6",
+          "sender_id": "p_victor",
+          "content": "Arroz con pollo in the fridge, just needs warming up. Meds are on the counter — donepezil at 8.",
+          "timestamp": 1759958700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "5eae7019ec9a2e5b37bd3978",
+          "sender_id": "p_carmen",
+          "content": "She ate everything. We watched novelas and she fell asleep on the couch around 9:30. Moved her to bed. All good here.",
+          "timestamp": 1759981680.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e723926d23b08edc518fbb4d",
+          "sender_id": "p_victor",
+          "content": "Just got home. Thank you Carmen. Seriously.",
+          "timestamp": 1759984680.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "7e185be6bf882153d4502eb7",
+          "sender_id": "p_victor",
+          "content": "Closing again tonight. She had a good day — was singing in the kitchen when I left. Same routine with meds.",
+          "timestamp": 1761165900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "4c5b89ba53693341a07b519b",
+          "sender_id": "p_carmen",
+          "content": "Love it when she sings. I'll be there by 5:30.",
+          "timestamp": 1761166320.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "45fa3fab68bf96f70edacfe1",
+          "sender_id": "p_carmen",
+          "content": "Victor, she got confused around 9 and asked for your dad. I just sat with her and rubbed her back until she calmed down. She's sleeping now.",
+          "timestamp": 1761189300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "b6b5064a4a05b3aaa00824b0",
+          "sender_id": "p_victor",
+          "content": "Thank you for handling that. It happens sometimes. She always settles if someone just sits with her.",
+          "timestamp": 1761189720.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "bf7f2c5868588dd085336764",
+          "sender_id": "p_carmen",
+          "content": "Are you closing Friday? I can come stay with your mom if you need.",
+          "timestamp": 1763172600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "0721d1c7aa72e7dab6b23293",
+          "sender_id": "p_victor",
+          "content": "Yeah, Friday and Saturday this week. Friday would be huge if you can.",
+          "timestamp": 1763173080.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "99ba33fc28ef10a51dfd639b",
+          "sender_id": "p_carmen",
+          "content": "Done. I'll bring some of that tres leches she liked last time. She kept talking about it for three days.",
+          "timestamp": 1763173320.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "a1fc605736302c8ef3d55dc1",
+          "sender_id": "p_victor",
+          "content": "Carmen, big favor. Private event at the restaurant tonight — might not be home until midnight. Can you stay late?",
+          "timestamp": 1766010600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "29d9c2601c83cf387076698d",
+          "sender_id": "p_carmen",
+          "content": "Of course. Want me to handle the 8 o'clock meds?",
+          "timestamp": 1766010900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "1aa7770999e9750981ccc787",
+          "sender_id": "p_victor",
+          "content": "Yes please. Donepezil at 8. Melatonin is on her nightstand if she can't sleep.",
+          "timestamp": 1766011080.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "15fc6865f34fbb0fe47e7b44",
+          "sender_id": "p_carmen",
+          "content": "All quiet. She's been asleep since 9:15. I made her chamomile tea and she went right down. Take your time getting home.",
+          "timestamp": 1766036700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "7a2c2414afec6935fd58049a",
+          "sender_id": "p_victor",
+          "content": "Closing tonight. Furnace repair guy might still be there when you arrive — just let him finish. Mom's in the living room with extra blankets.",
+          "timestamp": 1768518000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e1def6864834ed8403a09d7d",
+          "sender_id": "p_carmen",
+          "content": "I'm here. Repair guy just left. House is warming back up. Made her hot chocolate. She's doing fine.",
+          "timestamp": 1768520100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "42a6621570d1bed3ef1fe7e9",
+          "sender_id": "p_victor",
+          "content": "Home. House is warm again. You're a lifesaver Carmen.",
+          "timestamp": 1768540800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "7a8cb072c903463205d9a34f",
+          "sender_id": "p_victor",
+          "content": "Can you stay with Mom tonight? Closing again.",
+          "timestamp": 1770414600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "195dcbb2a93fc32ec218c896",
+          "sender_id": "p_carmen",
+          "content": "Of course. How was she today?",
+          "timestamp": 1770414900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "1d0e0a997dfea582ffac18cc",
+          "sender_id": "p_victor",
+          "content": "Great day. Rosa said she was in a wonderful mood — they baked cookies together. Should be an easy night.",
+          "timestamp": 1770415200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "82a59fda4b714bf7faca79f2",
+          "sender_id": "p_carmen",
+          "content": "She had a lovely evening. We looked at old photos and she told me about your dad's fishing trips up north. Her memory was really sharp tonight, Victor.",
+          "timestamp": 1770438600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "aee3c0c7b9988221dd790bee",
+          "sender_id": "p_victor",
+          "content": "Closing tonight. She was a little off today — Rosa said some confusion this afternoon. Just keep things calm and quiet.",
+          "timestamp": 1773954000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "761804753d475d144b91bd32",
+          "sender_id": "p_carmen",
+          "content": "Got it. I'm here now. She seems okay — we're watching Wheel of Fortune and she just solved three puzzles before the contestants. I think she's doing fine.",
+          "timestamp": 1773965400.0,
+          "attachment_name": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "fce159e0040aa8e8c3f9c86e",
+      "title": "Sandra Milovich",
+      "participant_ids": [
+        "p_victor",
+        "p_sandra"
+      ],
+      "last_updated": 1772982720.0,
+      "messages": [
+        {
+          "message_id": "cef129566db97a692b400e09",
+          "sender_id": "p_victor",
+          "content": "Sandra, Alejandro just sent another email about Mom's records. Forwarding now.",
+          "timestamp": 1762978500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "4762b33739279a3b0a0ccfb3",
+          "sender_id": "p_sandra",
+          "content": "Got it. Don't respond to him directly. I'll draft something.",
+          "timestamp": 1762979280.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "712da8c80839d74421926644",
+          "sender_id": "p_victor",
+          "content": "He's now talking about power of attorney in the family group chat. Is that something he can actually pursue?",
+          "timestamp": 1763481600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "8354ea19ef67c402fb639433",
+          "sender_id": "p_sandra",
+          "content": "Not unilaterally. Your mother executed the POA while competent. It's valid. I'll walk you through it on Thursday's call.",
+          "timestamp": 1763482500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "d2afc23a422fe3892a706d4e",
+          "sender_id": "p_victor",
+          "content": "CK sent another denial on the billing dispute. Same boilerplate as last time.",
+          "timestamp": 1767713400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ad5f7f9396b07b100c3d426f",
+          "sender_id": "p_sandra",
+          "content": "Forward it to me. I'll escalate to their compliance department. They can't keep stonewalling on this.",
+          "timestamp": 1767714300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "bd6a2f9b08315c43ce70741a",
+          "sender_id": "p_victor",
+          "content": "Can we move Thursday's call to 3? Mom has a doctor appointment at 1.",
+          "timestamp": 1769101200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "7a9c936b322d8d35eb59c154",
+          "sender_id": "p_sandra",
+          "content": "3 works. I'll have updates on the CK complaint and the Hartfield response by then.",
+          "timestamp": 1769101680.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "dfd91d8d987e5f02dd35ec69",
+          "sender_id": "p_victor",
+          "content": "Alejandro retained an attorney. Douglas Hartfield. He just announced it in the group chat.",
+          "timestamp": 1770585600.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "a6eb5f2ea3a5f2a77bf90155",
+          "sender_id": "p_sandra",
+          "content": "I know Doug. He's reasonable. This may actually help — easier to negotiate attorney to attorney than through a family group text. Don't engage with Alejandro about legal matters anymore.",
+          "timestamp": 1770654900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "bb775320f9ea486a43226909",
+          "sender_id": "p_sandra",
+          "content": "Victor, I sent a letter to Hartfield's office today. Formal response to Alejandro's records request. I've offered a supervised review with conditions. That should bring the temperature down.",
+          "timestamp": 1770760800.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "f8505c37c3d548972586d135",
+          "sender_id": "p_victor",
+          "content": "Thank you Sandra. I just want this to go away.",
+          "timestamp": 1770761700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ce556f05cf2b48171ffc1fe8",
+          "sender_id": "p_sandra",
+          "content": "I know. But doing it right protects both you and Lucia. Trust the process.",
+          "timestamp": 1770761880.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "b078a6931c3e8b7142ba22c1",
+          "sender_id": "p_sandra",
+          "content": "CK finally responded to the escalation. They're offering a partial credit on three months of overbilling. Not enough, but it's movement. Call me when you can.",
+          "timestamp": 1772982000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "fbf1ab259722da2a9bb17de2",
+          "sender_id": "p_victor",
+          "content": "I'll call after the lunch rush. Probably around 3.",
+          "timestamp": 1772982720.0,
+          "attachment_name": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "40f27810f1b961ea6c845e9c",
+      "title": "Rosa Gutierrez",
+      "participant_ids": [
+        "p_victor",
+        "p_rosa"
+      ],
+      "last_updated": 1772316000.0,
+      "messages": [
+        {
+          "message_id": "1cb88ea84110e5bb9ebe1296",
+          "sender_id": "p_rosa",
+          "content": "Good morning Victor, I'm here. Lucia had breakfast already — oatmeal and tea. She was up early today.",
+          "timestamp": 1759497300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "ed5b56bbefcc20ef54d5ff0c",
+          "sender_id": "p_victor",
+          "content": "Thank you Rosa. I left for the restaurant at 7. Let me know if she needs anything.",
+          "timestamp": 1759497720.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "716eebc64caad25cb5704225",
+          "sender_id": "p_rosa",
+          "content": "She's having a wonderful day. We walked out to the garden and she remembered all the rosebush names. She told me her mother planted them.",
+          "timestamp": 1760722200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "78e5ff1b7e2d0e6622a2d490",
+          "sender_id": "p_victor",
+          "content": "That makes my day. Thank you for taking her outside — she loves the garden.",
+          "timestamp": 1760723100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "6f2aad7869ffccb3e31bf8e3",
+          "sender_id": "p_rosa",
+          "content": "Victor, small issue — she couldn't find her glasses this morning and got pretty agitated. Found them in the bathroom behind the soap dispenser. All settled now.",
+          "timestamp": 1762528500.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e333d076cb5152e7b8dce167",
+          "sender_id": "p_victor",
+          "content": "Sorry about that. I'll make sure they're on her nightstand before I leave. Thank you for being patient with her.",
+          "timestamp": 1762528920.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "03bbc6f8ae4752e6c368710e",
+          "sender_id": "p_rosa",
+          "content": "Good morning. She woke up in a great mood today. She's telling me all about the church Christmas party. We're going to make paper snowflakes.",
+          "timestamp": 1764945000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "3221c1f1fe29095e0e8ebbd2",
+          "sender_id": "p_victor",
+          "content": "Ha — she loves that. There should be construction paper in the hall closet. Thank you Rosa.",
+          "timestamp": 1764945480.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "2bac2598ac1cedf44e89f76f",
+          "sender_id": "p_rosa",
+          "content": "I'll be about 15 minutes late tomorrow — doctor appointment first thing in the morning. Is that okay?",
+          "timestamp": 1767969900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "e73e8fe13569ccee30dc7b63",
+          "sender_id": "p_victor",
+          "content": "Of course. I don't leave for the restaurant until 9:30 on Fridays so I'll be here. Take your time.",
+          "timestamp": 1767970200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "25d1d6aee327b4ae379f1368",
+          "sender_id": "p_rosa",
+          "content": "Victor, I noticed my schedule hasn't changed but CK told me the rate went up again? I'm confused. I thought you should know.",
+          "timestamp": 1770146100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "790e7a4b717d2e4d61362961",
+          "sender_id": "p_victor",
+          "content": "I appreciate you telling me Rosa. I'm looking into it with my attorney. It's not something you need to worry about — your care has been wonderful and that's not changing.",
+          "timestamp": 1770147000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "db66ebbd94b10cffadf6fc68",
+          "sender_id": "p_rosa",
+          "content": "Lucia had a rough afternoon. She got upset after lunch and kept asking when you were coming home. I sat with her and we went through the photo album. She calmed down after about twenty minutes.",
+          "timestamp": 1772315100.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "df9c8d4b39255053df093427",
+          "sender_id": "p_victor",
+          "content": "Thank you Rosa. I hate that I can't always be there when that happens. You handle those moments better than anyone.",
+          "timestamp": 1772315700.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "9f1eabdceab117bcebfa13a9",
+          "sender_id": "p_rosa",
+          "content": "She's lucky to have you, Victor. I'll see you both Monday. Have a good weekend.",
+          "timestamp": 1772316000.0,
+          "attachment_name": null
+        }
+      ]
+    },
+    {
+      "conversation_id": "e03f62556e5ccd34ed7e56ec",
+      "title": "Jessica Hartmann",
+      "participant_ids": [
+        "p_victor",
+        "p_jessica"
+      ],
+      "last_updated": 1772988480.0,
+      "messages": [
+        {
+          "message_id": "7241b3267a3f3ea544f4f2e3",
+          "sender_id": "p_jessica",
+          "content": "Hi Victor, is there any way I could swap my Friday PM for a morning shift earlier in the week? Wednesday or Thursday would work.",
+          "timestamp": 1768248000.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "240a956ece8f33219b4f216d",
+          "sender_id": "p_victor",
+          "content": "Sure, I can make that work. I'll update the schedule.",
+          "timestamp": 1768248900.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "cd63e61053d3d75b2968cb34",
+          "sender_id": "p_jessica",
+          "content": "Thank you so much. I really appreciate it.",
+          "timestamp": 1768249080.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "6000fdab6802119ddfadcc4c",
+          "sender_id": "p_jessica",
+          "content": "Victor, could I take Tuesday instead of Friday this week? Sorry for the short notice.",
+          "timestamp": 1770307200.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "8d912fa2367b819b527f6201",
+          "sender_id": "p_victor",
+          "content": "That's fine Jessica. I'll move you.",
+          "timestamp": 1770307920.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "fa2f670e864b46e62aea2923",
+          "sender_id": "p_jessica",
+          "content": "Hi Victor, any chance I could switch to mornings only for the next couple weeks? I'm happy to pick up extra Saturday AMs to make up for it.",
+          "timestamp": 1772987400.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "9cf5936a06394517f4665d27",
+          "sender_id": "p_victor",
+          "content": "Of course. Let me know if you need anything else.",
+          "timestamp": 1772988300.0,
+          "attachment_name": null
+        },
+        {
+          "message_id": "6ab52b615f55b5f8c7fbd90f",
+          "sender_id": "p_jessica",
+          "content": "Thank you so much for being flexible with my schedule. I really appreciate it.",
+          "timestamp": 1772988480.0,
+          "attachment_name": null
+        }
+      ]
+    }
+  ],
+  "current_user_id": "p_victor"
+}

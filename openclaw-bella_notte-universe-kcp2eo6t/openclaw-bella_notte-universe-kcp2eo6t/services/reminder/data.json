@@ -1,0 +1,166 @@
+{
+  "reminders": [
+    {
+      "reminder_id": "46aacb8823c9fc6ae5f5a432",
+      "title": "Take Naltrexone 50mg",
+      "description": "Daily medication — do not skip even on the worst days.",
+      "due_datetime": 1775030400.0,
+      "repetition_unit": "day",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "4d3f58884ca0ab1ba29929a0",
+      "title": "Check on Mom — morning routine",
+      "description": "Make sure Mom has taken Vitamin D, eaten breakfast, and Rosa has arrived or is on her way.",
+      "due_datetime": 1775028600.0,
+      "repetition_unit": "day",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "f2337f6637c50332b2413637",
+      "title": "Log Mom's care notes",
+      "description": "Record any episodes, meals, medication compliance, mood, and aide notes in Notion care log.",
+      "due_datetime": 1775080800.0,
+      "repetition_unit": "day",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "fc860f5d1a207d6a7e991e93",
+      "title": "AA Meeting — Wednesday",
+      "description": "St. Boniface Church, 1601 S. 9th St. 7:00 PM.",
+      "due_datetime": 1775068200.0,
+      "repetition_unit": "week",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "2f6d9bc1676158a7d3d121ad",
+      "title": "AA Meeting — Saturday",
+      "description": "St. Boniface Church, 1601 S. 9th St. 9:00 AM.",
+      "due_datetime": 1775032200.0,
+      "repetition_unit": "week",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "c23677ace13da273fecc78a6",
+      "title": "Place Sysco order for the week",
+      "description": "Review inventory levels, submit weekly Sysco order. Account SYSC-4412. Delivery Tue/Thu/Sat.",
+      "due_datetime": 1775037600.0,
+      "repetition_unit": "week",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "1fe299b39892871db0754aec",
+      "title": "Process payroll",
+      "description": "Run biweekly payroll through QuickBooks. Verify hours against Toast POS shift records.",
+      "due_datetime": 1775034000.0,
+      "repetition_unit": "week",
+      "repetition_value": 2,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "00cf597b0a3fd67719cba63b",
+      "title": "Naltrexone prescription refill",
+      "description": "Pick up refill from pharmacy. Prescribed by Dr. Martinez.",
+      "due_datetime": 1775034000.0,
+      "repetition_unit": "month",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "d8edd65b12368c254f119015",
+      "title": "Review Comfort Keepers billing",
+      "description": "Compare monthly invoice against agreed $1,800/month rate. Document any overcharges for Sandra.",
+      "due_datetime": 1775037600.0,
+      "repetition_unit": "month",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "a34b6adf34787c2615992c25",
+      "title": "Health inspection prep — deep clean",
+      "description": "Full kitchen deep clean, walk-in temp logs current, HACCP binders updated. Inspection estimated mid-January.",
+      "due_datetime": 1768204800.0,
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "c3f285bd3e1d5fff6d37e77d",
+      "title": "Liquor license renewal",
+      "description": "WI-MLW-2024-08841 renewal due July 2026. Start paperwork 60 days in advance.",
+      "due_datetime": 1777626000.0,
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "589400acf0703dc8130d3a3d",
+      "title": "Alvarez quinceañera — final menu confirmation",
+      "description": "Confirm final menu, headcount, and dietary restrictions with Patricia Alvarez. Event March 22.",
+      "due_datetime": 1773568800.0,
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "7c06f5bad0744821debf7e4d",
+      "title": "Lenten fish fry series begins",
+      "description": "First Friday fish fry for St. Boniface contract. Verify cod supply with Sysco, prep stations, signage.",
+      "due_datetime": 1771574400.0,
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "ea77273dc174ac787028aa9a",
+      "title": "Send weekly P&L to Giancarlo",
+      "description": "Email P&L summary to Giancarlo every Thursday morning before the 2 PM call.",
+      "due_datetime": 1775032200.0,
+      "repetition_unit": "week",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "193a4fe9556cbe0f1f7db58f",
+      "title": "Mom's Donepezil refill",
+      "description": "Ensure Donepezil 10mg prescription is refilled. Mom takes it every evening.",
+      "due_datetime": 1775037600.0,
+      "repetition_unit": "month",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "429f983c1b56833ca5a6bc8b",
+      "title": "Lock walk-in cooler temp log",
+      "description": "Verify and sign off on walk-in cooler temperature readings before close.",
+      "due_datetime": 1775082600.0,
+      "repetition_unit": "day",
+      "repetition_value": 1,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "f5fc0dfe9b02ec005a60d260",
+      "title": "Call Sandra — POA / billing update",
+      "description": "Biweekly check-in with Sandra Milovich on Alejandro's POA threat and Comfort Keepers dispute progress.",
+      "due_datetime": 1775037600.0,
+      "repetition_unit": "week",
+      "repetition_value": 2,
+      "time_notified": null
+    },
+    {
+      "reminder_id": "67628f3eee7b2b1fd27be8eb",
+      "title": "Immigration audit — prepare documentation",
+      "description": "Gather I-9 forms, verify all employee records. Consult Sandra on Luis Ochoa situation before audit date.",
+      "due_datetime": 1775638800.0,
+      "repetition_unit": null,
+      "repetition_value": null,
+      "time_notified": null
+    }
+  ]
+}

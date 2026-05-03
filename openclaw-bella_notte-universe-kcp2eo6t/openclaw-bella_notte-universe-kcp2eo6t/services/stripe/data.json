@@ -1,0 +1,534 @@
+{
+  "customers": [
+    {
+      "id": "cus_BN_chen",
+      "name": "Lisa Chen",
+      "email": "lisa.chen.bride@gmail.com",
+      "description": "Chen Family — Wedding Reception (Jun 14, 2026)",
+      "created": 1764331200,
+      "metadata": {
+        "event_type": "wedding",
+        "guest_count": "120"
+      },
+      "phone": null,
+      "deleted": 0
+    },
+    {
+      "id": "cus_BN_johnson",
+      "name": "Lisa Johnson",
+      "email": "ljohnson@johnsoncorp.com",
+      "description": "Johnson Corp — Annual Corporate Dinner (May 2, 2026)",
+      "created": 1770854400,
+      "metadata": {
+        "event_type": "corporate_dinner",
+        "guest_count": "120"
+      },
+      "phone": null,
+      "deleted": 0
+    },
+    {
+      "id": "cus_BN_mam",
+      "name": "Sarah Lindgren",
+      "email": "slindgren@mam.org",
+      "description": "Milwaukee Art Museum — Fundraiser Gala (Apr 18, 2026)",
+      "created": 1767830400,
+      "metadata": {
+        "event_type": "gala",
+        "guest_count": "150"
+      },
+      "phone": null,
+      "deleted": 0
+    },
+    {
+      "id": "cus_BN_alvarez",
+      "name": "Patricia Alvarez",
+      "email": "patricia.alvarez74@gmail.com",
+      "description": "Alvarez Family — Quinceañera (Mar 22, 2026)",
+      "created": 1768435200,
+      "metadata": {
+        "event_type": "quinceanera",
+        "guest_count": "100"
+      },
+      "phone": null,
+      "deleted": 0
+    },
+    {
+      "id": "cus_BN_stboniface",
+      "name": "Father Thomas Nowak",
+      "email": "father.nowak@stboniface-mil.org",
+      "description": "St. Boniface Church — Lenten Fish Fry Series (Feb–Apr 2026)",
+      "created": 1765756800,
+      "metadata": {
+        "event_type": "fish_fry_series",
+        "guest_count": "150_per_session"
+      },
+      "phone": null,
+      "deleted": 0
+    },
+    {
+      "id": "cus_BN_nakamura",
+      "name": "Dr. Reiko Nakamura",
+      "email": "reiko.nakamura@froedtert.com",
+      "description": "Dr. Nakamura — Birthday Dinner (Apr 5, 2026)",
+      "created": 1769731200,
+      "metadata": {
+        "event_type": "birthday_dinner",
+        "guest_count": "40"
+      },
+      "phone": null,
+      "deleted": 0
+    },
+    {
+      "id": "cus_BN_uwm",
+      "name": "Karen Whitfield",
+      "email": "kwhitfield@uwmalumni.org",
+      "description": "UWM Alumni Association — Reception (May 15, 2026)",
+      "created": 1771372800,
+      "metadata": {
+        "event_type": "reception",
+        "guest_count": "160"
+      },
+      "phone": null,
+      "deleted": 0
+    },
+    {
+      "id": "cus_BN_baird",
+      "name": "David Bernstein",
+      "email": "dbernstein@rwbaird.com",
+      "description": "Baird Financial Group — Corporate Retreat Dinner (Jun 7, 2026)",
+      "created": 1772150400,
+      "metadata": {
+        "event_type": "corporate_retreat",
+        "guest_count": "90"
+      },
+      "phone": null,
+      "deleted": 0
+    }
+  ],
+  "payment_intents": [
+    {
+      "id": "pi_BN_chen_dep1",
+      "amount": 520000,
+      "currency": "usd",
+      "customer": "cus_BN_chen",
+      "description": "Bella Notte Catering Deposit — Chen Wedding Reception",
+      "status": "succeeded",
+      "created": 1764331200,
+      "metadata": {
+        "invoice_id": "INV-3001",
+        "event_date": "2026-06-14"
+      },
+      "charges": {
+        "data": [
+          {
+            "id": "ch_BN_chen_dep1",
+            "amount": 520000,
+            "currency": "usd",
+            "customer": "cus_BN_chen",
+            "description": "Bella Notte Catering Deposit — Chen Wedding Reception",
+            "status": "succeeded",
+            "created": 1764331200,
+            "payment_method_details": {
+              "type": "card",
+              "card": {
+                "brand": "visa",
+                "last4": "4242",
+                "exp_month": 8,
+                "exp_year": 2027
+              }
+            },
+            "receipt_url": "https://pay.stripe.com/receipts/BN_chen_dep1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi_BN_stboniface_dep",
+      "amount": 240000,
+      "currency": "usd",
+      "customer": "cus_BN_stboniface",
+      "description": "Bella Notte Catering Deposit — St. Boniface Lenten Fish Fry Series",
+      "status": "succeeded",
+      "created": 1765756800,
+      "metadata": {
+        "invoice_id": "INV-3002",
+        "event_date": "2026-02-20 to 2026-04-03"
+      },
+      "charges": {
+        "data": [
+          {
+            "id": "ch_BN_stboniface_dep",
+            "amount": 240000,
+            "currency": "usd",
+            "customer": "cus_BN_stboniface",
+            "description": "Bella Notte Catering Deposit — St. Boniface Lenten Fish Fry Series",
+            "status": "succeeded",
+            "created": 1765756800,
+            "payment_method_details": {
+              "type": "card",
+              "card": {
+                "brand": "mastercard",
+                "last4": "8810",
+                "exp_month": 3,
+                "exp_year": 2028
+              }
+            },
+            "receipt_url": "https://pay.stripe.com/receipts/BN_stboniface_dep"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi_BN_mam_dep",
+      "amount": 680000,
+      "currency": "usd",
+      "customer": "cus_BN_mam",
+      "description": "Bella Notte Catering Deposit — Milwaukee Art Museum Fundraiser Gala",
+      "status": "succeeded",
+      "created": 1767873600,
+      "metadata": {
+        "invoice_id": "INV-3003",
+        "event_date": "2026-04-18"
+      },
+      "charges": {
+        "data": [
+          {
+            "id": "ch_BN_mam_dep",
+            "amount": 680000,
+            "currency": "usd",
+            "customer": "cus_BN_mam",
+            "description": "Bella Notte Catering Deposit — Milwaukee Art Museum Fundraiser Gala",
+            "status": "succeeded",
+            "created": 1767873600,
+            "payment_method_details": {
+              "type": "card",
+              "card": {
+                "brand": "amex",
+                "last4": "1003",
+                "exp_month": 11,
+                "exp_year": 2027
+              }
+            },
+            "receipt_url": "https://pay.stripe.com/receipts/BN_mam_dep"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi_BN_alvarez_dep",
+      "amount": 320000,
+      "currency": "usd",
+      "customer": "cus_BN_alvarez",
+      "description": "Bella Notte Catering Deposit — Alvarez Quinceañera",
+      "status": "succeeded",
+      "created": 1768478400,
+      "metadata": {
+        "invoice_id": "INV-3004",
+        "event_date": "2026-03-22"
+      },
+      "charges": {
+        "data": [
+          {
+            "id": "ch_BN_alvarez_dep",
+            "amount": 320000,
+            "currency": "usd",
+            "customer": "cus_BN_alvarez",
+            "description": "Bella Notte Catering Deposit — Alvarez Quinceañera",
+            "status": "succeeded",
+            "created": 1768478400,
+            "payment_method_details": {
+              "type": "card",
+              "card": {
+                "brand": "visa",
+                "last4": "7621",
+                "exp_month": 5,
+                "exp_year": 2028
+              }
+            },
+            "receipt_url": "https://pay.stripe.com/receipts/BN_alvarez_dep"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi_BN_nakamura_dep",
+      "amount": 410000,
+      "currency": "usd",
+      "customer": "cus_BN_nakamura",
+      "description": "Bella Notte Catering Deposit — Dr. Nakamura Birthday Dinner",
+      "status": "succeeded",
+      "created": 1769774400,
+      "metadata": {
+        "invoice_id": "INV-3005",
+        "event_date": "2026-04-05"
+      },
+      "charges": {
+        "data": [
+          {
+            "id": "ch_BN_nakamura_dep",
+            "amount": 410000,
+            "currency": "usd",
+            "customer": "cus_BN_nakamura",
+            "description": "Bella Notte Catering Deposit — Dr. Nakamura Birthday Dinner",
+            "status": "succeeded",
+            "created": 1769774400,
+            "payment_method_details": {
+              "type": "card",
+              "card": {
+                "brand": "visa",
+                "last4": "3390",
+                "exp_month": 9,
+                "exp_year": 2027
+              }
+            },
+            "receipt_url": "https://pay.stripe.com/receipts/BN_nakamura_dep"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi_BN_johnson_dep",
+      "amount": 850000,
+      "currency": "usd",
+      "customer": "cus_BN_johnson",
+      "description": "Bella Notte Catering Deposit — Johnson Corp Annual Dinner",
+      "status": "succeeded",
+      "created": 1770897600,
+      "metadata": {
+        "invoice_id": "INV-3006",
+        "event_date": "2026-05-02"
+      },
+      "charges": {
+        "data": [
+          {
+            "id": "ch_BN_johnson_dep",
+            "amount": 850000,
+            "currency": "usd",
+            "customer": "cus_BN_johnson",
+            "description": "Bella Notte Catering Deposit — Johnson Corp Annual Dinner",
+            "status": "succeeded",
+            "created": 1770897600,
+            "payment_method_details": {
+              "type": "card",
+              "card": {
+                "brand": "amex",
+                "last4": "5578",
+                "exp_month": 12,
+                "exp_year": 2027
+              }
+            },
+            "receipt_url": "https://pay.stripe.com/receipts/BN_johnson_dep"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi_BN_uwm_dep",
+      "amount": 720000,
+      "currency": "usd",
+      "customer": "cus_BN_uwm",
+      "description": "Bella Notte Catering Deposit — UWM Alumni Reception",
+      "status": "succeeded",
+      "created": 1771416000,
+      "metadata": {
+        "invoice_id": "INV-3007",
+        "event_date": "2026-05-15"
+      },
+      "charges": {
+        "data": [
+          {
+            "id": "ch_BN_uwm_dep",
+            "amount": 720000,
+            "currency": "usd",
+            "customer": "cus_BN_uwm",
+            "description": "Bella Notte Catering Deposit — UWM Alumni Reception",
+            "status": "succeeded",
+            "created": 1771416000,
+            "payment_method_details": {
+              "type": "card",
+              "card": {
+                "brand": "visa",
+                "last4": "2019",
+                "exp_month": 7,
+                "exp_year": 2028
+              }
+            },
+            "receipt_url": "https://pay.stripe.com/receipts/BN_uwm_dep"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pi_BN_baird_dep",
+      "amount": 760000,
+      "currency": "usd",
+      "customer": "cus_BN_baird",
+      "description": "Bella Notte Catering Deposit — Baird Financial Corporate Retreat Dinner",
+      "status": "succeeded",
+      "created": 1772193600,
+      "metadata": {
+        "invoice_id": "INV-3008",
+        "event_date": "2026-06-07"
+      },
+      "charges": {
+        "data": [
+          {
+            "id": "ch_BN_baird_dep",
+            "amount": 760000,
+            "currency": "usd",
+            "customer": "cus_BN_baird",
+            "description": "Bella Notte Catering Deposit — Baird Financial Corporate Retreat Dinner",
+            "status": "succeeded",
+            "created": 1772193600,
+            "payment_method_details": {
+              "type": "card",
+              "card": {
+                "brand": "amex",
+                "last4": "0042",
+                "exp_month": 4,
+                "exp_year": 2029
+              }
+            },
+            "receipt_url": "https://pay.stripe.com/receipts/BN_baird_dep"
+          }
+        ]
+      }
+    }
+  ],
+  "additional_charges": [
+    {
+      "id": "ch_BN_gc_001",
+      "amount": 10000,
+      "currency": "usd",
+      "customer": null,
+      "description": "Bella Notte Gift Card — $100",
+      "status": "succeeded",
+      "created": 1773100800,
+      "metadata": {
+        "type": "gift_card",
+        "card_code": "BNGC-2026-0441"
+      },
+      "payment_method_details": {
+        "type": "card",
+        "card": {
+          "brand": "visa",
+          "last4": "9182",
+          "exp_month": 2,
+          "exp_year": 2028
+        }
+      }
+    },
+    {
+      "id": "ch_BN_gc_002",
+      "amount": 7500,
+      "currency": "usd",
+      "customer": null,
+      "description": "Bella Notte Gift Card — $75",
+      "status": "succeeded",
+      "created": 1773360000,
+      "metadata": {
+        "type": "gift_card",
+        "card_code": "BNGC-2026-0442"
+      },
+      "payment_method_details": {
+        "type": "card",
+        "card": {
+          "brand": "mastercard",
+          "last4": "4410",
+          "exp_month": 6,
+          "exp_year": 2027
+        }
+      }
+    },
+    {
+      "id": "ch_BN_gc_003",
+      "amount": 5000,
+      "currency": "usd",
+      "customer": null,
+      "description": "Bella Notte Gift Card — $50",
+      "status": "succeeded",
+      "created": 1773619200,
+      "metadata": {
+        "type": "gift_card",
+        "card_code": "BNGC-2026-0443"
+      },
+      "payment_method_details": {
+        "type": "card",
+        "card": {
+          "brand": "visa",
+          "last4": "1157",
+          "exp_month": 10,
+          "exp_year": 2028
+        }
+      }
+    },
+    {
+      "id": "ch_BN_gc_004",
+      "amount": 10000,
+      "currency": "usd",
+      "customer": null,
+      "description": "Bella Notte Gift Card — $100",
+      "status": "succeeded",
+      "created": 1774051200,
+      "metadata": {
+        "type": "gift_card",
+        "card_code": "BNGC-2026-0444"
+      },
+      "payment_method_details": {
+        "type": "card",
+        "card": {
+          "brand": "amex",
+          "last4": "3321",
+          "exp_month": 1,
+          "exp_year": 2029
+        }
+      }
+    },
+    {
+      "id": "ch_BN_res_001",
+      "amount": 2500,
+      "currency": "usd",
+      "customer": null,
+      "description": "Bella Notte — Online Reservation Deposit (Party of 8, Mar 28)",
+      "status": "succeeded",
+      "created": 1774224000,
+      "metadata": {
+        "type": "reservation_deposit",
+        "party_size": "8",
+        "reservation_date": "2026-03-28"
+      },
+      "payment_method_details": {
+        "type": "card",
+        "card": {
+          "brand": "visa",
+          "last4": "6678",
+          "exp_month": 3,
+          "exp_year": 2027
+        }
+      }
+    },
+    {
+      "id": "ch_BN_res_002",
+      "amount": 2500,
+      "currency": "usd",
+      "customer": null,
+      "description": "Bella Notte — Online Reservation Deposit (Party of 6, Mar 29)",
+      "status": "succeeded",
+      "created": 1774310400,
+      "metadata": {
+        "type": "reservation_deposit",
+        "party_size": "6",
+        "reservation_date": "2026-03-29"
+      },
+      "payment_method_details": {
+        "type": "card",
+        "card": {
+          "brand": "mastercard",
+          "last4": "2290",
+          "exp_month": 8,
+          "exp_year": 2028
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,947 @@
+{
+  "emails": [
+    {
+      "email_id": "bcff853a2a28a9063cc63c86",
+      "sender": "dan.mallory@sysco.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Sysco Annual Contract Renewal — Account SYSC-4412",
+      "content": "Victor,\n\nYour annual Sysco contract is up for renewal on November 1. A few changes for the 2025–2026 term:\n\n- Protein pricing up ~4% across the board (industry-wide, unfortunately). Poultry holding steady.\n- Produce pricing unchanged for Midwest-sourced items. Imported produce up 6%.\n- New sustainable seafood line available — MSC-certified halibut and cod. Pricing is competitive.\n- Delivery schedule stays the same: Tue/Thu/Sat.\n\nI've attached the proposed pricing sheet. If you want to lock in current rates for 90 days, we need the signed agreement back by October 20.\n\nHappy to jump on a call to walk through the numbers. Let me know what works.\n\nBest,\nDan Mallory\nRegional Sales Rep — Sysco Milwaukee\n(414) 555-0344",
+      "timestamp": 1759504500.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {
+        "Sysco_Renewal_SYSC-4412_2025-2026.pdf": ""
+      }
+    },
+    {
+      "email_id": "3ffd5dd9a9adebb0e99e604b",
+      "sender": "billing@comfortkeepers-mke.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Monthly Invoice — Account #CK-MKE-88412 — October 2025",
+      "content": "Dear Mr. Reyes,\n\nYour October 2025 invoice for home health aide services for Lucia Reyes is now available.\n\nAmount Due: $2,400.00\nDue Date: October 15, 2025\nService Period: October 1–31, 2025\nAide: Rosa Gutierrez (Mon–Fri, 8 AM – 4 PM)\n\nPayment may be made by check, ACH, or credit card. Please reference Account #CK-MKE-88412 on all payments.\n\nThank you for choosing Comfort Keepers.\n\nSincerely,\nComfort Keepers — Milwaukee Office\n(414) 555-0800",
+      "timestamp": 1759669200.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {
+        "CK_Invoice_Oct2025_88412.pdf": ""
+      }
+    },
+    {
+      "email_id": "fe7bf407cb687f201e3a89e5",
+      "sender": "victor.reyes@bellanotte.com",
+      "recipients": [
+        "giancarlo.moretti@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Weekly P&L Summary — Week of Sep 29 – Oct 5, 2025",
+      "content": "Giancarlo,\n\nWeekly summary:\n\n**Revenue:** $47,210\n- Dine-in: $25,966 (55%)\n- Bar: $14,163 (30%)\n- Catering: $7,082 (15%)\n\n**Covers:** 798\n**Average Check:** $40.85\n\n**Highlights:**\n- Fall menu launched Tuesday. Pumpkin ravioli with brown butter sage is already our #2 seller behind the osso buco.\n- Bar revenue up 5% week over week — Maria's apple cider old fashioned is moving well.\n- Two new catering inquiries this week (Johnson Corp holiday dinner and a private birthday party).\n\n**Food Cost:** 29.8% — right on target.\n\nTalk Thursday.\n\nBest,\nVictor",
+      "timestamp": 1759930200.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {
+        "BellaNotte_WeeklyPL_2025-09-29.pdf": ""
+      }
+    },
+    {
+      "email_id": "b3ab7ef56f08e1601106d4c5",
+      "sender": "neuro-scheduling@uwhealth.org",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Appointment Reminder — Lucia Reyes — October 16, 2025",
+      "content": "Dear Victor Reyes,\n\nThis is a reminder that Lucia Reyes has an upcoming appointment:\n\n**Provider:** Dr. Anh Pham, MD — Neurology\n**Date:** Thursday, October 16, 2025\n**Time:** 2:00 PM\n**Location:** UW Health at The American Center, 4602 Eastpark Blvd, Madison, WI\n\nPlease arrive 15 minutes early. Bring a current list of medications and any observations about changes in cognition, behavior, or daily functioning since the last visit.\n\nIf you need to reschedule, please call (414) 555-0922 at least 48 hours in advance.\n\nThank you,\nUW Health Neurology Scheduling",
+      "timestamp": 1760097600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "dff7581e42f157524fe8560a",
+      "sender": "pjohnson@johnsoncorp.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Annual Company Dinner — Catering Inquiry",
+      "content": "Dear Mr. Reyes,\n\nI'm reaching out on behalf of Johnson Corporation regarding our annual holiday dinner. We've heard wonderful things about Bella Notte and would love to discuss catering options.\n\nWe're looking at a seated dinner for approximately 80 guests, sometime in early May 2026. We'd like a multi-course Italian menu with wine pairings, plus a cocktail reception beforehand. Our budget is flexible but we'd appreciate a proposal.\n\nCould we schedule a time to discuss? I'm available most afternoons next week.\n\nBest regards,\nPatricia Johnson\nExecutive Assistant to the CEO\nJohnson Corporation\n(414) 555-0412",
+      "timestamp": 1760469600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "f54939755119c688b4d232dd",
+      "sender": "alejandro.reyes@gmail.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "How's Mom doing?",
+      "content": "Victor,\n\nI called Mom yesterday and something seemed off. She repeated the same story about Tía Elena's birthday three times in ten minutes and then couldn't remember what day it was. She laughed it off but it didn't feel right.\n\nI know you're busy with the restaurant but I'd appreciate an honest update. How is she really doing? When was her last doctor's appointment? Is the aide working out?\n\nI worry about her being so far from the rest of the family. Just want to make sure she's getting the best care possible.\n\nAle",
+      "timestamp": 1760813100.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "7c6ee42f588291f893138c97",
+      "sender": "robert.fontaine@capitalwine.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [
+        "maria.kowalski@bellanotte.com"
+      ],
+      "subject": "Fall Wine List Update — Bella Notte",
+      "content": "Victor & Maria,\n\nHope the fall menu launch is going well! Attached is our updated fall wine list for Bella Notte. Highlights:\n\n- **New Arrival:** 2019 Brunello di Montalcino from Col d'Orcia — limited allocation, I held 2 cases for you.\n- **House Pour Update:** The Chianti Classico we've been using is going up 8% in November. I have an alternative Sangiovese from Umbria at a better price point — samples available.\n- **By-the-Glass:** Added a Vermentino and a Dolcetto that pair beautifully with your fall menu.\n\nMaria — want to do a tasting next Wednesday? I can bring samples by around 3 PM.\n\nCheers,\nRobert Fontaine\nSales Director — Capital Wine Imports\nAccount: CWI-1155",
+      "timestamp": 1761144300.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {
+        "CapitalWine_FallList_BellaNotte_2025.pdf": ""
+      }
+    },
+    {
+      "email_id": "18c323a39c4e2d01377fd836",
+      "sender": "giancarlo.moretti@gmail.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "RE: Weekly P&L Summary — Week of Sep 29 – Oct 5, 2025",
+      "content": "Victor,\n\nGood numbers for the fall launch. The pumpkin ravioli is a smart move — seasonal specials drive traffic. Keep pushing it.\n\nRe: Johnson Corp inquiry — that could be a big catering win. Make sure you give them the full white-glove treatment on the proposal. Companies like that become repeat clients if you nail the first event.\n\nLet's talk about the holiday catering pipeline on Thursday. I want to see us at $40K+ in deposits by November.\n\nGiancarlo",
+      "timestamp": 1761344400.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": "fe7bf407cb687f201e3a89e5",
+      "attachments": {}
+    },
+    {
+      "email_id": "220755117250030ff9f52acb",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "billing@comfortkeepers-mke.com"
+      ],
+      "cc": [],
+      "subject": "Billing Question — Account #CK-MKE-88412",
+      "content": "Hello,\n\nI'm writing about my mother's account (Lucia Reyes, #CK-MKE-88412). I noticed the October invoice was $2,400 and the November invoice is also $2,400. Our contracted rate for Rosa Gutierrez's daily aide services has been $1,800/month since March 2025.\n\nCan you please clarify why the billing increased? I don't recall authorizing any changes to the care plan or rate.\n\nThank you,\nVictor Reyes\n(414) 555-0291",
+      "timestamp": 1762269300.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "32c4622b306acba1e094bbd2",
+      "sender": "smilovich@milovich-law.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Initial Consultation Confirmed — November 10, 2025",
+      "content": "Mr. Reyes,\n\nThis confirms your initial consultation at my office on Monday, November 10, 2025 at 10:00 AM.\n\nPlease bring the following:\n- Any existing power of attorney, healthcare directive, or guardianship documents for your mother\n- A summary of your mother's medical condition and current care arrangements\n- Any correspondence from your brother regarding your mother's care\n- Your mother's financial information as it relates to her care costs\n\nMy office is at 735 N. Water St., Suite 410, Milwaukee, WI 53202. Street parking is available.\n\nThe initial consultation fee is $250, credited toward the retainer if you choose to engage. My standard rate is $350/hour.\n\nI look forward to meeting you.\n\nSandra Milovich, Esq.\nMilovich Law Office\n(414) 555-0617",
+      "timestamp": 1762545600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "36d7ce2a71c9d17266af7742",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "smilovich@milovich-law.com"
+      ],
+      "cc": [],
+      "subject": "Background — POA Situation and Billing Dispute",
+      "content": "Sandra,\n\nThank you for the consultation today. As we discussed, here's a written summary:\n\nMy mother Lucia Reyes (74) has early-stage Alzheimer's and lives with me. She's been on Donepezil under Dr. Pham's care at UW Health. I manage all her daily care, medical appointments, and finances. Her aide Rosa comes Mon–Fri through Comfort Keepers.\n\nMy brother Alejandro lives in Phoenix and has minimal involvement — maybe a phone call every few weeks. He's been pushing to move Mom to a care facility and recently started making noises about pursuing power of attorney. He has no POA and neither do I currently.\n\nSeparately, Comfort Keepers has been overbilling me $600/month for the past two months ($2,400 vs. the contracted $1,800). I've contacted them but no response yet.\n\nI want to protect Mom's care and get ahead of Alejandro's threats. Please let me know next steps.\n\nVictor Reyes\n(414) 555-0291",
+      "timestamp": 1762817400.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "f48232a1018fc938a6749e99",
+      "sender": "alejandro.reyes@gmail.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Thanksgiving Visit",
+      "content": "Victor,\n\nI'm flying in for Thanksgiving. Arriving Wednesday the 26th, staying through Sunday. I want to spend real time with Mom — not just a quick dinner.\n\nI know things have been tense between us but this isn't about fighting. I'm her son too and I miss her. Can you be open to having an honest conversation about how she's doing and what the plan is going forward?\n\nLet me know if there's anything you need me to bring.\n\nAle",
+      "timestamp": 1762968600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "796efd14b269a4b3242b7a03",
+      "sender": "james.okonkwo@milwaukee.gov",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Health Inspection Results — Bella Notte Ristorante — Q4 2025",
+      "content": "Mr. Reyes,\n\nPlease find attached the results of the quarterly health inspection conducted on October 8, 2025 at Bella Notte Ristorante.\n\n**Overall Score: 96/100**\n\nDeductions:\n- Handwashing sign partially obscured behind shelving (2 points)\n- Sanitizer bucket concentration slightly low at one station (2 points)\n\nOverall, your establishment continues to maintain excellent food safety standards. Please address the above items before the next quarterly inspection.\n\nRegards,\nJames Okonkwo\nFood Safety Inspector\nMilwaukee Health Department\n(414) 555-0488",
+      "timestamp": 1763128800.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {
+        "HealthInspection_BellaNotte_Q4_2025.pdf": ""
+      }
+    },
+    {
+      "email_id": "82021b43ad46b5dab346dfba",
+      "sender": "robert.fontaine@capitalwine.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [
+        "maria.kowalski@bellanotte.com"
+      ],
+      "subject": "Holiday Wine Allocations — Bella Notte",
+      "content": "Victor & Maria,\n\nHoliday allocations are in and going fast. Here's what I've held for Bella Notte:\n\n- 5 cases Prosecco di Valdobbiadene (corporate party season essential)\n- 2 cases Veuve Clicquot for NYE service\n- 3 cases 2019 Barolo from Vietti (arrived early — these won't last)\n- 10 cases house Chianti Classico at current pricing (locked through January)\n\nI'd recommend ordering by December 1 to guarantee availability. The Prosecco always runs out by mid-December.\n\nMaria — let me know if you want to add anything for the cocktail program.\n\nCheers,\nRobert",
+      "timestamp": 1763481600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {
+        "CapitalWine_HolidayAllocations_2025.pdf": ""
+      }
+    },
+    {
+      "email_id": "f85112e7083f6eb5a8891a8c",
+      "sender": "dbernstein@rwbaird.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Corporate Retreat Dinner — Catering Inquiry",
+      "content": "Mr. Reyes,\n\nI'm the events coordinator at Baird Financial and we're planning a corporate retreat dinner for early June 2026. We've heard great things about Bella Notte's catering program.\n\nWe're looking at approximately 60 guests, a multi-course seated dinner with wine service, plus a cocktail hour. The vibe is upscale but not stuffy — our team ranges from analysts to senior partners.\n\nCould you send over a catering menu and pricing? Happy to schedule a call if that's easier.\n\nBest regards,\nDavid Bernstein\nEvents Coordinator — Baird Financial\n(414) 555-0529",
+      "timestamp": 1763658900.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "77ecea3aca2f1bffd376f96f",
+      "sender": "victor.reyes@bellanotte.com",
+      "recipients": [
+        "giancarlo.moretti@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Weekly P&L Summary — Week of Nov 17–23, 2025",
+      "content": "Giancarlo,\n\nWeekly summary:\n\n**Revenue:** $51,440\n- Dine-in: $28,292 (55%)\n- Bar: $15,432 (30%)\n- Catering: $7,716 (15%)\n\n**Covers:** 862\n**Average Check:** $41.50\n\n**Highlights:**\n- Holiday bookings starting to flood in. We have 6 private events confirmed for December already.\n- Bar revenue up on seasonal cocktails — Maria's spiced pear martini is the new favorite.\n- Baird Financial inquiry came in — could be a big catering client for June.\n\n**Catering Pipeline:** $38K in deposits across 6 confirmed events. On track for your $40K target.\n\n**Food Cost:** 28.7% — below target, good margins this week.\n\nBest,\nVictor",
+      "timestamp": 1764080100.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {
+        "BellaNotte_WeeklyPL_2025-11-17.pdf": ""
+      }
+    },
+    {
+      "email_id": "a4b083b3fcdcb19408045ab5",
+      "sender": "victor.reyes@bellanotte.com",
+      "recipients": [
+        "tony.aguilar@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Holiday Party Season — Menu & Prep Coordination",
+      "content": "Tony,\n\nHoliday season is here. We've got 6 private events booked for December plus NYE. Here's what I need:\n\n1. Finalize the holiday prix fixe menu by Friday — I'm thinking the braised short rib, the lobster ravioli, and a chocolate torte for dessert\n2. Place extra Sysco orders for the first two weeks of December — double up on prime rib, lobster tails, and the good Parm\n3. Schedule overtime for Marco and Luis on December weekends\n4. Coordinate with Maria on the wine pairings for the prix fixe\n\nThis is our biggest revenue month. Let's make it count.\n\nVictor",
+      "timestamp": 1764172800.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "5b141c5f424f2196152b5744",
+      "sender": "alejandro.reyes@gmail.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "After Thanksgiving",
+      "content": "Victor,\n\nI need to be honest about what I saw this week. Mom didn't know it was Thanksgiving until we told her. She called me \"Papa\" twice. She couldn't follow the conversation at dinner and kept asking where Papá was. That's not just a \"bad day.\"\n\nI'm not trying to fight with you. But what I saw is more advanced than what you've been telling me. She needs professional evaluation at minimum, and possibly a level of care that one person can't provide alone — no matter how dedicated.\n\nI want to talk seriously about options, including assisted living facilities that specialize in memory care. I've been researching places in both Milwaukee and Phoenix.\n\nPlease don't shut me out on this.\n\nAle",
+      "timestamp": 1764434520.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "ce756b5b03042f386afde5c9",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "smilovich@milovich-law.com"
+      ],
+      "cc": [],
+      "subject": "Employment Law Question — Register Discrepancy",
+      "content": "Sandra,\n\nI've noticed some register discrepancies — three shortages in January, all on the same shift lead's closes. The amounts are $180, $340, and $280. I want to document this properly before taking any action. What should I be doing from a legal standpoint?\n\nThank you,\nVictor",
+      "timestamp": 1769906700.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "58181e155cf774c22e4b6b9b",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "billing@comfortkeepers-mke.com"
+      ],
+      "cc": [],
+      "subject": "Formal Complaint — Billing Discrepancy — Account #CK-MKE-88412",
+      "content": "To Whom It May Concern,\n\nI am writing to formally complain about the billing for my mother Lucia Reyes (Account #CK-MKE-88412). For three consecutive months — October, November, and December 2025 — I have been billed $2,400/month instead of the contracted rate of $1,800/month.\n\nI never authorized a rate change. The services provided by aide Rosa Gutierrez have not changed since the original care plan was established in March 2025.\n\nI am requesting:\n1. Immediate correction of the monthly rate to $1,800\n2. A refund of $1,800 for three months of $600 overcharges\n3. An explanation for the unauthorized billing increase\n\nIf I do not receive a satisfactory response within 10 business days, I will escalate this matter through legal channels.\n\nVictor Reyes\n(414) 555-0291",
+      "timestamp": 1764945000.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "a60cca22d904d76e65fa1610",
+      "sender": "billing@comfortkeepers-mke.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "RE: Formal Complaint — Billing Discrepancy — Account #CK-MKE-88412",
+      "content": "Dear Mr. Reyes,\n\nThank you for contacting Comfort Keepers regarding your billing concerns. We take all client feedback seriously.\n\nYour account has been flagged for review. Our billing department will investigate and respond within 10 business days of this notice.\n\nIf you have additional documentation to support your inquiry, please submit it to billing@comfortkeepers-mke.com.\n\nSincerely,\nComfort Keepers — Milwaukee Office\n(414) 555-0800",
+      "timestamp": 1765296000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": "58181e155cf774c22e4b6b9b",
+      "attachments": {}
+    },
+    {
+      "email_id": "df9af1645489ad021389259b",
+      "sender": "alejandro.reyes@gmail.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "RE: After Thanksgiving",
+      "content": "Victor,\n\nYou never responded to my email after Thanksgiving. I've been patient but your silence is making this worse.\n\nI spoke with an elder care consultant this week. Based on what I described from my visit, she said Mom likely needs a formal reassessment by her neurologist and possibly a higher level of care. She also recommended that someone with power of attorney be designated to manage her medical and financial decisions.\n\nNeither of us has POA right now. If you won't cooperate on setting this up together, I may need to pursue it on my own to make sure Mom is protected.\n\nI'm asking you one more time: can we work together on this? Or are you going to force me to go through official channels?\n\nAle",
+      "timestamp": 1765574100.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": "5b141c5f424f2196152b5744",
+      "attachments": {}
+    },
+    {
+      "email_id": "d7e07d38579fa4174f9e1c88",
+      "sender": "kwhitfield@uwmalumni.org",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "UWM Alumni Association — Spring Reception Inquiry",
+      "content": "Dear Mr. Reyes,\n\nThe UW-Milwaukee Alumni Association is looking for a venue and caterer for our annual spring reception, tentatively scheduled for May 15, 2026. We're expecting 100–120 guests.\n\nWe'd love a cocktail-style reception with passed appetizers, carving stations, and a full bar. Could you send us a proposal? Budget is in the range of $7,000–$8,000 all-in.\n\nI've heard wonderful things about Bella Notte from several alumni board members. Looking forward to hearing from you.\n\nBest,\nKaren Whitfield\nAlumni Events Coordinator\nUniversity of Wisconsin–Milwaukee\n(414) 555-0681",
+      "timestamp": 1765818000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "fe769f1af0c3d8d2e4421e64",
+      "sender": "rxnotifications@walgreens.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Prescription Ready for Pickup — Naltrexone 50mg",
+      "content": "Hello Victor,\n\nYour prescription is ready for pickup at Walgreens #4582 (3820 N. Oakland Ave, Milwaukee, WI 53211).\n\nPrescription: Naltrexone HCl 50mg tablets (30-day supply)\nPrescriber: Dr. Martinez\nCopay: $35.00\n\nPickup hours: Mon–Fri 8 AM – 9 PM, Sat–Sun 9 AM – 6 PM\n\nThis prescription will be held for 10 days.\n\nThank you,\nWalgreens Pharmacy",
+      "timestamp": 1766080800.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "5eca4bbb947e9ecdb33cbd13",
+      "sender": "victor.reyes@bellanotte.com",
+      "recipients": [
+        "giancarlo.moretti@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Weekly P&L Summary — Week of Dec 8–14, 2025",
+      "content": "Giancarlo,\n\nHoliday season is firing on all cylinders.\n\n**Revenue:** $58,120\n- Dine-in: $29,060 (50%)\n- Bar: $17,436 (30%)\n- Catering/Private Events: $11,624 (20%)\n\n**Covers:** 948\n**Average Check:** $43.20\n\n**Highlights:**\n- Two private holiday parties this week (40 and 55 guests). Both went flawlessly.\n- Bar revenue at all-time weekly high — Prosecco and champagne cocktails driving margins.\n- New Year's Eve prix fixe is 80% booked already.\n\n**Catering Pipeline:** $42K in deposits across 7 confirmed events. Exceeded your $40K target.\n\n**Food Cost:** 30.4% — slightly above target due to premium holiday items but margins are healthy.\n\nBest month of the year incoming.\n\nVictor",
+      "timestamp": 1766152800.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {
+        "BellaNotte_WeeklyPL_2025-12-08.pdf": ""
+      }
+    },
+    {
+      "email_id": "34e9a2acdfd5484e246f7c5a",
+      "sender": "smilovich@milovich-law.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Update — POA, Comfort Keepers, and Employment Question",
+      "content": "Victor,\n\nA few updates:\n\n**POA/Guardianship:** Based on what you've told me about Alejandro's Thanksgiving visit and his recent emails, I recommend we move proactively. I'll start drafting a petition for limited guardianship of Lucia. Your position is strong — you're the primary caregiver, you live with her, you manage her medical care. Alejandro lives 1,700 miles away and contributes nothing financially. If he files first, we'll be on defense, which is harder.\n\n**Comfort Keepers:** Their 10-day window to respond is almost up. If they don't provide a satisfactory resolution, I'll send a formal demand letter on your behalf.\n\n**Register issue:** Document everything — dates, amounts, which employee was on shift. Do NOT confront the employee or tell anyone else yet. Wisconsin law requires you to build a solid evidentiary record before taking employment action on suspicion of theft. I can advise further once you have more data.\n\nWe'll talk after the holidays. Hang in there.\n\nSandra",
+      "timestamp": 1766440800.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "5f9d3d96b127eff94266a71a",
+      "sender": "dan.mallory@sysco.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Holiday Special Orders — Confirmation",
+      "content": "Victor,\n\nConfirming your holiday special orders for the next two weeks:\n\n- 40 lbs prime rib (USDA Choice)\n- 20 lbs lobster tails (cold-water, 8 oz)\n- 10 lbs jumbo shrimp (U-15)\n- Extra Parmigiano-Reggiano (2 wheels)\n- Specialty dessert items per your list\n\nDeliveries scheduled: Dec 26 (Thu), Dec 28 (Sat), Dec 30 (Mon — special NYE delivery).\n\nHappy holidays to you and the Bella Notte team. You guys are one of my favorite accounts.\n\nDan",
+      "timestamp": 1766763000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "af05bfb79c186992a285347e",
+      "sender": "support@toasttab.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Monthly Statement — Bella Notte Ristorante — December 2025",
+      "content": "Dear Victor Reyes,\n\nYour monthly processing statement for December 2025 is now available.\n\nTotal Transactions Processed: 5,842\nTotal Volume: $248,612.34\nProcessing Fees: $5,718.08 (2.30%)\nNet Deposited: $242,894.26\n\nThis was your highest-volume month on record. View your full statement in the Toast Dashboard.\n\nThank you for being a Toast customer.\n\n— Toast POS",
+      "timestamp": 1767096000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {
+        "Toast_Statement_Dec2025.pdf": ""
+      }
+    },
+    {
+      "email_id": "66e0acf530959cafc6328d13",
+      "sender": "ice-audit-notifications@uscis.dhs.gov",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Notice of Inspection — Form I-9 Employment Eligibility Verification Audit",
+      "content": "OFFICIAL NOTICE\n\nU.S. Citizenship and Immigration Services\nImmigration and Customs Enforcement\nWorksite Enforcement Unit\n\nRe: Notice of Inspection (NOI)\nEmployer: Bella Notte Ristorante\nAddress: 2215 N. Farwell Ave, Milwaukee, WI 53202\nEIN: [on file]\n\nDear General Manager,\n\nPursuant to Section 274A of the Immigration and Nationality Act (INA), you are hereby notified that U.S. Immigration and Customs Enforcement (ICE) intends to conduct an inspection of Form I-9, Employment Eligibility Verification, records for the above-referenced business.\n\nYou are required to produce the following within three (3) business days of the date of this notice:\n\n1. Original Form I-9 for each current employee\n2. Copies of documents presented by employees to establish identity and employment authorization\n3. Payroll records for all current employees\n4. List of current employees with hire dates\n\nThe inspection is scheduled to begin on or after April 14, 2026.\n\nFailure to produce the requested documents may result in penalties under 8 USC § 1324a, including civil fines ranging from $252 to $2,507 per Form I-9 violation.\n\nIf you have questions regarding this notice, please contact the Worksite Enforcement Unit at (312) 555-0200.\n\nThis notice was issued on January 8, 2026.\n\nRespectfully,\nWorksite Enforcement — Chicago Field Office\nU.S. Immigration and Customs Enforcement",
+      "timestamp": 1767873600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {
+        "NOI_BellaNotte_2026-01-08.pdf": ""
+      }
+    },
+    {
+      "email_id": "bd69fc9628f9d2f875368baf",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "smilovich@milovich-law.com"
+      ],
+      "cc": [],
+      "subject": "Immigration Audit Notice — Bella Notte",
+      "content": "Sandra,\n\nI received a notice from ICE regarding an I-9 employment eligibility audit at the restaurant. The inspection is scheduled for on or after April 14. I need to produce I-9 records, payroll, and employee lists.\n\nI have a situation with one of my employees that I need legal guidance on. I'd rather discuss on the phone. Is this something you handle, or can you refer me to an immigration/employment attorney?\n\nThis is time-sensitive.\n\nVictor",
+      "timestamp": 1767966300.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "b9004ff3e5bc2a34323c2b00",
+      "sender": "smilovich@milovich-law.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "RE: Immigration Audit Notice — Bella Notte",
+      "content": "Victor,\n\nThis is outside my practice area, but I'll find you someone good. I know a few employment attorneys who handle worksite enforcement cases.\n\nIn the meantime, two critical rules:\n1. Do NOT alter, destroy, or backdate any I-9 records. That turns a civil penalty into a criminal matter.\n2. Do NOT terminate any employee preemptively based on suspicion. Anti-discrimination provisions in the INA protect against that.\n\nThe April 14 timeline gives us some breathing room. Let me make some calls this week and get back to you with a referral.\n\nSandra",
+      "timestamp": 1768059000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": "bd69fc9628f9d2f875368baf",
+      "attachments": {}
+    },
+    {
+      "email_id": "e472a86c2b4dd153ecb93334",
+      "sender": "james.okonkwo@milwaukee.gov",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Q1 2026 Health Inspection — Advance Notice",
+      "content": "Mr. Reyes,\n\nThis is to inform you that the quarterly health inspection for Bella Notte Ristorante is scheduled for late March or early April 2026. A specific date will be confirmed at least one week in advance.\n\nPlease ensure all documentation is current and kitchen operations remain in compliance with Milwaukee Health Department standards.\n\nRegards,\nJames Okonkwo\nFood Safety Inspector\nMilwaukee Health Department\n(414) 555-0488",
+      "timestamp": 1768399200.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "cd2e550590806fce57998bb7",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "billing@comfortkeepers-mke.com"
+      ],
+      "cc": [
+        "smilovich@milovich-law.com"
+      ],
+      "subject": "Formal Billing Dispute — Account #CK-MKE-88412 — Demand for Refund",
+      "content": "To Whom It May Concern,\n\nI am writing to formally dispute the ongoing overbilling on Account #CK-MKE-88412 for my mother Lucia Reyes.\n\nFor four consecutive months (October 2025 through January 2026), I have been billed $2,400/month instead of the contracted rate of $1,800/month. This represents a total overcharge of $2,400. I submitted a complaint on December 5, 2025 and received only a generic acknowledgment.\n\nI was never informed of any care assessment, service tier change, or rate adjustment. I am the primary caregiver and decision-maker for my mother, and no changes to her care plan can be made without my authorization.\n\nI demand:\n1. A full refund of $2,400 (4 months × $600 overcharge)\n2. Immediate correction of the monthly billing to $1,800\n3. A copy of any alleged care assessment or authorization for the rate change\n\nMy attorney, Sandra Milovich, is copied on this correspondence. If this matter is not resolved within 30 days, we will pursue all available legal remedies.\n\nVictor Reyes\n(414) 555-0291",
+      "timestamp": 1768485600.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "7cca707e98c4f53789a465f6",
+      "sender": "patricia.alvarez@yahoo.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Quinceañera Inquiry — March 22, 2026",
+      "content": "Dear Mr. Reyes,\n\nMy daughter Sofia is turning 15 in March and we'd love to host her quinceañera at Bella Notte. Our neighbor had a birthday dinner at your restaurant and couldn't stop raving about it.\n\nWe're looking at Saturday, March 22. We'd need the private dining room for approximately 75–100 guests. We'd love family-style Italian with some custom touches — Sofia loves Italian food.\n\nCould you send us pricing and menu options? We'd also like to know about your deposit policy.\n\nThank you!\nPatricia Alvarez\n(414) 555-0753",
+      "timestamp": 1768685400.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "960db263c341be84aecb3bef",
+      "sender": "victor.reyes@bellanotte.com",
+      "recipients": [
+        "giancarlo.moretti@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Weekly P&L Summary — Week of Jan 13–19, 2026",
+      "content": "Giancarlo,\n\nPost-holiday slowdown as expected.\n\n**Revenue:** $42,180\n- Dine-in: $23,199 (55%)\n- Bar: $12,654 (30%)\n- Catering: $6,327 (15%)\n\n**Covers:** 712\n**Average Check:** $40.50\n\n**Highlights:**\n- Typical January dip. Revenue down 27% from December peak, but right in line with last January.\n- Staff hours adjusted appropriately. No overtime this week.\n- Catering pipeline building for spring: two new inquiries (Alvarez quinceañera and a potential UWM reception).\n\n**Catering Pipeline:** $45K in deposits across 8 confirmed events. Strong position.\n\n**Food Cost:** 28.2% — well below target due to simpler menu mix.\n\nTalk Thursday.\n\nVictor",
+      "timestamp": 1769004000.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {
+        "BellaNotte_WeeklyPL_2026-01-13.pdf": ""
+      }
+    },
+    {
+      "email_id": "9470d775b2d2c489bff9d961",
+      "sender": "smilovich@milovich-law.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Guardianship Strategy — Next Steps",
+      "content": "Victor,\n\nI'm ready to start drafting the petition for limited guardianship of Lucia. To move forward, I need from you:\n\n1. A written summary of your caregiving duties (daily routine, medical appointments, medication management)\n2. Copies of Dr. Pham's most recent evaluation notes\n3. Financial summary of what you spend on Mom's care monthly\n4. Any documented episodes or incidents from your Notion care log\n\nYour brother's December email mentioning POA tells me he's building toward a filing. We want to beat him to the courthouse. Filing first puts you in the stronger position.\n\nAlso: the Comfort Keepers formal demand letter went out last week. Their 30-day clock is ticking.\n\nCall me with questions.\n\nSandra",
+      "timestamp": 1769206500.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "d0a3c99dc10aaea57bd0f221",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "smilovich@milovich-law.com"
+      ],
+      "cc": [],
+      "subject": "Register Discrepancy — Pattern Update",
+      "content": "Sandra,\n\nFollowing up on the register issue I mentioned in January. I've now documented 5 shortages over the past two months, totaling approximately $1,500. All five occurred on shifts when the same employee was the closing lead.\n\nThe complication: this employee also provides personal caregiving services for my mother on evenings when I'm working late. Firing her would create an immediate caregiving crisis at home.\n\nI haven't confronted the employee or told anyone else. What are my next steps? Do I need a certain threshold of evidence before I can take action?\n\nVictor",
+      "timestamp": 1770771600.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "fc18f7f6eaffa8d79db01d0f",
+      "sender": "neuro-scheduling@uwhealth.org",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Appointment Reminder — Lucia Reyes — January 30, 2026",
+      "content": "Dear Victor Reyes,\n\nThis is a reminder that Lucia Reyes has an upcoming appointment:\n\n**Provider:** Dr. Anh Pham, MD — Neurology\n**Date:** Friday, January 30, 2026\n**Time:** 10:30 AM\n**Location:** UW Health at The American Center, 4602 Eastpark Blvd, Madison, WI\n\nPlease arrive 15 minutes early. Bring a current list of medications and any observations about changes in cognition, behavior, or daily functioning since the last visit.\n\nThank you,\nUW Health Neurology Scheduling",
+      "timestamp": 1769691600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "f66d7c3d63a550fbc7eb5b98",
+      "sender": "billing@comfortkeepers-mke.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "RE: Formal Billing Dispute — Account #CK-MKE-88412",
+      "content": "Dear Mr. Reyes,\n\nThank you for your correspondence regarding the billing for your mother's home health aide services.\n\nAfter reviewing your account, we would like to clarify that the rate of $2,400/month reflects an adjusted service tier implemented effective October 2025. This adjustment was made based on an updated care assessment conducted in September 2025 by our supervising nurse, which identified increased needs including expanded duties: meal preparation, medication reminders, light housekeeping, and companionship activities.\n\nThe original contracted rate of $1,800/month was based on the initial care plan from March 2025, which covered basic aide services only.\n\nWe understand your concern and are happy to schedule a meeting to review the care plan and billing in detail. However, we are unable to process a refund at this time as the services were rendered at the adjusted tier.\n\nPlease contact our office at (414) 555-0800 to schedule a review meeting.\n\nSincerely,\nPatricia Olmstead\nBilling Manager\nComfort Keepers — Milwaukee Office",
+      "timestamp": 1770222600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": "46b177a8b3b38d7460f75d28",
+      "attachments": {}
+    },
+    {
+      "email_id": "0001bbf5f9cbbbd0c82179c6",
+      "sender": "smilovich@milovich-law.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "POA Defense Strategy — Reyes Matter",
+      "content": "Victor,\n\nHere's where we stand on the guardianship/POA defense:\n\n**Your strengths:**\n- You live with Lucia and have been her primary caregiver for 2+ years\n- You manage all medical appointments, medications, and daily care\n- Dr. Pham's team knows you and can testify to your involvement\n- You have thorough documentation (care log, financial records)\n- Rosa Gutierrez can attest to the quality of home care\n\n**Alejandro's weaknesses:**\n- Lives 1,700 miles away in Phoenix\n- No financial contribution to Lucia's care\n- Limited contact (phone calls every few weeks)\n- Has no relationship with her medical team\n- His last in-person visit was Thanksgiving — before that, it was over a year\n\nIf he files for guardianship, the court will weigh these factors heavily. A Milwaukee judge is not going to remove a hands-on local caregiver in favor of an out-of-state sibling with minimal involvement.\n\nI expect to have the guardianship petition draft ready by mid-March.\n\nSandra",
+      "timestamp": 1770498000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "4206e9ec0104574c5420f360",
+      "sender": "alejandro.reyes@gmail.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "This Has Gone Far Enough",
+      "content": "Victor,\n\nI've tried to be reasonable. I've asked for updates, asked for records, asked to have a conversation like adults. You've stonewalled me at every turn.\n\nI've retained an attorney — Douglas Hartfield. He specializes in elder law and guardianship in Wisconsin. I didn't want it to come to this, but you've left me no choice.\n\nIf you won't share Mom's medical and financial records voluntarily, my attorney will contact yours to make formal arrangements. I'm not going to stand by while our mother's care goes unmonitored.\n\nThis is your last chance to handle this as family before it becomes a legal matter.\n\nAlejandro\n(602) 555-0287",
+      "timestamp": 1770575400.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "c8c9c20d9530e0c4a355c069",
+      "sender": "frnowak@stboniface-mke.org",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Lenten Fish Fry Series — 2026 Season",
+      "content": "Dear Victor,\n\nIt's that time of year again! We'd love to partner with Bella Notte for our Lenten fish fry series.\n\nWe're looking at 7 consecutive Fridays from February 20 through April 3. Based on last year's attendance, we're estimating 60–80 portions per week. The parish hall seats 120, and we've been turning people away the last few Lenten seasons.\n\nWould you be able to provide the same menu as last year — beer-battered cod, coleslaw, fries, and the mac and cheese? The parish can cover $12 per plate.\n\nGod bless you for your generosity to St. Boniface. The community truly values this partnership.\n\nIn Christ,\nFr. Thomas Nowak\nSt. Boniface Church\n1601 S. 9th Street, Milwaukee, WI 53204",
+      "timestamp": 1770735600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "997ea694eb11556f585a65a9",
+      "sender": "events@mam.org",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Fundraiser Gala Inquiry — April 18, 2026",
+      "content": "Dear Mr. Reyes,\n\nThe Milwaukee Art Museum is planning our spring fundraiser gala and we'd love to work with Bella Notte for the catering.\n\nDetails:\n- Date: Saturday, April 18, 2026\n- Location: Windhover Hall at the Milwaukee Art Museum\n- Expected guests: 120–150\n- Format: Cocktail reception followed by seated dinner\n- Budget: $6,500–$7,500 for food and beverage\n\nWe'd like an upscale Italian menu that feels special but approachable. Several board members have dined at Bella Notte and were very impressed.\n\nCould we schedule a meeting to discuss menu options and logistics?\n\nBest regards,\nCaroline Fischer\nEvent Coordinator\nMilwaukee Art Museum\n(414) 555-0621",
+      "timestamp": 1771002000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "c03ae03aeb7e5cba38e95527",
+      "sender": "rxnotifications@walgreens.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Prescription Ready for Pickup — Naltrexone 50mg",
+      "content": "Hello Victor,\n\nYour prescription is ready for pickup at Walgreens #4582 (3820 N. Oakland Ave, Milwaukee, WI 53211).\n\nPrescription: Naltrexone HCl 50mg tablets (30-day supply)\nPrescriber: Dr. Martinez\nCopay: $35.00\n\nPickup hours: Mon–Fri 8 AM – 9 PM, Sat–Sun 9 AM – 6 PM\n\nThis prescription will be held for 10 days.\n\nThank you,\nWalgreens Pharmacy",
+      "timestamp": 1771178400.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "6938a35f24f3d4398d3646fd",
+      "sender": "victor.reyes@bellanotte.com",
+      "recipients": [
+        "giancarlo.moretti@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Weekly P&L Summary — Week of Feb 10–16, 2026",
+      "content": "Giancarlo,\n\n**Revenue:** $46,890\n- Dine-in: $24,383 (52%)\n- Bar: $14,067 (30%)\n- Catering: $8,440 (18%)\n\n**Covers:** 792\n**Average Check:** $41.90\n\n**Highlights:**\n- Valentine's Day was outstanding — 240 covers, prix fixe sold out by 6 PM. Had to turn away walk-ins.\n- Bar absolutely crushed it with Valentine's cocktail specials. Maria earned her bonus.\n- Lenten fish fry series starts this Friday with St. Boniface. Expecting 70 portions Week 1.\n\n**Catering Pipeline:** $45K in deposits, 8 events confirmed. Art Museum gala inquiry came in — could be another $6,800.\n\n**Food Cost:** 29.1% — right in the zone.\n\nBest,\nVictor",
+      "timestamp": 1771423200.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {
+        "BellaNotte_WeeklyPL_2026-02-10.pdf": ""
+      }
+    },
+    {
+      "email_id": "5167feaf004e60dcda968dd9",
+      "sender": "smilovich@milovich-law.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Guardianship Petition — Progress Update",
+      "content": "Victor,\n\nUpdate on two fronts:\n\n**Guardianship:** The petition is nearly complete. I'm incorporating the documentation you sent (care log, Dr. Pham's notes, financial summary). I expect to have a draft for your review by mid-March, with filing 1–2 weeks after that.\n\n**Comfort Keepers:** I sent a formal demand letter last week on my letterhead, requesting $3,000 in refunds (5 months at $600/month overcharge) and immediate rate correction. Their corporate office acknowledged receipt. If they don't respond satisfactorily within 30 days, we'll file in small claims court. Your documentation — billing statements showing $2,400 vs. the contracted $1,800 — is solid.\n\nAlso: Alejandro's attorney, Douglas Hartfield, has not contacted me yet. If and when he does, I'll handle it. Don't engage with Alejandro on legal matters directly.\n\nSandra",
+      "timestamp": 1771790400.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "46b177a8b3b38d7460f75d28",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "billing@comfortkeepers-mke.com"
+      ],
+      "cc": [
+        "smilovich@milovich-law.com"
+      ],
+      "subject": "RE: Formal Billing Dispute — Account #CK-MKE-88412",
+      "content": "Ms. Olmstead,\n\nI am rejecting your response. I was never notified of any care assessment in September 2025, nor did I authorize a service tier change. I am the primary decision-maker for my mother's care and any changes require my written consent.\n\nRosa Gutierrez has been performing the same duties since March 2025 — basic aide services, exactly as originally contracted. There has been no expansion of services.\n\nI am requesting:\n1. A copy of the alleged September 2025 care assessment\n2. Documentation of who authorized the rate change\n3. Proof that I was notified\n\nMy attorney has sent a formal demand letter to your corporate office. This matter will be resolved, one way or another.\n\nVictor Reyes\n(414) 555-0291",
+      "timestamp": 1772029800.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": "f66d7c3d63a550fbc7eb5b98",
+      "attachments": {}
+    },
+    {
+      "email_id": "86e2cac7bbaeb739ac30cd40",
+      "sender": "robert.fontaine@capitalwine.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [
+        "maria.kowalski@bellanotte.com"
+      ],
+      "subject": "Lenten Seafood Wine Pairings — Suggestions",
+      "content": "Victor & Maria,\n\nWith the fish fry series underway and Lenten seafood specials on the menu, I wanted to share some pairing suggestions:\n\n- **Beer-battered cod:** A crisp Vermentino di Sardegna — bright acidity cuts through the batter beautifully\n- **Baked halibut:** Soave Classico from Pieropan — mineral and clean\n- **Shrimp scampi:** Falanghina from Campania — floral notes complement the garlic butter\n\nI can deliver samples of all three this Wednesday if you'd like to taste. These would also work well for the Art Museum gala if you're doing a seafood course.\n\nAlso — that spring bourbon allocation I mentioned? The Blanton's and Eagle Rare are confirmed for April delivery.\n\nCheers,\nRobert",
+      "timestamp": 1772208900.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "ac14bb5a8a25fa5ef67959fa",
+      "sender": "alejandro.reyes@gmail.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [
+        "dhartfield@hartfield-law.com"
+      ],
+      "subject": "Formal Request — Medical and Financial Records for Lucia Reyes",
+      "content": "Victor,\n\nI am writing to formally request the following records pertaining to our mother, Lucia Reyes:\n\n1. Complete medical records from Dr. Pham (neurology) and any other treating physicians for the past 12 months\n2. Current medication list including dosages and prescribing physicians\n3. Care plan from Comfort Keepers including aide schedule and scope of services\n4. Financial accounting of all expenditures made on Mom's behalf, including Medicare claims, out-of-pocket costs, and any funds you have managed for her\n5. Documentation of your legal authority (if any) to make medical and financial decisions for Mom\n\nAs her son, I have a legitimate interest in understanding the care she is receiving. Your refusal to share this information over the past several months has been deeply concerning.\n\nIf you are unwilling to provide these records voluntarily, I will instruct my attorney, Douglas Hartfield, to pursue all available legal remedies, including a petition for guardianship and a request for an independent medical evaluation.\n\nI expect a response within 14 days.\n\nAlejandro Reyes\n(602) 555-0287",
+      "timestamp": 1772730000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "a8a4451d114123f318bc5e4b",
+      "sender": "smilovich@milovich-law.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "RE: Alejandro's Records Demand — Strategy and Visit Prep",
+      "content": "Victor,\n\nI've reviewed Alejandro's formal demand. Here's how we handle this:\n\n**On the records request:** You have no legal obligation to turn over Lucia's medical or financial records to Alejandro. He is not her guardian, he has no POA, and HIPAA prevents you from sharing medical records without Lucia's authorization (which she may or may not have capacity to give). I'll send a formal response to Hartfield stating this.\n\n**On the guardianship threat:** This accelerates our timeline. I want to file our petition before Hartfield files his. I'll have the draft to you within the week.\n\n**On his upcoming visit (March 20):**\n1. Let him see Lucia — refusing looks bad in court\n2. Do not hand over any documents\n3. Do not discuss legal matters — if he brings up POA or records, say \"my attorney is handling that\"\n4. Do not engage emotionally — anything you say can be used in a guardianship proceeding\n5. If it gets heated, end the visit: \"I think it's best if we continue this through our attorneys\"\n\nYou're doing the right thing, Victor. Stay the course.\n\nSandra",
+      "timestamp": 1772922600.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "2ef92c68200dcc81f180619b",
+      "sender": "smilovich@milovich-law.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Immigration Attorney Referral — Michael Torres",
+      "content": "Victor,\n\nI have a strong referral for the I-9 audit:\n\n**Michael Torres, Esq.**\nTorres & Associates — Employment & Immigration Law\n(414) 555-0733\nmtorres@torreslaw.com\n\nMichael handles worksite enforcement audits regularly and knows the Chicago ICE field office well. Tell him I referred you — he'll prioritize it.\n\nYou have about 5 weeks until the April 14 inspection date. Don't wait on this. Call Michael this week.\n\nReminder: do NOT alter any I-9 records and do NOT terminate anyone preemptively.\n\nSandra",
+      "timestamp": 1773155700.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "b9b4cdf54e68b653d009eb02",
+      "sender": "smilovich@milovich-law.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Guardianship Petition — Draft for Review",
+      "content": "Victor,\n\nAttached is the draft petition for limited guardianship of Lucia Reyes. Please review carefully and let me know if anything needs correction, especially:\n\n- The factual summary of Lucia's condition and daily care needs\n- Your caregiving history (I used the information from your care log)\n- The financial summary of care costs\n\nI've intentionally kept your personal financial details minimal in the filing — the court needs to see that Lucia is well cared for, not a detailed accounting of your bank balance.\n\nOnce you approve, I'll file with Milwaukee County Circuit Court. Timeline: filing within 2 weeks, hearing scheduled 30–45 days after that.\n\nCall me with questions.\n\nSandra",
+      "timestamp": 1773349200.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {
+        "Reyes_Guardianship_Petition_DRAFT.pdf": ""
+      }
+    },
+    {
+      "email_id": "c6001f1ea0321e26700c270d",
+      "sender": "billing@comfortkeepers-mke.com",
+      "recipients": [
+        "victor.reyes@gmail.com"
+      ],
+      "cc": [],
+      "subject": "RE: Billing Dispute — Account #CK-MKE-88412 (Lucia Reyes)",
+      "content": "Dear Mr. Reyes,\n\nThank you for your continued correspondence regarding your mother's account.\n\nAfter further review, our position remains unchanged. The care assessment conducted in September 2025 by our supervising nurse, Janet Collins, RN, identified expanded care needs for Lucia Reyes. The adjusted rate of $2,400/month reflects the enhanced service tier, which includes meal preparation, medication reminders, light housekeeping, and companionship activities beyond the original basic aide scope.\n\nWe understand this is a difficult situation and we value our relationship with your family. We would like to offer a good-faith meeting to walk through the care assessment findings and discuss the service plan in detail.\n\nPlease contact our office at (414) 555-0800 to schedule.\n\nSincerely,\nPatricia Olmstead\nBilling Manager\nComfort Keepers — Milwaukee Office",
+      "timestamp": 1773504000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": "a9a51efbdcbba526cdf98338",
+      "attachments": {}
+    },
+    {
+      "email_id": "a9a51efbdcbba526cdf98338",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "billing@comfortkeepers-mke.com"
+      ],
+      "cc": [
+        "smilovich@milovich-law.com"
+      ],
+      "subject": "RE: RE: Billing Dispute — Account #CK-MKE-88412 (Lucia Reyes)",
+      "content": "Ms. Olmstead,\n\nI am formally disputing your response once again.\n\nI was never notified of any care assessment in September 2025, nor did I authorize a service tier change. The aide Rosa Gutierrez has been performing the same duties since March 2025 — there has been no expansion of services. I have documented her daily activities through my own care log and can provide records showing the scope of work has not changed.\n\nI am requesting:\n1. A complete refund of $3,600 ($600/month × 6 months: October 2025 through March 2026)\n2. Immediate correction of the monthly billing to the contracted rate of $1,800/month\n3. A copy of the alleged September 2025 care assessment, including who authorized it\n\nMy attorney, Sandra Milovich, is copied on this email. If we cannot resolve this within 30 days, we will pursue recovery through appropriate legal channels.\n\nVictor Reyes\n(414) 555-0291",
+      "timestamp": 1773585900.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": "c6001f1ea0321e26700c270d",
+      "attachments": {}
+    },
+    {
+      "email_id": "04a7018b301962171e43cd1e",
+      "sender": "james.okonkwo@milwaukee.gov",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Health Inspection Scheduling — Bella Notte Ristorante (License #FE-2024-5521)",
+      "content": "Mr. Reyes,\n\nThis email is to confirm that your quarterly health inspection for Bella Notte Ristorante (2215 N. Farwell Ave, Milwaukee, WI 53202) has been scheduled for:\n\n**Date:** Tuesday, April 1, 2026\n**Time:** 10:00 AM – 12:00 PM (approximate)\n**Inspector:** James Okonkwo, Milwaukee Health Department\n\nPlease ensure the following are available at the time of inspection:\n- Current food establishment license displayed\n- Temperature logs for the past 90 days\n- Employee food handler certification records\n- Previous inspection report and any corrective action documentation\n- A manager or designee available to accompany the inspector\n\nIf you need to reschedule, please contact our office at least 5 business days in advance.\n\nRegards,\nJames Okonkwo\nFood Safety Inspector\nMilwaukee Health Department\n(414) 555-0488",
+      "timestamp": 1773756000.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "02a0fafb6b893e515509e6f2",
+      "sender": "lisa.chen@gmail.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "Chen Wedding Reception — Menu Discussion",
+      "content": "Hi Victor,\n\nThank you so much for the updated menu options! David and I talked it over and we'd like to go with:\n\n- Cocktail hour: the bruschetta trio and arancini (love the truffle arancini idea)\n- First course: butternut squash soup shooters\n- Entrée: the dual plate — filet mignon AND lobster ravioli (we know it's the premium option but it's our wedding!)\n- Dessert: tiramisu station plus the Venetian cookie table\n\nDietary restrictions:\n- David's aunt is celiac — strictly gluten-free\n- My cousin's family (4 people) are vegetarian\n- One guest has a shellfish allergy\n\nCan we schedule a call next week to finalize the timeline? We're 11 weeks out and I'm starting to stress!\n\nThank you for everything. We chose Bella Notte because of the experience at my company's holiday party and you haven't disappointed.\n\nBest,\nLisa Chen",
+      "timestamp": 1774034400.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": null,
+      "attachments": {}
+    },
+    {
+      "email_id": "96eeb1074521943013dc9247",
+      "sender": "victor.reyes@bellanotte.com",
+      "recipients": [
+        "lisa.chen@gmail.com"
+      ],
+      "cc": [],
+      "subject": "RE: Chen Wedding Reception — Menu Discussion",
+      "content": "Lisa,\n\nGreat choices! The dual plate is always a showstopper and the Venetian cookie table is one of my favorite additions.\n\nRe: dietary restrictions — all noted and no problem at all:\n- David's aunt: full GF menu including GF pasta for the ravioli, GF breadsticks, and a separate GF dessert option\n- Vegetarian table (4): roasted vegetable risotto as the entrée — it's stunning and nobody will feel like they got the \"alternative\"\n- Shellfish allergy: the lobster ravioli station will be clearly marked, and we'll prepare a separate mushroom ravioli for that guest with dedicated cookware\n\nLet's schedule a call — how does Monday March 31 at 2 PM work? I'll send a calendar invite.\n\n11 weeks is plenty of time. We've got this.\n\nBest,\nVictor Reyes\nGeneral Manager, Bella Notte Ristorante\n(414) 555-0291",
+      "timestamp": 1774104000.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": "02a0fafb6b893e515509e6f2",
+      "attachments": {}
+    },
+    {
+      "email_id": "fada65e1714059f5b41927fb",
+      "sender": "victor.reyes@bellanotte.com",
+      "recipients": [
+        "giancarlo.moretti@gmail.com"
+      ],
+      "cc": [],
+      "subject": "Weekly P&L Summary — Week of March 17–23, 2026",
+      "content": "Giancarlo,\n\nWeekly summary:\n\n**Revenue:** $52,340\n- Dine-in: $28,787 (55%)\n- Bar: $15,702 (30%)\n- Catering: $7,851 (15%) — includes Alvarez quinceañera final billing and St. Boniface fish fry Week 5\n\n**Covers:** 889\n**Average Check:** $42.10\n\n**Highlights:**\n- Alvarez quinceañera (Sat 3/22) completed successfully. 100 guests, client thrilled. Final invoice sent.\n- St. Boniface fish fry series continues strong. 80 portions this week.\n- Bar revenue up 8% — Maria's Negroni flight promotion is working.\n\n**Catering Deposits Held:** $45,000 across 8 events. All confirmed. Next event: St. Boniface continues through Apr 3.\n\n**Concerns:**\n- Sysco halibut supply issues second week running. Backup ordered from US Foods.\n- Health inspection confirmed for Tuesday, April 1. Kitchen deep clean scheduled this weekend.\n\n**Food Cost:** 29.4% (target 28–32%) — on track.\n\nBest,\nVictor",
+      "timestamp": 1774358100.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": null,
+      "attachments": {
+        "BellaNotte_WeeklyPL_2026-03-17.pdf": ""
+      }
+    },
+    {
+      "email_id": "ec92b45a6ac913d7a99eea43",
+      "sender": "giancarlo.moretti@gmail.com",
+      "recipients": [
+        "victor.reyes@bellanotte.com"
+      ],
+      "cc": [],
+      "subject": "RE: Weekly P&L Summary — Week of March 17–23, 2026",
+      "content": "Victor,\n\nExcellent week. The catering numbers are exactly where I want them — that Alvarez event sounds like it went perfectly. And $45K in deposits with 8 confirmed events is outstanding pipeline management.\n\nThe halibut issue with Sysco is annoying but I trust you're handling it. Good thinking on the US Foods backup.\n\nRe: health inspection — I know you'll crush it. Let me know the score when it's done.\n\nOne thing: let's discuss the spring wine list during Thursday's call. Robert Fontaine sent me the proposal too and I think the Barolo allocation is worth locking in.\n\nTalk Thursday.\n\nGiancarlo",
+      "timestamp": 1774474200.0,
+      "is_read": true,
+      "folder": "INBOX",
+      "parent_id": "fada65e1714059f5b41927fb",
+      "attachments": {}
+    },
+    {
+      "email_id": "e30aa9e5171282e60d2a805e",
+      "sender": "victor.reyes@gmail.com",
+      "recipients": [
+        "smilovich@milovich-law.com"
+      ],
+      "cc": [],
+      "subject": "RE: Immigration Attorney Referral — Michael Torres",
+      "content": "Sandra,\n\nI contacted Michael Torres and we have a meeting scheduled for next week. He seemed very sharp on the phone and familiar with the ICE Chicago field office process.\n\nHe asked me to pull together all I-9 files and a current employee roster before the meeting. I'm working on that this week.\n\nThank you for the referral. Between the guardianship filing, the Comfort Keepers dispute, and now the I-9 audit, I don't know what I'd do without you.\n\nVictor",
+      "timestamp": 1774740600.0,
+      "is_read": true,
+      "folder": "SENT",
+      "parent_id": "2ef92c68200dcc81f180619b",
+      "attachments": {}
+    }
+  ],
+  "user_email": "victor.reyes@bellanotte.com"
+}
