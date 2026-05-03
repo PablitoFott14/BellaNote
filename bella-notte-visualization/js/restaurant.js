@@ -11,7 +11,8 @@ function renderRestaurant(data) {
 // ══ SLACK ════════════════════════════════════
 let _bnSlackCache = {};
 let _bnSlackActiveChannel = null;
-let _bnSlackPage = 1;
+let _bnSlackPage   = 1;
+let _bnSlackSearch = '';
 const BN_SLACK_PAGE = 40;
 
 function _renderSlack(slackData) {
@@ -94,7 +95,8 @@ function _renderSlack(slackData) {
 
 function bnLoadChannel(id) {
   _bnSlackActiveChannel = id;
-  _bnSlackPage = 1;
+  _bnSlackPage   = 1;
+  _bnSlackSearch = '';
   document.querySelectorAll('.slack-ch-item').forEach(el => el.classList.remove('active'));
   const el = document.getElementById('bn-ch-' + id);
   if (el) el.classList.add('active');
@@ -106,49 +108,82 @@ function _bnDrawMessages() {
   const cached = _bnSlackCache[id];
   if (!cached) return;
   const { msgs, uMap, name, purpose } = cached;
-  const panel  = document.getElementById('bn-msgs-panel');
-  const page   = paginate(msgs, _bnSlackPage, BN_SLACK_PAGE);
+  const panel = document.getElementById('bn-msgs-panel');
 
-  let html = `<div class="slack-msg-header">
-    <div><h4># ${escHtml(name)}</h4>${purpose ? `<p>${escHtml(purpose)}</p>` : ''}</div>
-    <div style="margin-left:auto;font-size:11px;color:var(--text3)">${msgs.length} messages</div>
-  </div><div class="slack-msg-list">`;
+  // Filter by search term
+  const visible = _bnSlackSearch
+    ? msgs.filter(m => (m.text || '').toLowerCase().includes(_bnSlackSearch))
+    : msgs;
+
+  const totalPages = Math.ceil(visible.length / BN_SLACK_PAGE);
+  if (_bnSlackPage > totalPages) _bnSlackPage = Math.max(1, totalPages);
+  const page = paginate(visible, _bnSlackPage, BN_SLACK_PAGE);
+
+  const countLabel = _bnSlackSearch
+    ? visible.length + ' of ' + msgs.length + ' match'
+    : msgs.length + ' message' + (msgs.length!==1?'s':'');
+
+  let html = '<div class="slack-msg-header">'
+    + '<div><h4># ' + escHtml(name) + '</h4>' + (purpose ? '<p>' + escHtml(purpose) + '</p>' : '') + '</div>'
+    + '<div style="margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:4px">'
+    + '<span style="font-size:11px;color:var(--text3)">' + countLabel + '</span>'
+    + '<input id="bn-slack-search-inp" class="ex-search" type="text" placeholder="Search messages…" value="' + escHtml(_bnSlackSearch) + '" style="width:180px;padding:4px 8px;font-size:11px" />'
+    + '</div></div>'
+    + '<div class="slack-msg-list">';
 
   if (!page.length) {
-    html += '<div style="padding:20px;text-align:center;color:var(--text3)">No messages</div>';
+    html += '<div style="padding:20px;text-align:center;color:var(--text3)">' + (_bnSlackSearch ? 'No messages match.' : 'No messages') + '</div>';
   } else {
     page.forEach(m => {
-      const uid   = m.user || '';
-      const uName = uMap[uid] || uid;
+      const uid      = m.user || '';
+      const uName    = uMap[uid] || uid;
       const initials = uName.split(' ').map(n => n[0]).join('').toUpperCase().slice(0,2) || '?';
       const isVictor = uid === 'U_VREYES';
-      html += `<div class="slack-msg-item">
-        <div class="slack-avatar" style="${isVictor?'background:rgba(251,191,36,0.2);color:var(--amber)':''}">${escHtml(initials)}</div>
-        <div class="slack-msg-body">
-          <span class="slack-msg-name" style="${isVictor?'color:var(--amber)':''}">${escHtml(uName)}</span>
-          <span class="slack-msg-ts">${m.ts ? fmtTsTime(parseFloat(m.ts)) : ''}</span>
-          <div class="slack-msg-text">${escHtml(m.text||'')}</div>
-          ${m.reactions?.length ? `<div style="margin-top:3px;font-size:11px;color:var(--text3)">${m.reactions.map(r=>`${r.name} (${r.count||1})`).join(' · ')}</div>` : ''}
-        </div>
-      </div>`;
+      // Highlight search term in message text
+      let text = escHtml(m.text || '');
+      if (_bnSlackSearch) {
+        const re = new RegExp('(' + _bnSlackSearch.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+        text = text.replace(re, '<mark style="background:rgba(251,191,36,0.3);color:var(--amber);border-radius:2px">$1</mark>');
+      }
+      html += '<div class="slack-msg-item">'
+        + '<div class="slack-avatar" style="' + (isVictor?'background:rgba(251,191,36,0.2);color:var(--amber)':'') + '">' + escHtml(initials) + '</div>'
+        + '<div class="slack-msg-body">'
+        + '<span class="slack-msg-name" style="' + (isVictor?'color:var(--amber)':'') + '">' + escHtml(uName) + '</span>'
+        + '<span class="slack-msg-ts">' + (m.ts ? fmtTsTime(parseFloat(m.ts)) : '') + '</span>'
+        + '<div class="slack-msg-text">' + text + '</div>'
+        + (m.reactions?.length ? '<div style="margin-top:3px;font-size:11px;color:var(--text3)">' + m.reactions.map(r => r.name + ' (' + (r.count||1) + ')').join(' · ') + '</div>' : '')
+        + '</div></div>';
     });
   }
   html += '</div>';
 
-  const totalPages = Math.ceil(msgs.length / BN_SLACK_PAGE);
   if (totalPages > 1) {
-    html += `<div class="slack-pag">
-      <button class="page-btn" ${_bnSlackPage===1?'disabled':''} onclick="_bnSlackPage--;_bnDrawMessages()">‹</button>
-      <span style="font-size:12px;color:var(--text2);padding:4px 8px">${_bnSlackPage} / ${totalPages}</span>
-      <button class="page-btn" ${_bnSlackPage===totalPages?'disabled':''} onclick="_bnSlackPage++;_bnDrawMessages()">›</button>
-    </div>`;
+    html += '<div class="slack-pag">'
+      + '<button class="page-btn" ' + (_bnSlackPage===1?'disabled':'') + ' onclick="_bnSlackPage--;_bnDrawMessages()">‹</button>'
+      + '<span style="font-size:12px;color:var(--text2);padding:4px 8px">' + _bnSlackPage + ' / ' + totalPages + '</span>'
+      + '<button class="page-btn" ' + (_bnSlackPage===totalPages?'disabled':'') + ' onclick="_bnSlackPage++;_bnDrawMessages()">›</button>'
+      + '</div>';
   }
 
   panel.innerHTML = html;
+
+  // Wire up the search input (re-wired every render since panel.innerHTML replaces it)
+  const searchInp = document.getElementById('bn-slack-search-inp');
+  if (searchInp) {
+    searchInp.focus();
+    searchInp.setSelectionRange(searchInp.value.length, searchInp.value.length);
+    searchInp.addEventListener('input', e => {
+      _bnSlackSearch = e.target.value.toLowerCase().trim();
+      _bnSlackPage = 1;
+      _bnDrawMessages();
+    });
+  }
 }
 
 // ══ AIRTABLE ════════════════════════════════
 const _bnAtRecordStore = []; // index-based modal store for generic tables
+let _bnAtSearch = '';
+let _bnAtState  = null; // cached { tables, records, recByTable }
 
 const AT_STAFF_SCHEDULE_ID = 'tblac723cae9a0323';
 const AT_REGISTER_LOG_ID   = 'tbla0aa96fd8e5664';
@@ -168,9 +203,73 @@ function _renderAirtable(atData) {
     if (!recByTable[r.table_id]) recByTable[r.table_id] = [];
     recByTable[r.table_id].push(r);
   });
+  _bnAtState = { tables, records, recByTable };
 
+  // Inject the search bar once, then draw
+  el.innerHTML = `<div class="explorer-bar" style="margin-bottom:14px">
+    <input id="bn-at-search" class="ex-search" type="text" placeholder="Search records by name, date, station, notes…" />
+    <span class="ex-count" id="bn-at-count"></span>
+  </div>
+  <div id="bn-at-body"></div>`;
+
+  document.getElementById('bn-at-search').addEventListener('input', e => {
+    _bnAtSearch = e.target.value.toLowerCase().trim();
+    _drawAirtable();
+  });
+  _drawAirtable();
+}
+
+function _drawAirtable() {
+  const { tables, records, recByTable } = _bnAtState;
   _bnAtRecordStore.length = 0;
   let html = '';
+
+  // ── Search mode: flat filtered results across all tables ──
+  if (_bnAtSearch) {
+    const tableNameMap = Object.fromEntries(tables.map(t => [t.id, t.name]));
+    const matched = records.filter(r => {
+      const vals = Object.values(r.fields || {}).map(v => String(v||'').toLowerCase());
+      return vals.some(v => v.includes(_bnAtSearch));
+    });
+
+    const countEl = document.getElementById('bn-at-count');
+    if (countEl) countEl.textContent = matched.length + ' result' + (matched.length!==1?'s':'');
+
+    if (!matched.length) {
+      document.getElementById('bn-at-body').innerHTML = '<div class="empty-state">No records match.</div>';
+      return;
+    }
+
+    html += '<div class="at-records" style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)">';
+    matched.forEach(r => {
+      const fields     = r.fields || {};
+      const populated  = Object.entries(fields).filter(([,v]) => v != null && v !== '');
+      const tName      = tableNameMap[r.table_id] || r.table_id;
+      const nameField  = populated.find(([k]) => /name|employee|client|lead/i.test(k));
+      const dateField  = populated.find(([k]) => /^date$/.test(k));
+      const idx = _bnAtRecordStore.length;
+      _bnAtRecordStore.push({ r, tableName: tName });
+
+      html += '<div class="at-record" onclick="showAtRecordModal(' + idx + ')">'
+        + '<div style="display:flex;gap:8px;align-items:baseline;flex-wrap:wrap">'
+        + '<span class="badge badge-amber" style="font-size:9px">' + escHtml(tName) + '</span>'
+        + '<span style="font-size:13px;font-weight:600">' + escHtml(nameField ? String(nameField[1]) : r.id) + '</span>'
+        + (dateField ? '<span style="font-size:11px;color:var(--text3)">' + escHtml(String(dateField[1])) + '</span>' : '')
+        + '</div>'
+        + '<div style="display:flex;flex-wrap:wrap;gap:4px;margin-top:4px">'
+        + populated.filter(([k]) => !/^(employee_name|shift_lead_closing|date)$/.test(k)).slice(0,4).map(([k,v]) =>
+            '<span style="font-size:11px;color:var(--text2)"><span style="color:var(--text3)">' + escHtml(k) + ':</span> ' + escHtml(String(v).slice(0,40)) + '</span>'
+          ).join(' · ')
+        + '</div></div>';
+    });
+    html += '</div>';
+    document.getElementById('bn-at-body').innerHTML = html;
+    return;
+  }
+
+  // ── Normal mode: grouped / generic per table ──
+  const countEl = document.getElementById('bn-at-count');
+  if (countEl) countEl.textContent = records.length + ' total record' + (records.length!==1?'s':'');
 
   tables.forEach(t => {
     const tRecords = recByTable[t.id] || [];
@@ -217,7 +316,7 @@ function _renderAirtable(atData) {
     html += '</div></div>';
   });
 
-  el.innerHTML = html;
+  document.getElementById('bn-at-body').innerHTML = html;
 }
 
 // ── Staff Schedule: group by employee_name ──

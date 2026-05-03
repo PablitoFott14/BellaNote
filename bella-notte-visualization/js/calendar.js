@@ -103,7 +103,7 @@ function _drawBnCal() {
       <div style="display:flex;flex-direction:column;gap:1px;padding:0 2px">
         ${items.slice(0,2).map(e => {
           const col = tagColor[e.tag] || 'var(--amber)';
-          return `<span style="font-size:9px;background:${col}22;color:${col};border-radius:2px;padding:1px 3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%">${escHtml(e.title||'Event')}</span>`;
+          return `<span style="font-size:9px;background:${col}22;color:${col};border-radius:2px;padding:1px 3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%;cursor:pointer" onclick="event.stopPropagation();showBnEventModal(${e._idx})">${escHtml(e.title||'Event')}</span>`;
         }).join('')}
         ${items.length > 2 ? `<span style="font-size:9px;color:var(--text3)">+${items.length-2}</span>` : ''}
       </div>

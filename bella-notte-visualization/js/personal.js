@@ -135,6 +135,23 @@ function showBnContactModal(c) {
 }
 
 // ══ NOTION ══════════════════════════════════
+const DB_ICONS = {
+  'Daily Manager Log': '📋',
+  'Kitchen SOPs':      '👨‍🍳',
+  'Catering Events':   '🎉',
+  'Sobriety Journal':  '💪',
+  "Mom's Care Log":    '❤️',
+};
+
+// Descriptions for each database to give context
+const DB_DESCRIPTIONS = {
+  'Daily Manager Log':  'Nightly restaurant performance log. Each entry tracks revenue, covers, 86\'d items, staff notes, and incidents.',
+  'Kitchen SOPs':       'Standard operating procedures for kitchen operations — prep schedules, cleaning protocols, and food safety checklists.',
+  'Catering Events':    'Event-by-event catering tracker with client details, guest count, deposit status, menu status, and special requirements.',
+  'Sobriety Journal':   'Personal recovery log. Each entry records days sober, mood, craving level, and whether an AA meeting was attended that day.',
+  "Mom's Care Log":     "Daily log for Lucia Reyes's care. Each entry tracks meals eaten, medications taken, aide presence, any episodes, and mood.",
+};
+
 function _renderNotion(notion) {
   const databases = notion.databases  || [];
   const properties= notion.properties || [];
@@ -146,7 +163,7 @@ function _renderNotion(notion) {
     return;
   }
 
-  // Map database_id → pages
+  // Map database_id → pages (sorted by created_time)
   const pagesByDb = {};
   pages.forEach(p => {
     const dbId = p.parent?.database_id;
@@ -154,6 +171,7 @@ function _renderNotion(notion) {
     if (!pagesByDb[dbId]) pagesByDb[dbId] = [];
     pagesByDb[dbId].push(p);
   });
+  Object.values(pagesByDb).forEach(arr => arr.sort((a, b) => new Date(a.created_time) - new Date(b.created_time)));
 
   // Map database_id → properties
   const propsByDb = {};
@@ -162,42 +180,78 @@ function _renderNotion(notion) {
     propsByDb[p.database_id].push(p);
   });
 
-  const DB_ICONS = {
-    'Daily Manager Log':  '📋',
-    'Kitchen SOPs':       '👨‍🍳',
-    'Catering Events':    '🎉',
-    'Sobriety Journal':   '💪',
-    "Mom's Care Log":     '❤️',
-  };
+  let html = '<div style="margin-bottom:12px;font-size:12px;color:var(--text2)">Click any database to expand its field schema and entry log. Page property values are not exported by this integration — only entry dates and structure are available.</div>';
 
-  let html = '';
-  databases.forEach(db => {
-    const title = db.title?.[0]?.text?.content || 'Untitled';
-    const dbPages = pagesByDb[db.id] || [];
-    const dbProps = propsByDb[db.id] || [];
-    const icon = DB_ICONS[title] || '📄';
+  databases.forEach((db, dbIdx) => {
+    const title    = db.title?.[0]?.text?.content || 'Untitled';
+    const dbPages  = pagesByDb[db.id] || [];
+    const dbProps  = propsByDb[db.id] || [];
+    const icon     = DB_ICONS[title] || '📄';
+    const desc     = DB_DESCRIPTIONS[title] || '';
+    const bodyId   = 'notion-body-' + dbIdx;
 
-    // Sort pages by created_time
-    const sortedPages = [...dbPages].sort((a, b) => new Date(a.created_time) - new Date(b.created_time));
-    const firstDate = sortedPages[0]?.created_time?.slice(0, 10) || '—';
-    const lastDate  = sortedPages[sortedPages.length - 1]?.created_time?.slice(0, 10) || '—';
+    const firstDate = dbPages[0]?.created_time?.slice(0, 10) || null;
+    const lastDate  = dbPages[dbPages.length - 1]?.created_time?.slice(0, 10) || null;
 
-    html += `<div class="notion-db">
-      <div class="notion-db-title">
-        <span style="font-size:18px">${icon}</span>
-        <span>${escHtml(title)}</span>
-        <span style="font-size:11px;color:var(--text3);margin-left:auto">${dbPages.length} page${dbPages.length!==1?'s':''}</span>
-      </div>
-      ${dbPages.length > 0 ? `<div style="font-size:11px;color:var(--text3)">
-        ${firstDate} – ${lastDate}
-      </div>` : ''}
-      <div class="notion-fields" style="margin-top:10px">
-        ${dbProps.map(p => `<span class="notion-field-chip type-${p.type}">${escHtml(p.name)} <span style="opacity:0.6">${escHtml(p.type)}</span></span>`).join('')}
-      </div>
-    </div>`;
+    // Type-colour map for field chips
+    const typeColor = { number: 'var(--sky)', date: 'var(--emerald)', select: 'var(--violet)', multi_select: 'var(--violet)', checkbox: 'var(--amber)', rich_text: 'var(--text2)', title: 'var(--amber)', person: 'var(--teal)' };
+
+    // Build the expandable page log
+    let pageLogHtml = '';
+    if (dbPages.length > 0) {
+      pageLogHtml = '<div style="margin-top:14px">'
+        + '<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.6px;color:var(--text3);margin-bottom:8px">Entry Log (' + dbPages.length + ' entries)</div>'
+        + '<div style="display:flex;flex-wrap:wrap;gap:4px">';
+      dbPages.forEach(p => {
+        const d = p.created_time?.slice(0, 10) || '—';
+        const edited = p.last_edited_time?.slice(0, 10);
+        const wasEdited = edited && edited !== d;
+        pageLogHtml += '<div style="font-size:11px;font-family:var(--mono);background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:3px 7px;color:var(--text2);white-space:nowrap">'
+          + escHtml(d)
+          + (wasEdited ? ' <span style="color:var(--text3)">✎</span>' : '')
+          + '</div>';
+      });
+      pageLogHtml += '</div></div>';
+    }
+
+    html += '<div class="notion-db" style="cursor:pointer" onclick="bnToggleNotionDb(\'' + bodyId + '\', this)">'
+      + '<div class="notion-db-title" style="user-select:none">'
+      + '<span style="font-size:18px">' + icon + '</span>'
+      + '<span>' + escHtml(title) + '</span>'
+      + '<span style="font-size:11px;color:var(--text3);margin-left:auto;display:flex;align-items:center;gap:8px">'
+      + '<span>' + dbPages.length + ' entr' + (dbPages.length!==1?'ies':'y') + '</span>'
+      + (firstDate ? '<span>' + firstDate + ' – ' + (lastDate||'—') + '</span>' : '')
+      + '<span id="notion-chevron-' + dbIdx + '" style="transition:transform 0.2s">▶</span>'
+      + '</span></div>'
+      + (desc ? '<div style="font-size:12px;color:var(--text2);margin-top:4px;line-height:1.5">' + escHtml(desc) + '</div>' : '')
+      // Collapsible body
+      + '<div id="' + bodyId + '" style="display:none;margin-top:12px">'
+      + '<div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.6px;color:var(--text3);margin-bottom:6px">Fields (' + dbProps.length + ')</div>'
+      + '<div class="notion-fields">'
+      + dbProps.map(p => {
+          const col = typeColor[p.type] || 'var(--text3)';
+          return '<span class="notion-field-chip" style="color:' + col + ';border-color:' + col + '33">'
+            + escHtml(p.name)
+            + ' <span style="opacity:0.5;font-size:9px">' + escHtml(p.type) + '</span>'
+            + '</span>';
+        }).join('')
+      + '</div>'
+      + pageLogHtml
+      + '</div>'
+      + '</div>';
   });
 
   el.innerHTML = html;
+}
+
+function bnToggleNotionDb(bodyId, cardEl) {
+  const body    = document.getElementById(bodyId);
+  const idx     = bodyId.split('-').pop();
+  const chevron = document.getElementById('notion-chevron-' + idx);
+  if (!body) return;
+  const isOpen = body.style.display !== 'none';
+  body.style.display = isOpen ? 'none' : 'block';
+  if (chevron) chevron.style.transform = isOpen ? '' : 'rotate(90deg)';
 }
 
 // ══ APPLE HEALTH ════════════════════════════
